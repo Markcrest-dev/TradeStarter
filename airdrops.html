@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Complete airdrop guide - learn how to earn free cryptocurrency through airdrops, wallet setup, and current opportunities.">
+    <title>Airdrop Guide - TradeStarter</title>
+
+    <!-- CSS -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="hero"
+        style="position: relative; min-height: 65vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 50%, #6366f1 100%);">
+        <!-- Sparkle Elements -->
+        <div
+            style="position: absolute; top: 15%; left: 8%; font-size: 1.5rem; color: rgba(251, 191, 36, 0.6); animation: sparkle 2s ease-in-out infinite;">
+            ✨</div>
+        <div
+            style="position: absolute; top: 60%; right: 12%; font-size: 2rem; color: rgba(251, 191, 36, 0.7); animation: sparkle 2.5s ease-in-out infinite 0.5s;">
+            ✨</div>
+        <div
+            style="position: absolute; bottom: 30%; left: 15%; font-size: 1.25rem; color: rgba(251, 191, 36, 0.5); animation: sparkle 3s ease-in-out infinite 1s;">
+            ✨</div>
+
+        <!-- Floating Gift Boxes -->
+        <div
+            style="position: absolute; top: 20%; right: 10%; font-size: 3.5rem; opacity: 0.15; animation: float 8s ease-in-out infinite;">
+            🎁</div>
+        <div
+            style="position: absolute; bottom: 20%; left: 10%; font-size: 3rem; opacity: 0.12; animation: float 10s ease-in-out infinite 2s;">
+            🎁</div>
+
+        <!-- Radial Gradients -->
+        <div
+            style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(251, 191, 36, 0.2) 0%, transparent 70%); border-radius: 50%; filter: blur(60px);">
+        </div>
+        <div
+            style="position: absolute; bottom: -150px; left: -100px; width: 500px; height: 500px; background: radial-gradient(circle, rgba(139, 92, 246, 0.2) 0%, transparent 70%); border-radius: 50%; filter: blur(80px);">
+        </div>
+
+        <div class="hero-content" style="position: relative; z-index: 2; max-width: 1000px;">
+            <h1
+                style="font-size: clamp(2.75rem, 6vw, 4.5rem); line-height: 1.1; margin-bottom: 1.5rem; font-weight: 900; color: white; text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+                Claim Free Crypto <br>
+                <span
+                    style="background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 50%, #fb923c 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; position: relative; display: inline-block;">
+                    with Airdrops
+                    <div
+                        style="position: absolute; bottom: -8px; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #fbbf24 0%, transparent 100%); border-radius: 2px; box-shadow: 0 0 15px rgba(251, 191, 36, 0.6);">
+                    </div>
+                </span>
+            </h1>
+
+            <p
+                style="font-size: 1.3rem; color: rgba(255, 255, 255, 0.9); max-width: 680px; line-height: 1.8; margin-bottom: 3rem; text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);">
+                Discover proven strategies to find, qualify for, and maximize cryptocurrency airdrops. Learn to earn
+                free tokens from testnet participation, holder rewards, and retroactive drops.
+            </p>
+
+            <!-- Value Props -->
+            <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div
+                        style="width: 55px; height: 55px; background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 20px rgba(251, 191, 36, 0.4);">
+                        <i class="fas fa-dollar-sign" style="color: white; font-size: 1.5rem;"></i>
+                    </div>
+                    <div>
+                        <div style="font-size: 1.75rem; font-weight: 800; color: white; line-height: 1;">$0 Cost</div>
+                        <div style="font-size: 0.9375rem; color: rgba(255, 255, 255, 0.75);">100% Free</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div
+                        style="width: 55px; height: 55px; background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);">
+                        <i class="fas fa-gift" style="color: white; font-size: 1.5rem;"></i>
+                    </div>
+                    <div>
+                        <div style="font-size: 1.75rem; font-weight: 800; color: white; line-height: 1;">1000+</div>
+                        <div style="font-size: 0.9375rem; color: rgba(255, 255, 255, 0.75);">Opportunities</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div
+                        style="width: 55px; height: 55px; background: linear-gradient(135deg, #ec4899 0%, #db2777 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 20px rgba(236, 72, 153, 0.4);">
+                        <i class="fas fa-rocket" style="color: white; font-size: 1.5rem;"></i>
+                    </div>
+                    <div>
+                        <div style="font-size: 1.75rem; font-weight: 800; color: white; line-height: 1;">Easy</div>
+                        <div style="font-size: 0.9375rem; color: rgba(255, 255, 255, 0.75);">Start Today</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <style>
+        @keyframes sparkle {
+
+            0%,
+            100% {
+                transform: scale(1) rotate(0deg);
+                opacity: 0.4;
+            }
+
+            50% {
+                transform: scale(1.3) rotate(180deg);
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+        <div class="container">
+
+            <!-- What are Airdrops -->
+            <div class="content-section">
+                <h2>What are Crypto Airdrops?</h2>
+                <p>Airdrops are free distributions of cryptocurrency tokens or coins to wallet addresses. Projects use
+                    airdrops as a marketing strategy to build awareness, reward early supporters, or distribute tokens
+                    to their community.</p>
+
+                <h3>Types of Airdrops:</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-star"></i></div>
+                        <h4>Standard Airdrop</h4>
+                        <p>Simply hold a specific cryptocurrency in your wallet to receive free tokens. No action
+                            required beyond holding.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-tasks"></i></div>
+                        <h4>Bounty Airdrop</h4>
+                        <p>Complete specific tasks like following social media, sharing posts, or joining communities to
+                            earn tokens.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-users"></i></div>
+                        <h4>Holder Airdrop</h4>
+                        <p>Receive tokens based on your holdings of a specific cryptocurrency at a snapshot time.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-rocket"></i></div>
+                        <h4>Exclusive Airdrop</h4>
+                        <p>Limited to early adopters, beta testers, or community members who meet specific criteria.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why Projects Do Airdrops -->
+            <div class="content-section">
+                <h2>Why Do Projects Offer Airdrops?</h2>
+
+                <ul>
+                    <li><strong>Marketing & Awareness:</strong> Generate buzz and attract attention to new projects</li>
+                    <li><strong>Community Building:</strong> Reward early supporters and create loyal community members
+                    </li>
+                    <li><strong>Token Distribution:</strong> Distribute tokens widely to avoid centralization</li>
+                    <li><strong>User Acquisition:</strong> Get people to try their platform or product</li>
+                    <li><strong>Network Effect:</strong> More holders can lead to more adoption and value</li>
+                </ul>
+
+                <p
+                    style="background: var(--color-light-bg); padding: 1rem; border-radius: var(--radius-md); margin-top: 1rem;">
+                    <strong>💡 Fun Fact:</strong> Some of the most successful airdrops have given away tokens worth
+                    thousands of dollars! Uniswap's 2020 airdrop gave 400 UNI tokens to each user, which at peak was
+                    worth over $12,000!
+                </p>
+            </div>
+
+            <!-- Requirements -->
+            <div class="content-section">
+                <h2>What You Need to Earn Airdrops</h2>
+
+                <div class="grid grid-3">
+                    <div class="card" style="background: var(--gradient-primary); color: white; text-align: center;">
+                        <i class="fas fa-wallet" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Crypto Wallet</h4>
+                        <p style="color: rgba(255, 255, 255, 0.9);">A non-custodial wallet like MetaMask or Trust Wallet
+                            to receive tokens</p>
+                    </div>
+
+                    <div class="card" style="background: var(--color-dark); color: white; text-align: center;">
+                        <i class="fas fa-share-alt"
+                            style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-secondary);"></i>
+                        <h4 style="color: var(--color-secondary);">Social Media</h4>
+                        <p style="color: rgba(255, 255, 255, 0.9);">Active accounts on Twitter, Telegram, Discord for
+                            bounty airdrops</p>
+                    </div>
+
+                    <div class="card" style="background: var(--gradient-primary); color: white; text-align: center;">
+                        <i class="fas fa-clock" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Time & Patience</h4>
+                        <p style="color: rgba(255, 255, 255, 0.9);">Willingness to complete tasks and wait for token
+                            distributions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wallet Setup -->
+            <div class="content-section">
+                <h2>Step-by-Step Wallet Setup</h2>
+
+                <h3>Setting Up MetaMask (Recommended for Beginners):</h3>
+                <ol style="padding-left: 1.5rem; color: var(--color-gray);">
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Download MetaMask</strong><br>
+                        Visit metamask.io and install the browser extension or mobile app
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Create a New Wallet</strong><br>
+                        Click "Create a Wallet" and set a strong password
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Backup Your Seed Phrase</strong><br>
+                        Write down your 12-word recovery phrase on paper. NEVER share this with anyone!
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Verify Your Seed Phrase</strong><br>
+                        Confirm you wrote it down correctly by entering the words in order
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Your Wallet is Ready!</strong><br>
+                        You can now receive airdrops to your wallet address
+                    </li>
+                </ol>
+
+                <div
+                    style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin-top: 1rem; border-radius: var(--radius-sm);">
+                    <strong>⚠️ Security Warning:</strong> Your seed phrase is the ONLY way to recover your wallet. Store
+                    it offline, never take screenshots, and never enter it on any website unless you're recovering your
+                    wallet.
+                </div>
+            </div>
+
+            <!-- How to Participate -->
+            <div class="content-section">
+                <h2>How to Participate in Airdrops</h2>
+
+                <div class="card" style="margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-primary);">Step 1: Find Legitimate Airdrops</h3>
+                    <p>Use trusted sources like:</p>
+                    <ul>
+                        <li>CoinMarketCap Airdrops section</li>
+                        <li>Airdrop Alert websites</li>
+                        <li>Official project Twitter/Discord announcements</li>
+                        <li>Crypto news websites and forums</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-primary);">Step 2: Verify the Project</h3>
+                    <p>Before participating, check:</p>
+                    <ul>
+                        <li>Official website and whitepaper</li>
+                        <li>Team members and their backgrounds</li>
+                        <li>Community size and engagement</li>
+                        <li>Project roadmap and goals</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-primary);">Step 3: Complete Requirements</h3>
+                    <p>Common tasks include:</p>
+                    <ul>
+                        <li>Following social media accounts</li>
+                        <li>Joining Telegram or Discord groups</li>
+                        <li>Retweeting and sharing posts</li>
+                        <li>Submitting your wallet address</li>
+                        <li>Completing KYC (Know Your Customer) verification</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--color-primary);">Step 4: Wait for Distribution</h3>
+                    <p>After completing tasks:</p>
+                    <ul>
+                        <li>Tokens may be distributed immediately or after a period</li>
+                        <li>Check your wallet regularly</li>
+                        <li>Add custom token addresses to see them in your wallet</li>
+                        <li>Be patient - some airdrops take weeks or months</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Where to Find Airdrops -->
+            <div class="content-section">
+                <h2>🔍 Where to Find Legitimate Airdrops</h2>
+                <p>Discover the best platforms and resources to find real airdrop opportunities before everyone else.
+                </p>
+
+                <h3 style="margin-top: 2rem;">Airdrop Aggregators</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎯 CoinMarketCap Airdrops</h4>
+                        <p><strong>What it offers:</strong> Curated list of verified airdrops with step-by-step
+                            participation guides.</p>
+                        <p><strong>Best for:</strong> Finding trusted, legitimate airdrops</p>
+                        <p><strong>Features:</strong> Learn & Earn programs, airdrop calendar, requirement checklist</p>
+                        <p><strong>Website:</strong> coinmarketcap.com/airdrops</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎯 Airdrops.io</h4>
+                        <p><strong>What it offers:</strong> Comprehensive database of active and upcoming airdrops.</p>
+                        <p><strong>Best for:</strong> Discovering new opportunities daily</p>
+                        <p><strong>Features:</strong> Airdrop ratings, user reviews, participation tracking</p>
+                        <p><strong>Website:</strong> airdrops.io</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎯 Airdrop Alert</h4>
+                        <p><strong>What it offers:</strong> Real-time airdrop notifications and bounty programs.</p>
+                        <p><strong>Best for:</strong> Getting instant alerts for new airdrops</p>
+                        <p><strong>Features:</strong> Email notifications, Telegram bot, mobile app</p>
+                        <p><strong>Website:</strong> airdropalert.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎯 CoinGecko Airdrops</h4>
+                        <p><strong>What it offers:</strong> Verified airdrop listings with detailed project information.
+                        </p>
+                        <p><strong>Best for:</strong> Researching project fundamentals before participating</p>
+                        <p><strong>Features:</strong> Project analytics, token metrics, community data</p>
+                        <p><strong>Website:</strong> coingecko.com</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Project Official Channels</h3>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">🐦 Twitter/X</h4>
+                        <p><strong>Why important:</strong> Projects announce airdrops first on Twitter.</p>
+                        <p><strong>How to use:</strong> Follow official project accounts, enable notifications, watch
+                            for announcements.</p>
+                        <p><strong>Pro tip:</strong> Create a dedicated crypto Twitter list to track projects</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">💬 Discord</h4>
+                        <p><strong>Why important:</strong> Exclusive airdrop info and early access for community
+                            members.</p>
+                        <p><strong>How to use:</strong> Join official Discord servers, participate in community, watch
+                            announcements channel.</p>
+                        <p><strong>Pro tip:</strong> Active members often get bonus allocations</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">📱 Telegram</h4>
+                        <p><strong>Why important:</strong> Direct communication with project teams and instant updates.
+                        </p>
+                        <p><strong>How to use:</strong> Join official Telegram groups, enable notifications, verify it's
+                            the real group.</p>
+                        <p><strong>Pro tip:</strong> Beware of scam groups with similar names</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Crypto News & Research Sites</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">📰 CoinDesk & Decrypt</h4>
+                        <p><strong>Coverage:</strong> Breaking news about upcoming airdrops and token launches.</p>
+                        <p><strong>Best for:</strong> Learning about major airdrop announcements</p>
+                        <p><strong>Bonus:</strong> Expert analysis on which airdrops are worth pursuing</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">📰 The Block & CoinTelegraph</h4>
+                        <p><strong>Coverage:</strong> In-depth research and airdrop strategy guides.</p>
+                        <p><strong>Best for:</strong> Understanding airdrop farming opportunities</p>
+                        <p><strong>Bonus:</strong> Historical airdrop data and success stories</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Crypto Exchanges</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">🏦 Binance Launchpad</h4>
+                        <p><strong>What it offers:</strong> Token launches and airdrops for BNB holders.</p>
+                        <p><strong>Requirements:</strong> Hold BNB, complete KYC, participate in staking</p>
+                        <p><strong>Success rate:</strong> High-quality projects with good returns</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">🏦 Coinbase Earn</h4>
+                        <p><strong>What it offers:</strong> Learn about crypto projects and earn free tokens.</p>
+                        <p><strong>Requirements:</strong> Coinbase account, watch videos, answer quizzes</p>
+                        <p><strong>Success rate:</strong> Guaranteed rewards for completing lessons</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">🏦 Bybit & OKX Campaigns</h4>
+                        <p><strong>What it offers:</strong> Regular airdrop campaigns and trading competitions.</p>
+                        <p><strong>Requirements:</strong> Account registration, trading volume, task completion</p>
+                        <p><strong>Success rate:</strong> Frequent opportunities with varying rewards</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">🏦 Kraken & Gemini</h4>
+                        <p><strong>What it offers:</strong> Occasional airdrops for existing users and new listings.</p>
+                        <p><strong>Requirements:</strong> Hold specific tokens, meet eligibility criteria</p>
+                        <p><strong>Success rate:</strong> Less frequent but often valuable</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Community Forums & Testnets</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">💬 Bitcointalk</h4>
+                        <p><strong>What it offers:</strong> Oldest crypto forum with bounty and airdrop sections.</p>
+                        <p><strong>Best for:</strong> Finding early-stage projects and bounty campaigns</p>
+                        <p><strong>Section:</strong> Bounties (Altcoins) - bitcointalk.org</p>
+                        <p><strong>Warning:</strong> Higher scam risk - always verify projects</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🧪 Blockchain Testnets</h4>
+                        <p><strong>What it offers:</strong> Early access to new protocols before mainnet launch.</p>
+                        <p><strong>Best for:</strong> Earning retroactive airdrops (like Arbitrum, Optimism)</p>
+                        <p><strong>Examples:</strong> zkSync, Starknet, Scroll, Linea testnets</p>
+                        <p><strong>Strategy:</strong> Interact early and often with testnet features</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🌐 Reddit Communities</h4>
+                        <p><strong>Communities:</strong> r/CryptoAirdrop, r/CryptoCurrency, r/ethtrader</p>
+                        <p><strong>Best for:</strong> Community-verified opportunities and scam warnings</p>
+                        <p><strong>Pro tip:</strong> Check post history and comments before trusting</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎮 Galxe & Layer3</h4>
+                        <p><strong>What it offers:</strong> Quest platforms where you complete tasks for NFTs and
+                            potential airdrops.</p>
+                        <p><strong>Best for:</strong> Gamified airdrop farming</p>
+                        <p><strong>Bonus:</strong> Build on-chain reputation while earning</p>
+                    </div>
+                </div>
+
+                <div
+                    style="background: #fff3cd; border-left: 4px solid #ffc107; padding: var(--spacing-lg); margin-top: 2rem; border-radius: var(--radius-sm);">
+                    <h4 style="color: #856404;">⚡ Pro Airdrop Hunting Strategy</h4>
+                    <ol style="color: #856404; padding-left: 1.5rem;">
+                        <li><strong>Daily:</strong> Check CoinMarketCap Airdrops and Airdrop Alert</li>
+                        <li><strong>Weekly:</strong> Browse Bitcointalk bounties and Reddit communities</li>
+                        <li><strong>Monthly:</strong> Review new testnet opportunities and exchange campaigns</li>
+                        <li><strong>Always:</strong> Follow official project channels on Twitter and Discord</li>
+                        <li><strong>Smart:</strong> Focus on quality over quantity - research before participating</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Top 5 Current Airdrops -->
+            <div class="content-section" style="background: var(--color-light-bg);">
+                <h2>Top 5 Current Airdrop Opportunities</h2>
+                <p style="color: var(--color-gray); margin-bottom: 2rem;"><em>Note: Always verify these opportunities
+                        independently. Airdrop availability changes frequently.</em></p>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                1</div>
+                            <h3 style="margin: 0;">LayerZero</h3>
+                        </div>
+                        <p><strong>Type:</strong> Protocol Interaction</p>
+                        <p><strong>Requirements:</strong> Use LayerZero-powered dApps, bridge assets across chains</p>
+                        <p><strong>Estimated Value:</strong> TBA</p>
+                        <p><strong>Status:</strong> Ongoing - No official announcement yet</p>
+                    </div>
+
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                2</div>
+                            <h3 style="margin: 0;">zkSync Era</h3>
+                        </div>
+                        <p><strong>Type:</strong> Network Activity</p>
+                        <p><strong>Requirements:</strong> Bridge to zkSync, interact with dApps, provide liquidity</p>
+                        <p><strong>Estimated Value:</strong> TBA</p>
+                        <p><strong>Status:</strong> Mainnet live - Airdrop expected</p>
+                    </div>
+
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                3</div>
+                            <h3 style="margin: 0;">Starknet</h3>
+                        </div>
+                        <p><strong>Type:</strong> Ecosystem Participation</p>
+                        <p><strong>Requirements:</strong> Deploy contracts, use dApps, participate in governance</p>
+                        <p><strong>Estimated Value:</strong> TBA</p>
+                        <p><strong>Status:</strong> Active ecosystem - Airdrop likely</p>
+                    </div>
+
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                4</div>
+                            <h3 style="margin: 0;">Scroll</h3>
+                        </div>
+                        <p><strong>Type:</strong> Testnet & Mainnet Activity</p>
+                        <p><strong>Requirements:</strong> Bridge assets, test applications, provide feedback</p>
+                        <p><strong>Estimated Value:</strong> TBA</p>
+                        <p><strong>Status:</strong> Mainnet launching soon</p>
+                    </div>
+
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                                5</div>
+                            <h3 style="margin: 0;">Linea</h3>
+                        </div>
+                        <p><strong>Type:</strong> Network Interaction</p>
+                        <p><strong>Requirements:</strong> Use Linea network, complete quests, interact with protocols
+                        </p>
+                        <p><strong>Estimated Value:</strong> TBA</p>
+                        <p><strong>Status:</strong> Mainnet live - Voyage campaign active</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Airdrop of the Week -->
+            <div class="content-section" style="background: var(--gradient-primary); color: white;">
+                <div style="text-align: center;">
+                    <i class="fas fa-trophy" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h2 style="color: white;">🌟 Airdrop of the Week 🌟</h2>
+                    <h3 style="color: white; font-size: 2rem; margin-bottom: 1rem;">MetaMask Portfolio</h3>
+                    <p
+                        style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem; max-width: 700px; margin: 0 auto 2rem;">
+                        MetaMask has hinted at potential token launch. Users who actively use MetaMask Swaps, Portfolio,
+                        and bridge features may be eligible for future rewards.
+                    </p>
+                    <div
+                        style="background: rgba(255, 255, 255, 0.2); padding: var(--spacing-lg); border-radius: var(--radius-lg); text-align: left; max-width: 600px; margin: 0 auto; backdrop-filter: blur(4px);">
+                        <h4 style="color: white; margin-bottom: 1rem;">How to Participate:</h4>
+                        <ul style="color: rgba(255, 255, 255, 0.9);">
+                            <li>Use MetaMask Swaps regularly</li>
+                            <li>Try MetaMask Portfolio dashboard</li>
+                            <li>Bridge assets using MetaMask Bridge</li>
+                            <li>Interact with various dApps through MetaMask</li>
+                            <li>Stay active and engaged with the ecosystem</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Checklist -->
+            <div class="content-section">
+                <h2>Your Airdrop Preparation Checklist</h2>
+                <p style="color: var(--color-gray); margin-bottom: 1rem;">Track your progress in preparing for airdrops.
+                    Your progress is saved automatically!</p>
+
+                <div class="checklist" id="airdrop-checklist">
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-1">
+                        <label for="check-1">Set up a crypto wallet (MetaMask or Trust Wallet)</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-2">
+                        <label for="check-2">Backup seed phrase securely (written on paper, stored safely)</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-3">
+                        <label for="check-3">Create Twitter account for crypto (follow projects)</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-4">
+                        <label for="check-4">Join Telegram and Discord (for airdrop announcements)</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-5">
+                        <label for="check-5">Get small amount of ETH for gas fees</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-6">
+                        <label for="check-6">Research and verify current airdrop opportunities</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-7">
+                        <label for="check-7">Start interacting with potential airdrop protocols</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-8">
+                        <label for="check-8">Set up email alerts for airdrop announcements</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-9">
+                        <label for="check-9">Join airdrop communities and forums</label>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="check-10">
+                        <label for="check-10">Document all airdrops participated in (spreadsheet)</label>
+                    </div>
+                </div>
+
+                <button id="reset-checklist" class="btn btn-outline" style="margin-top: 1rem;">Reset Checklist</button>
+            </div>
+
+            <!-- Safety Tips -->
+            <div class="content-section">
+                <h2>Airdrop Safety Tips</h2>
+
+                <div class="grid grid-2">
+                    <div
+                        style="background: #d4edda; border-left: 4px solid #28a745; padding: var(--spacing-lg); border-radius: var(--radius-sm);">
+                        <h4 style="color: #155724;"><i class="fas fa-shield-alt"></i> Stay Safe</h4>
+                        <ul style="color: #155724;">
+                            <li>Never share your private keys or seed phrase</li>
+                            <li>Use a separate wallet for airdrops</li>
+                            <li>Verify official links and social media</li>
+                            <li>Be skeptical of "too good to be true" offers</li>
+                            <li>Don't send crypto to receive airdrops</li>
+                            <li>Research projects thoroughly</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        style="background: #f8d7da; border-left: 4px solid #dc3545; padding: var(--spacing-lg); border-radius: var(--radius-sm);">
+                        <h4 style="color: #721c24;"><i class="fas fa-exclamation-triangle"></i> Red Flags</h4>
+                        <ul style="color: #721c24;">
+                            <li>Asking for private keys or seed phrases</li>
+                            <li>Requiring you to send crypto first</li>
+                            <li>Suspicious or newly created social media</li>
+                            <li>No clear project information or team</li>
+                            <li>Pressure to act immediately</li>
+                            <li>Promises of guaranteed huge returns</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="crypto.html">Learn Crypto</a>
+                <a href="forex.html">Learn Forex</a>
+                <a href="airdrops.html">Airdrop Guide</a>
+                <a href="tools.html">Tools & Resources</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="tools.html">Price Trackers</a>
+                <a href="tools.html">Converters</a>
+                <a href="tools.html">Recommended Wallets</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Disclaimer</a>
+                <p style="margin-top: 1rem; font-size: 0.575rem;">Educational purposes only. Not financial advice.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>

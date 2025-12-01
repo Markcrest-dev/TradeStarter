@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Interactive forex learning path - From beginner to expert in forex trading and currency markets">
+    <title>Learn Forex - Progressive Learning Path | TradeStarter</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero"
+        style="position: relative; min-height: 70vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(165deg, #0c1e3e 0%, #1a2f5a 50%, #2d4a7c 100%);">
+        <!-- Candlestick Pattern Background -->
+        <div style="position: absolute; top: 20%; left: 5%; opacity: 0.08;">
+            <svg width="80" height="120" viewBox="0 0 80 120">
+                <rect x="35" y="10" width="10" height="40" fill="#10b981" />
+                <line x1="40" y1="0" x2="40" y2="10" stroke="#10b981" stroke-width="2" />
+                <line x1="40" y1="50" x2="40" y2="70" stroke="#10b981" stroke-width="2" />
+                <rect x="35" y="80" width="10" height="30" fill="#ef4444" />
+                <line x1="40" y1="70" x2="40" y2="80" stroke="#ef4444" stroke-width="2" />
+                <line x1="40" y1="110" x2="40" y2="120" stroke="#ef4444" stroke-width="2" />
+            </svg>
+        </div>
+        <div style="position: absolute; bottom: 15%; right: 8%; opacity: 0.06;">
+            <svg width="100" height="140" viewBox="0 0 100 140">
+                <rect x="45" y="40" width="10" height="60" fill="#ef4444" />
+                <line x1="50" y1="20" x2="50" y2="40" stroke="#ef4444" stroke-width="2" />
+                <line x1="50" y1="100" x2="50" y2="120" stroke="#ef4444" stroke-width="2" />
+            </svg>
+        </div>
+
+        <!-- Ticker Tape Animation -->
+        <div style="position: absolute; top: 12%; left: 0; width: 100%; overflow: hidden; opacity: 0.15;">
+            <div style="display: flex; gap: 3rem; animation: tickerScroll 30s linear infinite; white-space: nowrap;">
+                <span style="color: #10b981; font-family: monospace; font-weight: bold;">EUR/USD ▲ 1.0842</span>
+                <span style="color: #ef4444; font-family: monospace; font-weight: bold;">GBP/USD ▼ 1.2654</span>
+                <span style="color: #10b981; font-family: monospace; font-weight: bold;">USD/JPY ▲ 149.82</span>
+                <span style="color: #10b981; font-family: monospace; font-weight: bold;">AUD/USD ▲ 0.6587</span>
+                <span style="color: #ef4444; font-family: monospace; font-weight: bold;">USD/CAD ▼ 1.3542</span>
+                <span style="color: #10b981; font-family: monospace; font-weight: bold;">EUR/USD ▲ 1.0842</span>
+                <span style="color: #ef4444; font-family: monospace; font-weight: bold;">GBP/USD ▼ 1.2654</span>
+            </div>
+        </div>
+
+        <!-- Chart Grid -->
+        <div
+            style="position: absolute; inset: 0; background-image: linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px); background-size: 60px 60px;">
+        </div>
+
+        <!-- Glowing Trend Line -->
+        <svg style="position: absolute; top: 30%; right: 15%; width: 200px; height: 100px; opacity: 0.3;"
+            viewBox="0 0 200 100">
+            <path d="M0 80 L50 60 L100 70 L150 30 L200 20" stroke="#10b981" stroke-width="3" fill="none"
+                stroke-linecap="round" />
+            <circle cx="200" cy="20" r="5" fill="#10b981">
+                <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite" />
+            </circle>
+        </svg>
+
+        <div class="hero-content" style="position: relative; z-index: 2; max-width: 1100px;">
+            <h1 style="font-size: clamp(2.75rem, 6vw, 4.25rem); line-height: 1.1; margin-bottom: 1.5rem; font-weight: 900; color: white; text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);"
+                data-i18n="learn.forex.hero.title">
+                Trade Forex Like<br>
+                <span
+                    style="background: linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; position: relative; display: inline-block;">
+                    a Professional
+                    <div
+                        style="position: absolute; bottom: -8px; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #10b981 0%, transparent 100%); border-radius: 2px;">
+                    </div>
+                </span>
+            </h1>
+
+            <p style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.85); max-width: 720px; line-height: 1.8; margin-bottom: 3rem;"
+                data-i18n="learn.forex.hero.subtitle">
+                Master currency pairs, technical analysis, and risk management through 45 progressive lessons. From pip
+                calculations to advanced strategies—become a confident forex trader.
+            </p>
+
+            <!-- Stats Dashboard -->
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; max-width: 900px; margin-bottom: 2.5rem;">
+                <div
+                    style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 16px; padding: 1.5rem; backdrop-filter: blur(10px);">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div
+                            style="width: 48px; height: 48px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-layer-group" style="color: white; font-size: 1.25rem;"></i>
+                        </div>
+                        <div>
+                            <div style="color: rgba(255, 255, 255, 0.6); font-size: 0.875rem; margin-bottom: 0.25rem;"
+                                data-i18n="learn.forex.stats.level">
+                                Your Level</div>
+                            <div class="stat-number" id="user-level-forex"
+                                style="font-size: 2rem; font-weight: 800; color: white; line-height: 1;">1</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    style="background: linear-gradient(135deg, rgba(251, 191, 36, 0.15) 0%, rgba(251, 191, 36, 0.05) 100%); border: 1px solid rgba(251, 191, 36, 0.3); border-radius: 16px; padding: 1.5rem; backdrop-filter: blur(10px);">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div
+                            style="width: 48px; height: 48px; background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-bolt" style="color: white; font-size: 1.25rem;"></i>
+                        </div>
+                        <div>
+                            <div style="color: rgba(255, 255, 255, 0.6); font-size: 0.875rem; margin-bottom: 0.25rem;"
+                                data-i18n="learn.forex.stats.xp">
+                                Total XP</div>
+                            <div class="stat-number" id="user-xp-forex"
+                                style="font-size: 2rem; font-weight: 800; color: white; line-height: 1;">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(99, 102, 241, 0.05) 100%); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 16px; padding: 1.5rem; backdrop-filter: blur(10px);">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div
+                            style="width: 48px; height: 48px; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-check-circle" style="color: white; font-size: 1.25rem;"></i>
+                        </div>
+                        <div>
+                            <div style="color: rgba(255, 255, 255, 0.6); font-size: 0.875rem; margin-bottom: 0.25rem;"
+                                data-i18n="learn.forex.stats.completed">
+                                Completed</div>
+                            <div class="stat-number" id="lessons-completed-forex"
+                                style="font-size: 2rem; font-weight: 800; color: white; line-height: 1;">0/45</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Highlights -->
+            <div style="display: flex; gap: 2.5rem; flex-wrap: wrap;">
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <i class="fas fa-chart-line" style="color: #10b981; font-size: 1.25rem;"></i>
+                    <span style="color: rgba(255, 255, 255, 0.85); font-size: 0.9375rem; font-weight: 500;"
+                        data-i18n="learn.forex.highlights.technical">Technical
+                        Analysis</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <i class="fas fa-shield-alt" style="color: #6366f1; font-size: 1.25rem;"></i>
+                    <span style="color: rgba(255, 255, 255, 0.85); font-size: 0.9375rem; font-weight: 500;"
+                        data-i18n="learn.forex.highlights.risk">Risk
+                        Management</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <i class="fas fa-brain" style="color: #fbbf24; font-size: 1.25rem;"></i>
+                    <span style="color: rgba(255, 255, 255, 0.85); font-size: 0.9375rem; font-weight: 500;"
+                        data-i18n="learn.forex.highlights.psychology">Trading
+                        Psychology</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <style>
+        @keyframes tickerScroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+
+    <!-- LEARNING PATH -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="learn.forex.path.title">Your Forex Learning Path</h2>
+                <p class="section-subtitle" data-i18n="learn.forex.path.subtitle">Master currency trading from basics to
+                    advanced strategies</p>
+            </div>
+
+            <!-- LEVEL 1: BEGINNER -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.forex.levels.1.title">Level 1: Forex Foundations</h3>
+                        <p data-i18n="learn.forex.levels.1.desc">Understand the basics of currency trading and forex
+                            markets</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level1-progress-forex" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text">0% Complete</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 21 -->
+                    <div class="lesson-card unlocked" data-lesson="21" data-level="1" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.21.title">What is Forex Trading?</h4>
+                            <p data-i18n="learn.forex.lessons.21.desc">Introduction to the foreign exchange market</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 10 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 50 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 22 -->
+                    <div class="lesson-card locked" data-lesson="22" data-level="1" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.22.title">Currency Pairs Explained</h4>
+                            <p data-i18n="learn.forex.lessons.22.desc">Major, minor, and exotic currency pairs</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 23 -->
+                    <div class="lesson-card locked" data-lesson="23" data-level="1" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.23.title">Market Sessions & Hours</h4>
+                            <p data-i18n="learn.forex.lessons.23.desc">Understanding global forex trading sessions</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 12 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 60 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 24 -->
+                    <div class="lesson-card locked" data-lesson="24" data-level="1" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.24.title">Pips, Lots & Leverage</h4>
+                            <p data-i18n="learn.forex.lessons.24.desc">Understanding forex terminology and calculations
+                            </p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 18 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 90 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 25 -->
+                    <div class="lesson-card locked" data-lesson="25" data-level="1" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.25.title">Choosing a Forex Broker</h4>
+                            <p data-i18n="learn.forex.lessons.25.desc">What to look for in a reliable broker</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 26 -->
+                    <div class="lesson-card locked" data-lesson="26" data-level="1" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.26.title">Trading Platforms Basics</h4>
+                            <p data-i18n="learn.forex.lessons.26.desc">MetaTrader 4/5 and other platforms</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="forex-quiz1" data-level="1"
+                        data-category="forex">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.quiz1.title">Level 1 Quiz</h4>
+                            <p data-i18n="learn.forex.lessons.quiz1.desc">Test your forex fundamentals knowledge</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 10 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 200 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 2: INTERMEDIATE -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.forex.levels.2.title">Level 2: Technical Analysis</h3>
+                        <p data-i18n="learn.forex.levels.2.desc">Learn to read charts and identify trading opportunities
+                        </p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level2-progress-forex" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.forex.levels.locked_1">Locked - Complete Level
+                                1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 27 -->
+                    <div class="lesson-card locked" data-lesson="27" data-level="2" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-chart-candlestick"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.27.title">Candlestick Patterns</h4>
+                            <p data-i18n="learn.forex.lessons.27.desc">Reading and interpreting candlestick charts</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 28 -->
+                    <div class="lesson-card locked" data-lesson="28" data-level="2" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-arrows-alt-h"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.28.title">Support & Resistance</h4>
+                            <p data-i18n="learn.forex.lessons.28.desc">Identifying key price levels</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 29 -->
+                    <div class="lesson-card locked" data-lesson="29" data-level="2" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-wave-square"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.29.title">Trend Analysis</h4>
+                            <p data-i18n="learn.forex.lessons.29.desc">Identifying and trading with trends</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 22 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 110 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 30 -->
+                    <div class="lesson-card locked" data-lesson="30" data-level="2" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.30.title">Technical Indicators</h4>
+                            <p data-i18n="learn.forex.lessons.30.desc">Moving averages, RSI, MACD, and more</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 31 -->
+                    <div class="lesson-card locked" data-lesson="31" data-level="2" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-chart-area"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.31.title">Chart Patterns</h4>
+                            <p data-i18n="learn.forex.lessons.31.desc">Head & shoulders, triangles, flags</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 28 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 140 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 32 -->
+                    <div class="lesson-card locked" data-lesson="32" data-level="2" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-ruler-combined"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.32.title">Fibonacci Retracements</h4>
+                            <p data-i18n="learn.forex.lessons.32.desc">Using Fibonacci levels in trading</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="forex-quiz2" data-level="2"
+                        data-category="forex">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.quiz2.title">Level 2 Quiz</h4>
+                            <p data-i18n="learn.forex.lessons.quiz2.desc">Test your technical analysis skills</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 15 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 300 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 3: ADVANCED -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.forex.levels.3.title">Level 3: Risk Management & Strategy</h3>
+                        <p data-i18n="learn.forex.levels.3.desc">Master professional trading strategies and risk control
+                        </p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level3-progress-forex" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.forex.levels.locked_2">Locked - Complete Level
+                                2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 33 -->
+                    <div class="lesson-card locked" data-lesson="33" data-level="3" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.33.title">Risk Management Fundamentals</h4>
+                            <p data-i18n="learn.forex.lessons.33.desc">Position sizing and capital preservation</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 34 -->
+                    <div class="lesson-card locked" data-lesson="34" data-level="3" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-percent"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.34.title">Risk-Reward Ratios</h4>
+                            <p data-i18n="learn.forex.lessons.34.desc">Calculating and optimizing trade setups</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 35 -->
+                    <div class="lesson-card locked" data-lesson="35" data-level="3" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.35.title">Fundamental Analysis</h4>
+                            <p data-i18n="learn.forex.lessons.35.desc">Economic indicators and news trading</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 35 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 175 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 36 -->
+                    <div class="lesson-card locked" data-lesson="36" data-level="3" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.36.title">Trading Psychology</h4>
+                            <p data-i18n="learn.forex.lessons.36.desc">Mastering emotions and discipline</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 37 -->
+                    <div class="lesson-card locked" data-lesson="37" data-level="3" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-chess-board"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.37.title">Developing a Strategy</h4>
+                            <p data-i18n="learn.forex.lessons.37.desc">Building your personal trading system</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 28 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 140 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 38 -->
+                    <div class="lesson-card locked" data-lesson="38" data-level="3" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.38.title">Backtesting</h4>
+                            <p data-i18n="learn.forex.lessons.38.desc">Testing strategies with historical data</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="forex-quiz3" data-level="3"
+                        data-category="forex">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.quiz3.title">Level 3 Quiz</h4>
+                            <p data-i18n="learn.forex.lessons.quiz3.desc">Master risk management concepts</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 20 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 400 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 4: EXPERT -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.forex.levels.4.title">Level 4: Professional Trading</h3>
+                        <p data-i18n="learn.forex.levels.4.desc">Advanced strategies and professional techniques</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level4-progress-forex" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.forex.levels.locked_3">Locked - Complete Level
+                                3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 39 -->
+                    <div class="lesson-card locked" data-lesson="39" data-level="4" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.39.title">Demo Trading</h4>
+                            <p data-i18n="learn.forex.lessons.39.desc">Practice without risking real money</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 40 -->
+                    <div class="lesson-card locked" data-lesson="40" data-level="4" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.40.title">Transitioning to Live</h4>
+                            <p data-i18n="learn.forex.lessons.40.desc">Moving from demo to real trading</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 41 -->
+                    <div class="lesson-card locked" data-lesson="41" data-level="4" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.41.title">Common Mistakes</h4>
+                            <p data-i18n="learn.forex.lessons.41.desc">Pitfalls to avoid as a beginner</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 42 -->
+                    <div class="lesson-card locked" data-lesson="42" data-level="4" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-chess-king"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.42.title">Advanced Strategies</h4>
+                            <p data-i18n="learn.forex.lessons.42.desc">Complex trading setups and techniques</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 35 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 175 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 43 -->
+                    <div class="lesson-card locked" data-lesson="43" data-level="4" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.43.title">Correlation Trading</h4>
+                            <p data-i18n="learn.forex.lessons.43.desc">Trading based on currency correlations</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 44 -->
+                    <div class="lesson-card locked" data-lesson="44" data-level="4" data-category="forex">
+                        <div class="lesson-icon">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.44.title">Carry Trades</h4>
+                            <p data-i18n="learn.forex.lessons.44.desc">Profiting from interest rate differentials</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 45 -->
+                    <div class="lesson-card quiz-card locked" data-lesson="forex-final-exam" data-level="4"
+                        data-category="forex">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.forex.lessons.final.title">Building a Trading Plan</h4>
+                            <p data-i18n="learn.forex.lessons.final.desc">Final Step: Create your professional plan</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-clipboard-check"></i> <span
+                                        data-i18n="learn.common.final_task">Final Task</span></span>
+                                <span><i class="fas fa-star"></i> 200 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATE SECTION -->
+    <section class="section" style="background: var(--color-light-bg);">
+        <div class="container">
+            <div class="certificate-section">
+                <h3 data-i18n="learn.forex.certificate.title"><i class="fas fa-certificate"></i> Earn Your Forex Trading
+                    Certificate</h3>
+                <p data-i18n="learn.forex.certificate.desc">Complete the course and download your official certificate
+                    to showcase your forex trading expertise!
+                </p>
+                <div class="certificate-buttons">
+                    <button class="download-certificate" data-certificate-type="forex">
+                        <i class="fas fa-download"></i> <span data-i18n="learn.forex.certificate.btn_forex">Download
+                            Forex Certificate</span>
+                    </button>
+                    <button class="download-certificate" data-certificate-type="overall">
+                        <i class="fas fa-trophy"></i> <span data-i18n="learn.forex.certificate.btn_overall">Download
+                            Overall Completion Certificate</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="learn-crypto.html">Learn Crypto</a>
+                <a href="learn-forex.html">Learn Forex</a>
+                <a href="learn-airdrops.html">Learn Airdrops</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- jsPDF Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/certificate-generator.js"></script>
+    <script src="js/lesson-content.js"></script>
+    <script src="js/lesson-modal.js"></script>
+    <script src="js/learning-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>

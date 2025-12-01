@@ -1,0 +1,745 @@
+{
+  "languageChanged": "语言更改成功！",
+  "nav": {
+    "home": "首页",
+    "learn": "学习",
+    "learnCrypto": "学习加密货币",
+    "learnForex": "学习外汇",
+    "learnAirdrops": "学习空投",
+    "resources": "资源",
+    "cryptoGuide": "加密货币指南",
+    "forexGuide": "外汇指南",
+    "airdropGuide": "空投指南",
+    "tools": "工具",
+    "basicTools": "基础工具",
+    "advancedTools": "高级工具",
+    "tradingJournal": "交易日志",
+    "about": "关于我们",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "welcome": "欢迎来到 TradeStarter",
+    "subtitle": "您的交易精通之旅从这里开始",
+    "description": "通过我们全面、适合初学者的平台学习加密货币、外汇和空投策略。",
+    "getStarted": "开始使用",
+    "exploreCourses": "探索课程"
+  },
+  "home": {
+    "features": {
+      "title": "为什么选择 TradeStarter？",
+      "subtitle": "我们摒弃繁杂，专注于对您的交易之旅真正重要的事情。",
+      "structured": {
+        "title": "结构化学习",
+        "desc": "不再是随机的 YouTube 视频。跟随我们循序渐进的课程，从零开始成为英雄。"
+      },
+      "tools": {
+        "title": "实用工具",
+        "desc": "使用我们的计算器、清单和追踪器套件，帮助您做出明智的决定。"
+      },
+      "community": {
+        "title": "社区至上",
+        "desc": "加入一个不断壮大的学习者社区，大家都在通往财务独立的同一条道路上。"
+      }
+    },
+    "paths": {
+      "title": "选择您的道路",
+      "subtitle": "选择一条轨道，今天就开始掌握市场。",
+      "crypto": {
+        "title": "加密货币交易",
+        "desc": "了解区块链，掌握技术分析，并学习如何安全有效地交易加密货币。"
+      },
+      "forex": {
+        "title": "外汇精通",
+        "desc": "深入世界上最大的金融市场。学习货币对、杠杆和风险管理策略。"
+      },
+      "airdrops": {
+        "title": "空投狩猎",
+        "desc": "学习寻找和获得加密货币空投资格的艺术。将您的时间转化为潜在的回报。"
+      },
+      "startCourse": "开始课程"
+    },
+    "testimonials": {
+      "title": "成功故事",
+      "subtitle": "不要只听我们的一面之词。看看我们的社区怎么说。",
+      "1": {
+        "text": "\"TradeStarter 让加密货币变得如此容易理解！我从完全的新手到在两周内自信地进行第一次交易。\"",
+        "author": "Sarah M.",
+        "role": "加密货币爱好者"
+      },
+      "2": {
+        "text": "\"外汇指南非常清晰实用。我终于明白了货币对是如何运作的。\"",
+        "author": "James K.",
+        "role": "外汇交易员"
+      },
+      "3": {
+        "text": "\"我通过这里学到的策略从空投中赚取了超过 500 美元的免费加密货币。\"",
+        "author": "Maria L.",
+        "role": "空投猎人"
+      },
+      "4": {
+        "text": "\"我以前总是对技术分析感到害怕，但这里的循序渐进课程将其完美分解。\"",
+        "author": "David R.",
+        "role": "日内交易员"
+      },
+      "5": {
+        "text": "\"社区支持是无与伦比的。每当我有问题时，总有人在那里提供帮助。\"",
+        "author": "Elena P.",
+        "role": "社区成员"
+      },
+      "6": {
+        "text": "\"我找到的最好的免费资源。工具和计算器为我节省了大量时间。\"",
+        "author": "Michael J.",
+        "role": "外汇分析师"
+      }
+    }
+  },
+  "learn": {
+    "common": {
+      "min": "分钟",
+      "xp": "经验值",
+      "questions": "问题",
+      "review": "复习"
+    },
+    "crypto": {
+      "hero": {
+        "title": "精通加密货币交易",
+        "subtitle": "从区块链基础到高级交易策略。"
+      },
+      "stats": {
+        "level": "您的等级",
+        "xp": "经验",
+        "completed": "已完成"
+      },
+      "path": {
+        "title": "您的加密货币学习路径",
+        "subtitle": "一步步掌握数字资产世界"
+      },
+      "levels": {
+        "1": {
+          "title": "等级 1：加密货币基础",
+          "desc": "了解区块链和加密货币的基础知识"
+        },
+        "2": {
+          "title": "等级 2：交易基础",
+          "desc": "学习如何阅读图表和执行交易",
+          "locked_1": "已锁定 - 完成等级 1"
+        },
+        "3": {
+          "title": "等级 3：高级策略",
+          "desc": "掌握技术分析和市场心理学",
+          "locked_2": "已锁定 - 完成等级 2"
+        },
+        "4": {
+          "title": "等级 4：专业交易",
+          "desc": "风险管理和投资组合构建",
+          "locked_3": "已锁定 - 完成等级 3"
+        }
+      },
+      "lessons": {
+        "1": {
+          "title": "什么是加密货币？",
+          "desc": "数字资产简介"
+        },
+        "2": {
+          "title": "区块链如何运作",
+          "desc": "了解技术"
+        },
+        "3": {
+          "title": "比特币与山寨币",
+          "desc": "主要加密货币的区别"
+        },
+        "4": {
+          "title": "钱包与安全",
+          "desc": "安全存储您的加密货币"
+        },
+        "5": {
+          "title": "交易所与购买",
+          "desc": "如何购买您的第一枚加密货币"
+        },
+        "quiz1": {
+          "title": "等级 1 测验",
+          "desc": "测试您的基础知识"
+        },
+        "6": {
+          "title": "阅读K线图",
+          "desc": "了解价格行为"
+        },
+        "7": {
+          "title": "支撑与阻力",
+          "desc": "识别关键水平"
+        },
+        "8": {
+          "title": "趋势线",
+          "desc": "顺势交易"
+        },
+        "9": {
+          "title": "成交量分析",
+          "desc": "确认趋势"
+        },
+        "10": {
+          "title": "移动平均线",
+          "desc": "使用指标"
+        },
+        "quiz2": {
+          "title": "等级 2 测验",
+          "desc": "测试您的基础"
+        },
+        "11": {
+          "title": "RSI 和 MACD",
+          "desc": "掌握动量指标"
+        },
+        "12": {
+          "title": "图表形态",
+          "desc": "头肩顶、旗形等"
+        },
+        "13": {
+          "title": "斐波那契回撤",
+          "desc": "预测价格目标"
+        },
+        "14": {
+          "title": "市场心理学",
+          "desc": "了解恐惧和贪婪"
+        },
+        "15": {
+          "title": "交易心理学",
+          "desc": "掌握您的情绪"
+        },
+        "quiz3": {
+          "title": "等级 3 测验",
+          "desc": "测试您的高级知识"
+        },
+        "16": {
+          "title": "风险管理",
+          "desc": "保护您的资本"
+        },
+        "17": {
+          "title": "头寸规模",
+          "desc": "计算正确的规模"
+        },
+        "18": {
+          "title": "投资组合多样化",
+          "desc": "建立平衡的投资组合"
+        },
+        "19": {
+          "title": "税务与监管",
+          "desc": "管理加密货币税务"
+        },
+        "20": {
+          "title": "加密货币职业",
+          "desc": "区块链职业机会"
+        },
+        "final": {
+          "title": "期末考试",
+          "desc": "获得您的证书"
+        }
+      },
+      "certificate": {
+        "title": "获得您的加密货币证书",
+        "desc": "完成课程并下载您的官方证书！",
+        "btn_crypto": "下载加密货币证书",
+        "btn_overall": "下载总证书"
+      }
+    },
+    "forex": {
+      "hero": {
+        "title": "像专业人士一样交易外汇",
+        "subtitle": "掌握货币对和技术分析。"
+      },
+      "stats": {
+        "level": "您的等级",
+        "xp": "总经验值",
+        "completed": "已完成"
+      },
+      "path": {
+        "title": "您的外汇学习路径",
+        "subtitle": "掌握货币交易"
+      },
+      "levels": {
+        "1": {
+          "title": "等级 1：外汇基础",
+          "desc": "货币交易基础知识"
+        },
+        "2": {
+          "title": "等级 2：技术分析",
+          "desc": "阅读图表",
+          "locked_1": "已锁定 - 完成等级 1"
+        },
+        "3": {
+          "title": "等级 3：风险管理",
+          "desc": "专业策略",
+          "locked_2": "已锁定 - 完成等级 2"
+        },
+        "4": {
+          "title": "等级 4：专业交易",
+          "desc": "高级技术",
+          "locked_3": "已锁定 - 完成等级 3"
+        }
+      },
+      "lessons": {
+        "21": {
+          "title": "什么是外汇？",
+          "desc": "外汇市场简介"
+        },
+        "22": {
+          "title": "货币对",
+          "desc": "主要、次要和奇异货币对"
+        },
+        "23": {
+          "title": "市场时段",
+          "desc": "全球交易时间"
+        },
+        "24": {
+          "title": "点、手和杠杆",
+          "desc": "术语和计算"
+        },
+        "25": {
+          "title": "选择经纪商",
+          "desc": "可靠性标准"
+        },
+        "26": {
+          "title": "交易平台",
+          "desc": "MT4/5 基础"
+        },
+        "quiz1": {
+          "title": "等级 1 测验",
+          "desc": "测试您的外汇基础"
+        },
+        "27": {
+          "title": "K线形态",
+          "desc": "阅读价格行为"
+        },
+        "28": {
+          "title": "支撑/阻力区域",
+          "desc": "关键价格水平"
+        },
+        "29": {
+          "title": "趋势识别",
+          "desc": "顺势交易"
+        },
+        "30": {
+          "title": "图表形态",
+          "desc": "反转和持续"
+        },
+        "31": {
+          "title": "移动平均线",
+          "desc": "动态支撑"
+        },
+        "32": {
+          "title": "振荡指标",
+          "desc": "超买/超卖"
+        },
+        "quiz2": {
+          "title": "等级 2 测验",
+          "desc": "测试您的技术分析"
+        },
+        "33": {
+          "title": "风险回报比",
+          "desc": "计算潜力"
+        },
+        "34": {
+          "title": "头寸规模",
+          "desc": "管理交易量"
+        },
+        "35": {
+          "title": "止损策略",
+          "desc": "保护您的资本"
+        },
+        "36": {
+          "title": "交易心理学",
+          "desc": "掌握情绪"
+        },
+        "37": {
+          "title": "交易计划",
+          "desc": "制定规则"
+        },
+        "38": {
+          "title": "回测",
+          "desc": "验证策略"
+        },
+        "quiz3": {
+          "title": "等级 3 测验",
+          "desc": "测试您的风险管理"
+        },
+        "39": {
+          "title": "基本面分析",
+          "desc": "交易新闻"
+        },
+        "40": {
+          "title": "相关性",
+          "desc": "货币关系"
+        },
+        "41": {
+          "title": "套息交易",
+          "desc": "利用利率"
+        },
+        "42": {
+          "title": "剥头皮",
+          "desc": "短期交易"
+        },
+        "43": {
+          "title": "波段交易",
+          "desc": "中期交易"
+        },
+        "44": {
+          "title": "算法交易",
+          "desc": "自动交易简介"
+        },
+        "45": {
+          "title": "专业惯例",
+          "desc": "成功交易者的习惯"
+        },
+        "final": {
+          "title": "期末考试",
+          "desc": "获得外汇证书"
+        }
+      },
+      "certificate": {
+        "title": "获得您的外汇证书",
+        "desc": "完成课程并下载您的证书！",
+        "btn_forex": "下载外汇证书",
+        "btn_overall": "下载总证书"
+      }
+    },
+    "airdrops": {
+      "hero": {
+        "title": "成为空投大师",
+        "subtitle": "学习发现和最大化加密货币空投的策略。"
+      },
+      "stats": {
+        "level": "您的等级",
+        "xp": "经验",
+        "completed": "已完成"
+      },
+      "path": {
+        "title": "您的空投学习路径",
+        "subtitle": "掌握赚取免费加密货币的艺术"
+      },
+      "levels": {
+        "1": {
+          "title": "等级 1：基础",
+          "desc": "了解空投"
+        },
+        "2": {
+          "title": "等级 2：主动狩猎",
+          "desc": "参与活动",
+          "locked_1": "已锁定 - 完成等级 1"
+        },
+        "3": {
+          "title": "等级 3：追溯性空投",
+          "desc": "高级策略",
+          "locked_2": "已锁定 - 完成等级 2"
+        },
+        "4": {
+          "title": "等级 4：专业空投",
+          "desc": "专业技术",
+          "locked_3": "已锁定 - 完成等级 3"
+        }
+      },
+      "lessons": {
+        "46": {
+          "title": "什么是空投？",
+          "desc": "简介"
+        },
+        "47": {
+          "title": "钱包设置",
+          "desc": "准备您的钱包"
+        },
+        "48": {
+          "title": "安全基础",
+          "desc": "保护您的资产"
+        },
+        "49": {
+          "title": "寻找空投",
+          "desc": "发现机会"
+        },
+        "50": {
+          "title": "测试网参与",
+          "desc": "无风险空投"
+        },
+        "51": {
+          "title": "社交任务",
+          "desc": "Twitter, Discord 等"
+        },
+        "52": {
+          "title": "了解快照",
+          "desc": "正确时机"
+        },
+        "53": {
+          "title": "Gas 优化",
+          "desc": "节省费用"
+        },
+        "54": {
+          "title": "多钱包管理",
+          "desc": "管理多个账户"
+        },
+        "55": {
+          "title": "Discord 策略",
+          "desc": "浏览社区"
+        },
+        "quiz1": {
+          "title": "等级 1 测验",
+          "desc": "测试您的基础"
+        },
+        "56": {
+          "title": "Twitter 互动",
+          "desc": "建立强大的个人资料"
+        },
+        "57": {
+          "title": "追踪与记录",
+          "desc": "记录您的活动"
+        },
+        "58": {
+          "title": "识别骗局",
+          "desc": "避免网络钓鱼"
+        },
+        "59": {
+          "title": "隐私",
+          "desc": "保护您的身份"
+        },
+        "60": {
+          "title": "空投日历",
+          "desc": "保持井井有条"
+        },
+        "61": {
+          "title": "Layer 2 空投",
+          "desc": "Optimism, Arbitrum 等"
+        },
+        "62": {
+          "title": "NFT 空投",
+          "desc": "针对 NFT 持有者"
+        },
+        "63": {
+          "title": "DeFi 空投",
+          "desc": "使用协议"
+        },
+        "64": {
+          "title": "跨链桥策略",
+          "desc": "使用跨链桥"
+        },
+        "65": {
+          "title": "质押空投",
+          "desc": "通过质押获得资格"
+        },
+        "quiz2": {
+          "title": "等级 2 测验",
+          "desc": "测试您的技能"
+        },
+        "retro_explained": {
+          "title": "追溯性空投",
+          "desc": "了解系统"
+        },
+        "l2_farming": {
+          "title": "Layer 2 耕作",
+          "desc": "L2 策略"
+        },
+        "gas_strategies": {
+          "title": "Gas 策略",
+          "desc": "最小化成本"
+        },
+        "onchain_opt": {
+          "title": "链上优化",
+          "desc": "最大化资格"
+        },
+        "defi_interaction": {
+          "title": "DeFi 交互",
+          "desc": "使用协议"
+        },
+        "bridge_farming": {
+          "title": "跨链耕作",
+          "desc": "多链策略"
+        },
+        "snapshot_strategies": {
+          "title": "快照策略",
+          "desc": "准备"
+        },
+        "quiz3": {
+          "title": "等级 3 测验",
+          "desc": "掌握追溯性空投"
+        },
+        "76": {
+          "title": "观察巨鲸",
+          "desc": "跟随聪明钱"
+        },
+        "77": {
+          "title": "时机",
+          "desc": "最佳时机"
+        },
+        "78": {
+          "title": "退出策略",
+          "desc": "何时出售"
+        },
+        "79": {
+          "title": "再投资",
+          "desc": "复利收益"
+        },
+        "80": {
+          "title": "长期规划",
+          "desc": "可持续收入"
+        },
+        "81": {
+          "title": "避免倦怠",
+          "desc": "心理健康"
+        },
+        "82": {
+          "title": "保持更新",
+          "desc": "跟随趋势"
+        },
+        "83": {
+          "title": "声誉",
+          "desc": "在加密领域建立声誉"
+        },
+        "84": {
+          "title": "空投作为收入",
+          "desc": "专业指南"
+        },
+        "final": {
+          "title": "最终回顾",
+          "desc": "全面考试"
+        }
+      },
+      "certificate": {
+        "title": "获得您的空投证书",
+        "desc": "完成课程并下载您的证书！",
+        "btn_airdrop": "下载空投证书",
+        "btn_overall": "下载总证书"
+      }
+    }
+  },
+  "stats": {
+    "level": "等级",
+    "xp": "经验值",
+    "lessons": "课程",
+    "progress": "进度",
+    "currentLevel": "当前等级",
+    "experience": "经验",
+    "completed": "已完成"
+  },
+  "learning": {
+    "startLearning": "开始学习",
+    "continueLearning": "继续学习",
+    "locked": "已锁定",
+    "unlocked": "已解锁",
+    "completeLesson": "完成课程",
+    "takeQuiz": "参加测验",
+    "watchVideo": "观看视频",
+    "earnXP": "获得 XP",
+    "levelUp": "升级！",
+    "achievementUnlocked": "成就解锁！",
+    "lessonCompleted": "课程完成！",
+    "quizPassed": "测验通过！",
+    "videoWatched": "视频已观看！"
+  },
+  "certificates": {
+    "title": "获得您的证书",
+    "description": "完成课程并下载您的官方证书！",
+    "downloadCrypto": "下载加密货币证书",
+    "downloadForex": "下载外汇证书",
+    "downloadAirdrops": "下载空投证书",
+    "downloadOverall": "下载总证书",
+    "certificateDownloaded": "证书下载成功！"
+  },
+  "journal": {
+    "title": "交易日志",
+    "addTrade": "添加新交易",
+    "exportCSV": "导出 CSV",
+    "totalTrades": "总交易",
+    "totalPL": "总盈亏",
+    "winRate": "胜率",
+    "bestTrade": "最佳交易",
+    "worstTrade": "最差交易",
+    "avgTrade": "平均交易",
+    "filterByAsset": "按资产过滤",
+    "filterByOutcome": "按结果过滤",
+    "profit": "盈利",
+    "loss": "亏损",
+    "breakeven": "保本",
+    "all": "全部"
+  },
+  "common": {
+    "loading": "加载中...",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "confirm": "确认",
+    "yes": "是",
+    "no": "否",
+    "search": "搜索",
+    "filter": "过滤",
+    "sort": "排序",
+    "download": "下载",
+    "upload": "上传",
+    "submit": "提交",
+    "reset": "重置",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "finish": "完成",
+    "continue": "继续",
+    "learnMore": "了解更多",
+    "readMore": "阅读更多"
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "followUs": "关注我们",
+    "newsletter": "通讯",
+    "allRightsReserved": "保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "disclaimer": "免责声明"
+  },
+  "forum": {
+    "title": "社区论坛",
+    "subtitle": "与其他交易者联系，分享想法，共同成长。",
+    "stats": {
+      "posts": "帖子",
+      "members": "成员",
+      "activeToday": "今日活跃"
+    },
+    "newDiscussion": "新讨论",
+    "categories": {
+      "all": "所有讨论",
+      "crypto": "加密货币",
+      "forex": "外汇",
+      "airdrops": "空投",
+      "general": "综合"
+    },
+    "empty": {
+      "title": "暂无讨论",
+      "message": "成为第一个发起讨论的人！",
+      "button": "发起讨论"
+    },
+    "modal": {
+      "createTitle": "创建新讨论",
+      "replyTitle": "回复",
+      "titleLabel": "标题",
+      "titlePlaceholder": "您想讨论什么？",
+      "categoryLabel": "类别",
+      "descriptionLabel": "描述",
+      "descriptionPlaceholder": "分享您的想法...",
+      "replyLabel": "您的回复",
+      "replyPlaceholder": "分享您的想法...",
+      "cancel": "取消",
+      "post": "发布",
+      "reply": "回复"
+    },
+    "post": {
+      "like": "点赞",
+      "likes": "点赞",
+      "reply": "回复",
+      "replies": "回复",
+      "share": "分享",
+      "shareSuccess": "链接已复制！",
+      "postedSuccess": "讨论发布成功！",
+      "replySuccess": "回复发布成功！"
+    },
+    "time": {
+      "justNow": "刚刚",
+      "ago": "前",
+      "m": "分钟",
+      "h": "小时",
+      "d": "天"
+    }
+  }
+}

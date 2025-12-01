@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact TradeStarter - Get in touch with us, ask questions, and join our community.">
+    <title>Contact Us - TradeStarter</title>
+
+    <!-- CSS -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="hero"
+        style="position: relative; min-height: 55vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(135deg, #10b981 0%, #14b8a6 50%, #06b6d4 100%);">
+        <!-- Floating Messages -->
+        <div
+            style="position: absolute; top: 20%; left: 10%; font-size: 2rem; opacity: 0.15; animation: float 7s ease-in-out infinite;">
+            💬</div>
+        <div
+            style="position: absolute; bottom: 25%; right: 12%; font-size: 1.75rem; opacity: 0.12; animation: float 9s ease-in-out infinite 1s;">
+            ✉️</div>
+
+        <!-- Glowing Circles -->
+        <div
+            style="position: absolute; top: -60px; right: 10%; width: 250px; height: 250px; border-radius: 50%; background: radial-gradient(circle, rgba(251, 191, 36, 0.2) 0%, transparent 70%); filter: blur(50px);">
+        </div>
+
+        <div
+            style="position: relative; z-index: 2; max-width: 900px; margin: 0 auto; padding: 0 2rem; text-align: center;">
+            <h1 data-i18n="contact.hero.title"
+                style="font-size: clamp(2.75rem, 5.5vw, 4rem); line-height: 1.15; margin-bottom: 1.25rem; font-weight: 900; color: white; text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                We'd Love to Hear From You
+            </h1>
+
+            <p data-i18n="contact.hero.subtitle"
+                style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.9); max-width: 650px; margin: 0 auto 2.5rem; line-height: 1.8;">
+                Have questions, feedback, or just want to say hi? Drop us a message and we'll get back to you as soon as
+                possible!
+            </p>
+
+            <div style="display: flex; gap: 2.5rem; flex-wrap: wrap; justify-content: center;">
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div
+                        style="width: 40px; height: 40px; background: rgba(255, 255, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-clock" style="color: white; font-size: 1.125rem;"></i>
+                    </div>
+                    <span style="color: white; font-weight: 500;" data-i18n="contact.hero.response">24h Response</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div
+                        style="width: 40px; height: 40px; background: rgba(255, 255, 255, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-envelope" style="color: white; font-size: 1.125rem;"></i>
+                    </div>
+                    <span style="color: white; font-weight: 500;">support@tradestarter.com</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+        <div class="container">
+
+            <div class="grid grid-2" style="gap: 3rem;">
+                <!-- Contact Form -->
+                <div>
+                    <div class="content-section"
+                        style="background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05); border-radius: 24px; padding: 2.5rem;">
+                        <h2 data-i18n="contact.form.title">Send Us a Message</h2>
+                        <p style="color: var(--color-gray); margin-bottom: 2rem;" data-i18n="contact.form.subtitle">Fill
+                            out the form below and we'll get
+                            back to you as soon as possible.</p>
+
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name" data-i18n="contact.form.name">Your Name *</label>
+                                <input type="text" id="name" name="name" data-i18n="contact.form.namePlaceholder"
+                                    placeholder="John Doe" required
+                                    style="background: rgba(255, 255, 255, 0.5); border: 1px solid rgba(0, 0, 0, 0.05);">
+                                <div class="error-message"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" data-i18n="contact.form.email">Your Email *</label>
+                                <input type="email" id="email" name="email" data-i18n="contact.form.emailPlaceholder"
+                                    placeholder="john@example.com" required
+                                    style="background: rgba(255, 255, 255, 0.5); border: 1px solid rgba(0, 0, 0, 0.05);">
+                                <div class="error-message"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" data-i18n="contact.form.subject">Subject</label>
+                                <select id="subject" name="subject"
+                                    style="background: rgba(255, 255, 255, 0.5); border: 1px solid rgba(0, 0, 0, 0.05);">
+                                    <option value="general" data-i18n="contact.form.subjects.general">General Inquiry
+                                    </option>
+                                    <option value="crypto" data-i18n="contact.form.subjects.crypto">Crypto Question
+                                    </option>
+                                    <option value="forex" data-i18n="contact.form.subjects.forex">Forex Question
+                                    </option>
+                                    <option value="airdrop" data-i18n="contact.form.subjects.airdrop">Airdrop Question
+                                    </option>
+                                    <option value="technical" data-i18n="contact.form.subjects.technical">Technical
+                                        Support</option>
+                                    <option value="partnership" data-i18n="contact.form.subjects.partnership">
+                                        Partnership Opportunity</option>
+                                    <option value="feedback" data-i18n="contact.form.subjects.feedback">Feedback
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" data-i18n="contact.form.message">Your Message *</label>
+                                <textarea id="message" name="message" data-i18n="contact.form.messagePlaceholder"
+                                    placeholder="Tell us what's on your mind..." required
+                                    style="background: rgba(255, 255, 255, 0.5); border: 1px solid rgba(0, 0, 0, 0.05); min-height: 150px;"></textarea>
+                                <div class="error-message"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-secondary"
+                                style="width: 100%; box-shadow: 0 10px 20px rgba(16, 185, 129, 0.2);">
+                                <span data-i18n="contact.form.submit">Send Message</span> <i class="fas fa-paper-plane"
+                                    style="margin-left: 8px;"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Information & Social -->
+                <div>
+                    <!-- Contact Info Cards -->
+                    <div class="card"
+                        style="margin-bottom: 2rem; border: none; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);">
+                        <h3 style="color: var(--color-primary); margin-bottom: 1.5rem;" data-i18n="contact.info.title">
+                            Contact Information</h3>
+
+                        <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div
+                                style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);">
+                                <i class="fas fa-envelope" style="color: white;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;" data-i18n="contact.info.email">Email</h4>
+                                <p style="color: var(--color-gray); margin: 0;">support@tradestarter.com</p>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div
+                                style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);">
+                                <i class="fab fa-telegram" style="color: white;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;" data-i18n="contact.info.telegram">Telegram</h4>
+                                <p style="color: var(--color-gray); margin: 0;">@TradeStarterOfficial</p>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div
+                                style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);">
+                                <i class="fab fa-discord" style="color: white;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;" data-i18n="contact.info.discord">Discord</h4>
+                                <p style="color: var(--color-gray); margin: 0;">discord.gg/tradestarter</p>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: start; gap: 1rem;">
+                            <div
+                                style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);">
+                                <i class="fab fa-twitter" style="color: white;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;" data-i18n="contact.info.twitter">Twitter / X</h4>
+                                <p style="color: var(--color-gray); margin: 0;">@TradeStarter</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="card"
+                        style="background: var(--gradient-primary); color: var(--color-white); text-align: center; border: none; box-shadow: 0 10px 30px rgba(79, 70, 229, 0.3);">
+                        <h3 style="color: var(--color-white); margin-bottom: 1rem;"
+                            data-i18n="contact.info.communityTitle">Join Our Community</h3>
+                        <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 1.5rem;"
+                            data-i18n="contact.info.communityDesc">Connect with us on social
+                            media for daily tips, updates, and exclusive content!</p>
+
+                        <div class="social-links" style="justify-content: center; gap: 1rem;">
+                            <a href="#" class="social-link"
+                                style="width: 50px; height: 50px; font-size: 1.25rem; background: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.3);"
+                                aria-label="Telegram">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="#" class="social-link"
+                                style="width: 50px; height: 50px; font-size: 1.25rem; background: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.3);"
+                                aria-label="Discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                            <a href="#" class="social-link"
+                                style="width: 50px; height: 50px; font-size: 1.25rem; background: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.3);"
+                                aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link"
+                                style="width: 50px; height: 50px; font-size: 1.25rem; background: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.3);"
+                                aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="social-link"
+                                style="width: 50px; height: 50px; font-size: 1.25rem; background: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.3);"
+                                aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Office Hours -->
+                    <div class="card"
+                        style="margin-top: 2rem; border: none; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);">
+                        <h3 style="color: var(--color-primary); margin-bottom: 1rem;"
+                            data-i18n="contact.info.hours.title"><i class="fas fa-clock"></i>
+                            Support Hours</h3>
+                        <div
+                            style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--color-light-gray);">
+                            <span style="font-weight: 600;" data-i18n="contact.info.hours.weekdays">Monday -
+                                Friday</span>
+                            <span style="color: var(--color-gray);">9:00 AM - 6:00 PM EST</span>
+                        </div>
+                        <div
+                            style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--color-light-gray);">
+                            <span style="font-weight: 600;" data-i18n="contact.info.hours.saturday">Saturday</span>
+                            <span style="color: var(--color-gray);">10:00 AM - 4:00 PM EST</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; padding: 0.5rem 0;">
+                            <span style="font-weight: 600;" data-i18n="contact.info.hours.sunday">Sunday</span>
+                            <span style="color: var(--color-gray);" data-i18n="contact.info.hours.closed">Closed</span>
+                        </div>
+                        <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--color-gray);">
+                            <i class="fas fa-info-circle"></i> <span data-i18n="contact.info.hours.note">We typically
+                                respond within 24 hours during business
+                                days.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="content-section"
+                style="margin-top: 4rem; background: var(--color-light-bg); border-radius: 24px;">
+                <h2 style="text-align: center; margin-bottom: 2rem;" data-i18n="contact.faq.title">Frequently Asked
+                    Questions</h2>
+
+                <div class="grid grid-2">
+                    <div class="card" style="border: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;" data-i18n="contact.faq.q1.q">Is
+                            TradeStarter free to use?
+                        </h4>
+                        <p data-i18n="contact.faq.q1.a">Yes! All our educational content, tools, and resources are
+                            completely free. We believe in
+                            making crypto and forex education accessible to everyone.</p>
+                    </div>
+
+                    <div class="card" style="border: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;" data-i18n="contact.faq.q2.q">Do
+                            you provide financial advice?
+                        </h4>
+                        <p data-i18n="contact.faq.q2.a">No, we provide educational content only. All information on
+                            TradeStarter is for educational
+                            purposes and should not be considered financial advice. Always do your own research.</p>
+                    </div>
+
+                    <div class="card" style="border: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;" data-i18n="contact.faq.q3.q">How
+                            do I get started with
+                            crypto?</h4>
+                        <p data-i18n="contact.faq.q3.a">Start with our <a href="crypto.html"
+                                style="color: var(--color-primary); font-weight: 600;">Crypto Basics</a> page to learn
+                            the fundamentals. Then set up a wallet and start with small amounts to practice.</p>
+                    </div>
+
+                    <div class="card" style="border: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;" data-i18n="contact.faq.q4.q">Are
+                            the airdrop opportunities
+                            legitimate?</h4>
+                        <p data-i18n="contact.faq.q4.a">We list popular airdrop opportunities, but always encourage you
+                            to do your own research.
+                            Never share private keys or send crypto to participate in airdrops.</p>
+                    </div>
+
+                    <div class="card" style="border: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;" data-i18n="contact.faq.q5.q">Can
+                            I suggest new content or
+                            features?</h4>
+                        <p data-i18n="contact.faq.q5.a">Absolutely! We love hearing from our community. Use the contact
+                            form above or reach out on
+                            social media with your suggestions.</p>
+                    </div>
+
+                    <div class="card" style="border: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;" data-i18n="contact.faq.q6.q">Do
+                            you offer one-on-one
+                            coaching?</h4>
+                        <p data-i18n="contact.faq.q6.a">Currently, we focus on providing free educational content. For
+                            personalized guidance, we
+                            recommend joining our community where experienced members share insights.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="crypto.html">Learn Crypto</a>
+                <a href="forex.html">Learn Forex</a>
+                <a href="airdrops.html">Airdrop Guide</a>
+                <a href="tools.html">Tools & Resources</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="tools.html">Price Trackers</a>
+                <a href="tools.html">Converters</a>
+                <a href="tools.html">Recommended Wallets</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Disclaimer</a>
+                <p style="margin-top: 1rem; font-size: 0.575rem;">Educational purposes only. Not financial advice.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>

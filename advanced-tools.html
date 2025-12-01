@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Advanced trading tools - Live prices, risk calculators, airdrop tracker, economic calendar, and market analysis tools">
+    <title>Advanced Trading Tools | TradeStarter</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero"
+        style="position: relative; min-height: 60vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1624 100%);">
+        <!-- Tech Grid Background -->
+        <div style="position: absolute; inset: 0; background-image: 
+            linear-gradient(rgba(0, 173, 181, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 173, 181, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+            -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);"></div>
+
+        <!-- Glowing Orbs -->
+        <div
+            style="position: absolute; top: 10%; left: 5%; width: 200px; height: 200px; background: radial-gradient(circle, rgba(0, 173, 181, 0.2) 0%, transparent 70%); border-radius: 50%; filter: blur(50px); animation: pulse 4s ease-in-out infinite;">
+        </div>
+        <div
+            style="position: absolute; bottom: 15%; right: 8%; width: 250px; height: 250px; background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%); border-radius: 50%; filter: blur(60px); animation: pulse 5s ease-in-out infinite 1s;">
+        </div>
+
+        <!-- Floating Code Brackets -->
+        <div
+            style="position: absolute; top: 25%; right: 12%; color: rgba(0, 173, 181, 0.15); font-size: 4rem; font-family: monospace; animation: float 6s ease-in-out infinite;">
+            {</div>
+        <div
+            style="position: absolute; bottom: 30%; left: 15%; color: rgba(99, 102, 241, 0.12); font-size: 3.5rem; font-family: monospace; animation: float 7s ease-in-out infinite 2s;">
+            }</div>
+
+        <div class="hero-content" style="position: relative; z-index: 2; max-width: 1100px; text-align: left;">
+
+            <h1
+                style="font-size: clamp(2.5rem, 5.5vw, 4.25rem); line-height: 1.15; margin-bottom: 1.5rem; font-weight: 800;">
+                <span style="color: white;">Advanced Trading</span><br>
+                <span
+                    style="background: linear-gradient(135deg, #00adb5 0%, #6366f1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
+                    Analysis Tools
+                    <!-- Neon Underline -->
+                    <span
+                        style="position: absolute; bottom: -8px; left: 0; width: 60%; height: 3px; background: linear-gradient(90deg, #00adb5 0%, transparent 100%); border-radius: 2px; box-shadow: 0 0 10px rgba(0, 173, 181, 0.5);"></span>
+                </span>
+            </h1>
+
+            <p
+                style="font-size: 1.2rem; color: rgba(255, 255, 255, 0.7); max-width: 620px; line-height: 1.8; margin-bottom: 3rem;">
+                Professional-grade calculators, real-time market data, risk management tools, and advanced analytics for
+                serious traders who demand precision.
+            </p>
+
+            <!-- Tool Categories -->
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                <div style="display: flex; align-items: center; gap: 0.875rem; padding: 1rem 1.5rem; background: linear-gradient(135deg, rgba(0, 173, 181, 0.08) 0%, rgba(0, 173, 181, 0.02) 100%); border: 1px solid rgba(0, 173, 181, 0.2); border-radius: 12px; transition: all 0.3s ease;"
+                    onmouseover="this.style.background='linear-gradient(135deg, rgba(0, 173, 181, 0.15) 0%, rgba(0, 173, 181, 0.05) 100%)'; this.style.borderColor='rgba(0, 173, 181, 0.4)';"
+                    onmouseout="this.style.background='linear-gradient(135deg, rgba(0, 173, 181, 0.08) 0%, rgba(0, 173, 181, 0.02) 100%)'; this.style.borderColor='rgba(0, 173, 181, 0.2)';">
+                    <div
+                        style="width: 40px; height: 40px; background: linear-gradient(135deg, #00adb5 0%, #00d8ff 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0, 173, 181, 0.3);">
+                        <i class="fas fa-calculator" style="color: white; font-size: 1.125rem;"></i>
+                    </div>
+                    <div>
+                        <div style="color: white; font-weight: 600; font-size: 1rem;">Risk Calculators</div>
+                        <div style="color: rgba(255, 255, 255, 0.5); font-size: 0.8125rem;">Position sizing & P/L</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 0.875rem; padding: 1rem 1.5rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(99, 102, 241, 0.02) 100%); border: 1px solid rgba(99, 102, 241, 0.2); border-radius: 12px; transition: all 0.3s ease;"
+                    onmouseover="this.style.background='linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(99, 102, 241, 0.05) 100%)'; this.style.borderColor='rgba(99, 102, 241, 0.4)';"
+                    onmouseout="this.style.background='linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(99, 102, 241, 0.02) 100%)'; this.style.borderColor='rgba(99, 102, 241, 0.2)';">
+                    <div
+                        style="width: 40px; height: 40px; background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);">
+                        <i class="fas fa-chart-line" style="color: white; font-size: 1.125rem;"></i>
+                    </div>
+                    <div>
+                        <div style="color: white; font-weight: 600; font-size: 1rem;">Live Data</div>
+                        <div style="color: rgba(255, 255, 255, 0.5); font-size: 0.8125rem;">Real-time prices</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 0.875rem; padding: 1rem 1.5rem; background: linear-gradient(135deg, rgba(168, 85, 247, 0.08) 0%, rgba(168, 85, 247, 0.02) 100%); border: 1px solid rgba(168, 85, 247, 0.2); border-radius: 12px; transition: all 0.3s ease;"
+                    onmouseover="this.style.background='linear-gradient(135deg, rgba(168, 85, 247, 0.15) 0%, rgba(168, 85, 247, 0.05) 100%)'; this.style.borderColor='rgba(168, 85, 247, 0.4)';"
+                    onmouseout="this.style.background='linear-gradient(135deg, rgba(168, 85, 247, 0.08) 0%, rgba(168, 85, 247, 0.02) 100%)'; this.style.borderColor='rgba(168, 85, 247, 0.2)';">
+                    <div
+                        style="width: 40px; height: 40px; background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);">
+                        <i class="fas fa-tasks" style="color: white; font-size: 1.125rem;"></i>
+                    </div>
+                    <div>
+                        <div style="color: white; font-weight: 600; font-size: 1rem;">Trackers</div>
+                        <div style="color: rgba(255, 255, 255, 0.5); font-size: 0.8125rem;">Portfolio & airdrops</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <style>
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.8;
+                transform: scale(1.1);
+            }
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+    </style>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+        <div class="container">
+
+            <!-- LIVE PRICE FEED -->
+            <div class="live-widget" id="live-prices">
+                <div class="widget-header">
+                    <h3 class="widget-title">
+                        <i class="fas fa-chart-line"></i>
+                        Live Crypto Prices
+                    </h3>
+                    <span class="live-indicator">
+                        <span class="live-dot"></span>
+                        Live
+                    </span>
+                </div>
+                <div class="price-grid" id="price-grid">
+                    <!-- Prices will be populated by JavaScript -->
+                    <div style="text-align: center; padding: 2rem; color: var(--color-gray);">
+                        <i class="fas fa-spinner fa-spin" style="font-size: 2rem;"></i>
+                        <p>Loading live prices...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOREX MARKET HOURS -->
+            <div class="market-hours">
+                <div class="widget-header">
+                    <h3 class="widget-title">
+                        <i class="fas fa-clock"></i>
+                        Forex Market Hours
+                    </h3>
+                    <span style="font-size: 0.875rem; color: var(--color-gray);">
+                        <i class="far fa-clock"></i> Updated in real-time
+                    </span>
+                </div>
+                <div class="market-grid" id="market-hours-grid">
+                    <!-- Market hours will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- RISK MANAGEMENT CALCULATOR -->
+            <div class="calculator-box" id="risk-calculator">
+                <h3><i class="fas fa-calculator"></i> Risk Management Calculator</h3>
+                <p style="color: var(--color-gray); margin-bottom: var(--spacing-lg);">
+                    Calculate your position size based on account size and risk tolerance
+                </p>
+
+                <div class="grid grid-2">
+                    <div class="calc-input-group">
+                        <label for="account-size">Account Size ($)</label>
+                        <input type="number" id="account-size" placeholder="10000" min="0" step="100">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="risk-percent">Risk Per Trade (%)</label>
+                        <input type="number" id="risk-percent" placeholder="2" min="0.1" max="10" step="0.1">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="entry-price">Entry Price ($)</label>
+                        <input type="number" id="entry-price" placeholder="100" min="0" step="0.01">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="stop-loss">Stop Loss ($)</label>
+                        <input type="number" id="stop-loss" placeholder="95" min="0" step="0.01">
+                    </div>
+                </div>
+
+                <button id="calculate-risk" class="btn btn-secondary" style="margin-top: var(--spacing-md);">
+                    <i class="fas fa-calculator"></i> Calculate Position Size
+                </button>
+
+                <div id="risk-result" style="margin-top: var(--spacing-lg);"></div>
+            </div>
+
+            <!-- POSITION SIZE CALCULATOR -->
+            <div class="calculator-box">
+                <h3><i class="fas fa-balance-scale"></i> Forex Position Size Calculator</h3>
+                <p style="color: var(--color-gray); margin-bottom: var(--spacing-lg);">
+                    Calculate lot size for forex trades based on pip value
+                </p>
+
+                <div class="grid grid-2">
+                    <div class="calc-input-group">
+                        <label for="forex-account">Account Balance ($)</label>
+                        <input type="number" id="forex-account" placeholder="5000" min="0">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="forex-risk">Risk Percentage (%)</label>
+                        <input type="number" id="forex-risk" placeholder="1" min="0.1" max="5" step="0.1">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="stop-pips">Stop Loss (Pips)</label>
+                        <input type="number" id="stop-pips" placeholder="50" min="1">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="pip-value">Pip Value ($)</label>
+                        <input type="number" id="pip-value" placeholder="10" min="0.01" step="0.01">
+                    </div>
+                </div>
+
+                <button id="calculate-forex" class="btn btn-secondary" style="margin-top: var(--spacing-md);">
+                    <i class="fas fa-calculator"></i> Calculate Lot Size
+                </button>
+
+                <div id="forex-result" style="margin-top: var(--spacing-lg);"></div>
+            </div>
+
+            <!-- PROFIT/LOSS CALCULATOR -->
+            <div class="calculator-box">
+                <h3><i class="fas fa-chart-pie"></i> Profit/Loss Calculator</h3>
+                <p style="color: var(--color-gray); margin-bottom: var(--spacing-lg);">
+                    Calculate potential profit or loss for your trades
+                </p>
+
+                <div class="grid grid-2">
+                    <div class="calc-input-group">
+                        <label for="buy-price">Buy Price ($)</label>
+                        <input type="number" id="buy-price" placeholder="100" min="0" step="0.01">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="sell-price">Sell Price ($)</label>
+                        <input type="number" id="sell-price" placeholder="110" min="0" step="0.01">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" placeholder="100" min="0.01" step="0.01">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="fees">Trading Fees (%)</label>
+                        <input type="number" id="fees" placeholder="0.1" min="0" max="5" step="0.01">
+                    </div>
+                </div>
+
+                <button id="calculate-pl" class="btn btn-secondary" style="margin-top: var(--spacing-md);">
+                    <i class="fas fa-calculator"></i> Calculate P/L
+                </button>
+
+                <div id="pl-result" style="margin-top: var(--spacing-lg);"></div>
+            </div>
+
+            <!-- AIRDROP TRACKER -->
+            <div class="airdrop-tracker" id="airdrop-tracker">
+                <div class="tracker-header">
+                    <h3><i class="fas fa-gift"></i> My Airdrop Tracker</h3>
+                    <button id="add-airdrop" class="add-airdrop-btn">
+                        <i class="fas fa-plus"></i> Add Airdrop
+                    </button>
+                </div>
+                <div class="airdrop-list" id="airdrop-list">
+                    <!-- Airdrops will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- GAS FEE OPTIMIZER -->
+            <div class="calculator-box">
+                <h3><i class="fas fa-gas-pump"></i> Gas Fee Optimizer</h3>
+                <p style="color: var(--color-gray); margin-bottom: var(--spacing-lg);">
+                    Calculate optimal gas fees for Ethereum transactions
+                </p>
+
+                <div class="grid grid-2">
+                    <div class="calc-input-group">
+                        <label for="gas-limit">Gas Limit</label>
+                        <input type="number" id="gas-limit" placeholder="21000" min="21000">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="gas-price">Gas Price (Gwei)</label>
+                        <input type="number" id="gas-price" placeholder="50" min="1">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="eth-price">ETH Price ($)</label>
+                        <input type="number" id="eth-price" placeholder="2000" min="0">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="priority-fee">Priority Fee (Gwei)</label>
+                        <input type="number" id="priority-fee" placeholder="2" min="0">
+                    </div>
+                </div>
+
+                <button id="calculate-gas" class="btn btn-secondary" style="margin-top: var(--spacing-md);">
+                    <i class="fas fa-calculator"></i> Calculate Gas Cost
+                </button>
+
+                <div id="gas-result" style="margin-top: var(--spacing-lg);"></div>
+            </div>
+
+            <!-- ECONOMIC CALENDAR -->
+            <div class="economic-calendar">
+                <div class="widget-header">
+                    <h3 class="widget-title">
+                        <i class="far fa-calendar-alt"></i>
+                        Economic Calendar
+                    </h3>
+                    <span style="font-size: 0.875rem; color: var(--color-gray);">
+                        Key events affecting markets
+                    </span>
+                </div>
+
+                <div class="calendar-filters">
+                    <button class="filter-btn active" data-impact="all">All Events</button>
+                    <button class="filter-btn" data-impact="high">High Impact</button>
+                    <button class="filter-btn" data-impact="medium">Medium Impact</button>
+                    <button class="filter-btn" data-impact="low">Low Impact</button>
+                </div>
+
+                <div class="calendar-events">
+                    <!-- Sample events -->
+                    <div class="calendar-event">
+                        <div class="event-time">09:30</div>
+                        <div class="event-details">
+                            <h4>US Non-Farm Payrolls</h4>
+                            <p>Monthly employment report - Major market mover</p>
+                        </div>
+                        <span class="impact-badge impact-high">High</span>
+                    </div>
+
+                    <div class="calendar-event">
+                        <div class="event-time">14:00</div>
+                        <div class="event-details">
+                            <h4>Fed Interest Rate Decision</h4>
+                            <p>Federal Reserve monetary policy announcement</p>
+                        </div>
+                        <span class="impact-badge impact-high">High</span>
+                    </div>
+
+                    <div class="calendar-event">
+                        <div class="event-time">10:00</div>
+                        <div class="event-details">
+                            <h4>Consumer Price Index (CPI)</h4>
+                            <p>Inflation data release</p>
+                        </div>
+                        <span class="impact-badge impact-medium">Medium</span>
+                    </div>
+
+                    <div class="calendar-event">
+                        <div class="event-time">08:30</div>
+                        <div class="event-details">
+                            <h4>Retail Sales Data</h4>
+                            <p>Consumer spending report</p>
+                        </div>
+                        <span class="impact-badge impact-medium">Medium</span>
+                    </div>
+
+                    <div class="calendar-event">
+                        <div class="event-time">11:00</div>
+                        <div class="event-details">
+                            <h4>Manufacturing PMI</h4>
+                            <p>Purchasing Managers' Index</p>
+                        </div>
+                        <span class="impact-badge impact-low">Low</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COMPOUND INTEREST CALCULATOR -->
+            <div class="calculator-box">
+                <h3><i class="fas fa-chart-line"></i> Compound Interest Calculator</h3>
+                <p style="color: var(--color-gray); margin-bottom: var(--spacing-lg);">
+                    Calculate potential returns from DeFi staking and yield farming
+                </p>
+
+                <div class="grid grid-2">
+                    <div class="calc-input-group">
+                        <label for="principal">Initial Investment ($)</label>
+                        <input type="number" id="principal" placeholder="10000" min="0">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="apy">Annual APY (%)</label>
+                        <input type="number" id="apy" placeholder="12" min="0" step="0.1">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="years">Time Period (Years)</label>
+                        <input type="number" id="years" placeholder="5" min="0.1" step="0.1">
+                    </div>
+
+                    <div class="calc-input-group">
+                        <label for="compound-freq">Compound Frequency</label>
+                        <select id="compound-freq">
+                            <option value="365">Daily</option>
+                            <option value="52">Weekly</option>
+                            <option value="12">Monthly</option>
+                            <option value="4">Quarterly</option>
+                            <option value="1">Annually</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="calculate-compound" class="btn btn-secondary" style="margin-top: var(--spacing-md);">
+                    <i class="fas fa-calculator"></i> Calculate Returns
+                </button>
+
+                <div id="compound-result" style="margin-top: var(--spacing-lg);"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="learn-crypto.html">Learn Crypto</a>
+                <a href="learn-forex.html">Learn Forex</a>
+                <a href="airdrops.html">Airdrop Guide</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/learning-system.js"></script>
+    <script src="js/calculators.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>

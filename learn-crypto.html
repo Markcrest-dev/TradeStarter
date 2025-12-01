@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Interactive crypto learning path - From beginner to expert in cryptocurrency trading and blockchain technology">
+    <title>Learn Crypto - Progressive Learning Path | TradeStarter</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero"
+        style="position: relative; min-height: 70vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);">
+        <!-- Animated Grid Background -->
+        <div
+            style="position: absolute; inset: 0; background-image: linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px); background-size: 50px 50px; animation: gridMove 20s linear infinite;">
+        </div>
+
+        <!-- Floating Achievement Icons -->
+        <div
+            style="position: absolute; top: 15%; left: 8%; font-size: 2rem; opacity: 0.2; animation: float 6s ease-in-out infinite;">
+            🏆</div>
+        <div
+            style="position: absolute; top: 50%; right: 10%; font-size: 1.75rem; opacity: 0.15; animation: float 8s ease-in-out infinite 1s;">
+            ⭐</div>
+        <div
+            style="position: absolute; bottom: 25%; left: 12%; font-size: 1.5rem; opacity: 0.18; animation: float 7s ease-in-out infinite 2s;">
+            🎯</div>
+
+        <!-- Glowing Orbs -->
+        <div
+            style="position: absolute; top: -100px; right: 10%; width: 300px; height: 300px; background: radial-gradient(circle, rgba(99, 102, 241, 0.3) 0%, transparent 70%); border-radius: 50%; filter: blur(60px); animation: pulse 4s ease-in-out infinite;">
+        </div>
+        <div
+            style="position: absolute; bottom: -80px; left: 5%; width: 250px; height: 250px; background: radial-gradient(circle, rgba(251, 191, 36, 0.25) 0%, transparent 70%); border-radius: 50%; filter: blur(50px); animation: pulse 5s ease-in-out infinite 1s;">
+        </div>
+
+        <div class="hero-content" style="position: relative; z-index: 2; max-width: 1100px;">
+            <h1 style="font-size: clamp(2.5rem, 5.5vw, 4rem); line-height: 1.15; margin-bottom: 1.5rem; font-weight: 900; color: white;"
+                data-i18n="learn.crypto.hero.title">
+                Level Up Your<br>
+                <span
+                    style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; position: relative; display: inline-block;">
+                    Crypto Skills
+                    <svg style="position: absolute; bottom: -10px; left: 0; width: 100%; height: 8px;"
+                        viewBox="0 0 400 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 4 Q100 0, 200 4 T400 4" stroke="url(#paint0_linear)" stroke-width="3" fill="none" />
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="0" y1="0" x2="400" y2="0">
+                                <stop offset="0%" stop-color="#6366f1" />
+                                <stop offset="100%" stop-color="#a855f7" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+            </h1>
+
+            <p style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.85); max-width: 700px; line-height: 1.8; margin-bottom: 3rem;"
+                data-i18n="learn.crypto.hero.subtitle">
+                Master cryptocurrency from the ground up with 50 interactive lessons, earn XP, unlock achievements, and
+                track your journey to becoming a crypto expert.
+            </p>
+
+            <!-- Progress Dashboard -->
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; max-width: 900px;">
+                <!-- Level Card -->
+                <div
+                    style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(99, 102, 241, 0.05) 100%); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 16px; padding: 1.5rem; backdrop-filter: blur(10px); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem;">
+                        <div
+                            style="width: 48px; height: 48px; background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);">
+                            <i class="fas fa-trophy" style="color: white; font-size: 1.25rem;"></i>
+                        </div>
+                        <div>
+                            <div class="stat-label"
+                                style="color: rgba(255, 255, 255, 0.6); font-size: 0.875rem; margin-bottom: 0.25rem;"
+                                data-i18n="learn.crypto.stats.level">
+                                Current Level</div>
+                            <div class="stat-number" id="user-level"
+                                style="font-size: 2rem; font-weight: 800; color: white; line-height: 1;">1</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- XP Card -->
+                <div
+                    style="background: linear-gradient(135deg, rgba(251, 191, 36, 0.15) 0%, rgba(251, 191, 36, 0.05) 100%); border: 1px solid rgba(251, 191, 36, 0.3); border-radius: 16px; padding: 1.5rem; backdrop-filter: blur(10px); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem;">
+                        <div
+                            style="width: 48px; height: 48px; background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);">
+                            <i class="fas fa-star" style="color: white; font-size: 1.25rem;"></i>
+                        </div>
+                        <div>
+                            <div class="stat-label"
+                                style="color: rgba(255, 255, 255, 0.6); font-size: 0.875rem; margin-bottom: 0.25rem;"
+                                data-i18n="learn.crypto.stats.xp">
+                                Experience</div>
+                            <div class="stat-number" id="user-xp"
+                                style="font-size: 2rem; font-weight: 800; color: white; line-height: 1;">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lessons Card -->
+                <div
+                    style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 16px; padding: 1.5rem; backdrop-filter: blur(10px); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem;">
+                        <div
+                            style="width: 48px; height: 48px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);">
+                            <i class="fas fa-book-open" style="color: white; font-size: 1.25rem;"></i>
+                        </div>
+                        <div>
+                            <div class="stat-label"
+                                style="color: rgba(255, 255, 255, 0.6); font-size: 0.875rem; margin-bottom: 0.25rem;"
+                                data-i18n="learn.crypto.stats.progress">
+                                Progress</div>
+                            <div class="stat-number" id="lessons-completed"
+                                style="font-size: 2rem; font-weight: 800; color: white; line-height: 1;">0/50</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Stats -->
+            <div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div
+                        style="width: 10px; height: 10px; background: #10b981; border-radius: 50%; box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);">
+                    </div>
+                    <span style="color: rgba(255, 255, 255, 0.75); font-size: 0.9375rem;"
+                        data-i18n="learn.crypto.highlights.levels">4 Difficulty Levels</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div
+                        style="width: 10px; height: 10px; background: #6366f1; border-radius: 50%; box-shadow: 0 0 10px rgba(99, 102, 241, 0.6);">
+                    </div>
+                    <span style="color: rgba(255, 255, 255, 0.75); font-size: 0.9375rem;"
+                        data-i18n="learn.crypto.highlights.quizzes">Interactive Quizzes</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <div
+                        style="width: 10px; height: 10px; background: #fbbf24; border-radius: 50%; box-shadow: 0 0 10px rgba(251, 191, 36, 0.6);">
+                    </div>
+                    <span style="color: rgba(255, 255, 255, 0.75); font-size: 0.9375rem;"
+                        data-i18n="learn.crypto.highlights.achievements">Earn Achievements</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <style>
+        @keyframes gridMove {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 50px 50px;
+            }
+        }
+    </style>
+
+    <!-- LEARNING PATH -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="learn.crypto.path.title">Your Learning Path</h2>
+                <p class="section-subtitle" data-i18n="learn.crypto.path.subtitle">Complete lessons in order to unlock
+                    advanced topics</p>
+            </div>
+
+            <!-- LEVEL 1: BEGINNER -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.crypto.levels.1.title">Level 1: Crypto Foundations</h3>
+                        <p data-i18n="learn.crypto.levels.1.desc">Master the basics of cryptocurrency and blockchain</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level1-progress" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text">0% Complete</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 1 -->
+                    <div class="lesson-card unlocked" data-lesson="1" data-category="crypto" data-level="1">
+                        <div class="lesson-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.1.title">What is Cryptocurrency?</h4>
+                            <p data-i18n="learn.crypto.lessons.1.desc">Learn the fundamentals of digital currency</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 10 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 50 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 2 -->
+                    <div class="lesson-card unlocked" data-lesson="2" data-category="crypto" data-level="1">
+                        <div class="lesson-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.2.title">Understanding Blockchain</h4>
+                            <p data-i18n="learn.crypto.lessons.2.desc">How blockchain technology works</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 3 -->
+                    <div class="lesson-card unlocked" data-lesson="3" data-category="crypto" data-level="1">
+                        <div class="lesson-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.3.title">Crypto Wallets 101</h4>
+                            <p data-i18n="learn.crypto.lessons.3.desc">Types of wallets and how to use them</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 12 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 60 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 4 -->
+                    <div class="lesson-card unlocked" data-lesson="4" data-category="crypto" data-level="1">
+                        <div class="lesson-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.4.title">Private Keys & Security</h4>
+                            <p data-i18n="learn.crypto.lessons.4.desc">Protecting your crypto assets</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 5 -->
+                    <div class="lesson-card unlocked" data-lesson="5" data-category="crypto" data-level="1">
+                        <div class="lesson-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.5.title">How to Buy Crypto</h4>
+                            <p data-i18n="learn.crypto.lessons.5.desc">Step-by-step guide to your first purchase</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Quiz -->
+                    <div class="lesson-card quiz-card unlocked" data-lesson="quiz1" data-category="crypto"
+                        data-level="1">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.quiz1.title">Level 1 Quiz</h4>
+                            <p data-i18n="learn.crypto.lessons.quiz1.desc">Test your knowledge to unlock Level 2</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 10 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 200 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 2: INTERMEDIATE -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.crypto.levels.2.title">Level 2: Trading Fundamentals</h3>
+                        <p data-i18n="learn.crypto.levels.2.desc">Learn how to analyze and trade cryptocurrencies</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level2-progress" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.crypto.levels.locked_1">Locked - Complete Level
+                                1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <div class="lesson-card locked" data-lesson="6" data-category="crypto" data-level="2">
+                        <div class="lesson-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.6.title">Reading Crypto Charts</h4>
+                            <p data-i18n="learn.crypto.lessons.6.desc">Candlesticks, trends, and patterns</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="7" data-category="crypto" data-level="2">
+                        <div class="lesson-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.7.title">Market Cap & Tokenomics</h4>
+                            <p data-i18n="learn.crypto.lessons.7.desc">Evaluating cryptocurrency projects</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="8" data-category="crypto" data-level="2">
+                        <div class="lesson-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.8.title">Risk Management Basics</h4>
+                            <p data-i18n="learn.crypto.lessons.8.desc">Protecting your capital while trading</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 18 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 90 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="9" data-category="crypto" data-level="2">
+                        <div class="lesson-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.9.title">Portfolio Diversification</h4>
+                            <p data-i18n="learn.crypto.lessons.9.desc">Building a balanced crypto portfolio</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="10" data-category="crypto" data-level="2">
+                        <div class="lesson-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.10.title">Trading Psychology</h4>
+                            <p data-i18n="learn.crypto.lessons.10.desc">Mastering emotions in trading</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="quiz2" data-category="crypto" data-level="2">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.quiz2.title">Level 2 Quiz</h4>
+                            <p data-i18n="learn.crypto.lessons.quiz2.desc">Test your trading knowledge</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 15 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 300 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 3: ADVANCED -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.crypto.levels.3.title">Level 3: DeFi & Advanced Concepts</h3>
+                        <p data-i18n="learn.crypto.levels.3.desc">Master decentralized finance and on-chain analysis</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level3-progress" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.crypto.levels.locked_2">Locked - Complete Level
+                                2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <div class="lesson-card locked" data-lesson="11" data-category="crypto" data-level="3">
+                        <div class="lesson-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.11.title">Introduction to DeFi</h4>
+                            <p data-i18n="learn.crypto.lessons.11.desc">Decentralized finance protocols explained</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="12" data-category="crypto" data-level="3">
+                        <div class="lesson-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.12.title">Liquidity Pools & Yield Farming</h4>
+                            <p data-i18n="learn.crypto.lessons.12.desc">Earning passive income with DeFi</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="13" data-category="crypto" data-level="3">
+                        <div class="lesson-icon">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.13.title">On-Chain Analysis</h4>
+                            <p data-i18n="learn.crypto.lessons.13.desc">Reading blockchain data like a pro</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 35 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 175 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="14" data-category="crypto" data-level="3">
+                        <div class="lesson-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.14.title">Smart Contract Basics</h4>
+                            <p data-i18n="learn.crypto.lessons.14.desc">Understanding programmable money</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="15" data-category="crypto" data-level="3">
+                        <div class="lesson-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.15.title">Layer 2 Solutions</h4>
+                            <p data-i18n="learn.crypto.lessons.15.desc">Scaling Ethereum and beyond</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 28 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 140 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="quiz3" data-category="crypto" data-level="3">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.quiz3.title">Level 3 Quiz</h4>
+                            <p data-i18n="learn.crypto.lessons.quiz3.desc">Master DeFi concepts</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 20 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 400 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 4: EXPERT -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.crypto.levels.4.title">Level 4: Expert Strategies</h3>
+                        <p data-i18n="learn.crypto.levels.4.desc">Advanced trading, security, and professional
+                            techniques</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level4-progress" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.crypto.levels.locked_3">Locked - Complete Level
+                                3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <div class="lesson-card locked" data-lesson="16" data-category="crypto" data-level="4">
+                        <div class="lesson-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.16.title">Trading Bots & Automation</h4>
+                            <p data-i18n="learn.crypto.lessons.16.desc">Algorithmic trading strategies</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 40 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 200 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="17" data-category="crypto" data-level="4">
+                        <div class="lesson-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.17.title">Advanced Security</h4>
+                            <p data-i18n="learn.crypto.lessons.17.desc">Hardware wallets, multi-sig, cold storage</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 35 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 175 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="18" data-category="crypto" data-level="4">
+                        <div class="lesson-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.18.title">Advanced Technical Analysis</h4>
+                            <p data-i18n="learn.crypto.lessons.18.desc">Elliott Wave, Fibonacci, indicators</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 45 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 225 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="19" data-category="crypto" data-level="4">
+                        <div class="lesson-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.19.title">Tax & Legal Compliance</h4>
+                            <p data-i18n="learn.crypto.lessons.19.desc">Managing crypto taxes and regulations</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="20" data-category="crypto" data-level="4">
+                        <div class="lesson-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.20.title">Building Your Career in Crypto</h4>
+                            <p data-i18n="learn.crypto.lessons.20.desc">Professional opportunities in blockchain</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="final-exam" data-category="crypto"
+                        data-level="4">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.crypto.lessons.final.title">Final Certification Exam</h4>
+                            <p data-i18n="learn.crypto.lessons.final.desc">Earn your Crypto Expert Certificate</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 50 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 1000 <span
+                                        data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATE SECTION -->
+    <section class="section" style="background: var(--color-light-bg);">
+        <div class="container">
+            <div class="certificate-section">
+                <h3 data-i18n="learn.crypto.certificate.title"><i class="fas fa-certificate"></i> Earn Your Crypto
+                    Mastery Certificate</h3>
+                <p data-i18n="learn.crypto.certificate.desc">Complete the course and download your official certificate
+                    to showcase your achievement!</p>
+                <div class="certificate-buttons">
+                    <button class="download-certificate" data-certificate-type="crypto">
+                        <i class="fas fa-download"></i> <span data-i18n="learn.crypto.certificate.btn_crypto">Download
+                            Crypto Certificate</span>
+                    </button>
+                    <button class="download-certificate" data-certificate-type="overall">
+                        <i class="fas fa-trophy"></i> <span data-i18n="learn.crypto.certificate.btn_overall">Download
+                            Overall Completion Certificate</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="crypto.html">Learn Crypto</a>
+                <a href="forex.html">Learn Forex</a>
+                <a href="airdrops.html">Airdrop Guide</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- jsPDF Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/certificate-generator.js"></script>
+    <script src="js/lesson-content.js"></script>
+    <script src="js/lesson-modal.js"></script>
+    <script src="js/learning-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>

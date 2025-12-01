@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Interactive airdrop learning path - From beginner to expert in crypto airdrops and free token opportunities">
+    <title>Learn Airdrops - Progressive Learning Path | TradeStarter</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero"
+        style="position: relative; min-height: 70vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);">
+        <!-- Animated Particles Background -->
+        <div style="position: absolute; inset: 0; opacity: 0.1;">
+            <div
+                style="position: absolute; top: 20%; left: 10%; width: 120px; height: 120px; background: white; border-radius: 50%; animation: floatParticle 15s ease-in-out infinite;">
+            </div>
+            <div
+                style="position: absolute; top: 60%; right: 15%; width: 80px; height: 80px; background: white; border-radius: 50%; animation: floatParticle 12s ease-in-out infinite 2s;">
+            </div>
+            <div
+                style="position: absolute; bottom: 20%; left: 30%; width: 60px; height: 60px; background: white; border-radius: 50%; animation: floatParticle 18s ease-in-out infinite 4s;">
+            </div>
+            <div
+                style="position: absolute; top: 40%; right: 25%; width: 40px; height: 40px; background: white; border-radius: 50%; animation: floatParticle 10s ease-in-out infinite 1s;">
+            </div>
+        </div>
+
+        <!-- Diagonal Accent Strip -->
+        <div
+            style="position: absolute; top: 0; right: 0; width: 40%; height: 100%; background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, transparent 100%); transform: skewX(-15deg); transform-origin: top right;">
+        </div>
+
+        <div class="hero-content" style="position: relative; z-index: 2; max-width: 1100px; padding: 3rem 1.5rem;">
+
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.1; margin-bottom: 1rem; font-weight: 800; color: white; text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);"
+                data-i18n="learn.airdrops.hero.title">
+                Become an<br>
+                <span
+                    style="background: linear-gradient(90deg, #fbbf24 0%, #fb923c 50%, #f472b6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; position: relative; display: inline-block;">
+                    Airdrop Master
+                    <svg style="position: absolute; bottom: -10px; left: 0; width: 100%; height: 12px;"
+                        viewBox="0 0 300 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 10C50 4 100 2 150 6C200 10 250 8 298 4" stroke="#fbbf24" stroke-width="3"
+                            stroke-linecap="round" />
+                    </svg>
+                </span>
+            </h1>
+
+            <p style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.9); max-width: 550px; line-height: 1.8; margin-bottom: 3rem;"
+                data-i18n="learn.airdrops.hero.subtitle">
+                Learn proven strategies to discover, qualify for, and maximize cryptocurrency airdrops. From testnet
+                farming to retroactive rewards.
+            </p>
+
+            <!-- Stats Cards -->
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1.25rem; max-width: 600px; margin-top: 2.5rem;">
+                <div style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(20px); border-radius: 20px; padding: 1.75rem 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 40px rgba(0, 0, 0, 0.2)';"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(0, 0, 0, 0.1)';">
+                    <div
+                        style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                        <i class="fas fa-layer-group" style="color: #fbbf24; font-size: 1.5rem;"></i>
+                        <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #fbbf24 0%, #fb923c 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 700; color: white; font-size: 0.875rem;"
+                            id="user-level-airdrops">1</div>
+                    </div>
+                    <div style="color: rgba(255, 255, 255, 0.7); font-size: 0.875rem; font-weight: 500;"
+                        data-i18n="learn.airdrops.stats.level">Your Level
+                    </div>
+                </div>
+
+                <div style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(20px); border-radius: 20px; padding: 1.75rem 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 40px rgba(0, 0, 0, 0.2)';"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(0, 0, 0, 0.1)';">
+                    <div
+                        style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                        <i class="fas fa-star" style="color: #a78bfa; font-size: 1.5rem;"></i>
+                        <div style="font-size: 1.75rem; font-weight: 700; color: white;" id="user-xp-airdrops">0</div>
+                    </div>
+                    <div style="color: rgba(255, 255, 255, 0.7); font-size: 0.875rem; font-weight: 500;"
+                        data-i18n="learn.airdrops.stats.xp">Experience
+                    </div>
+                </div>
+
+                <div style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(20px); border-radius: 20px; padding: 1.75rem 1.5rem; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 40px rgba(0, 0, 0, 0.2)';"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(0, 0, 0, 0.1)';">
+                    <div
+                        style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                        <i class="fas fa-graduation-cap" style="color: #60a5fa; font-size: 1.5rem;"></i>
+                        <div style="font-size: 1.75rem; font-weight: 700; color: white;"
+                            id="lessons-completed-airdrops">0/40</div>
+                    </div>
+                    <div style="color: rgba(255, 255, 255, 0.7); font-size: 0.875rem; font-weight: 500;"
+                        data-i18n="learn.airdrops.stats.completed">Completed</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <style>
+        @keyframes floatParticle {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 0.1;
+            }
+
+            33% {
+                transform: translate(30px, -30px) scale(1.1);
+                opacity: 0.15;
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+                opacity: 0.08;
+            }
+        }
+    </style>
+
+    <!-- LEARNING PATH -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="learn.airdrops.path.title">Your Airdrop Learning Path</h2>
+                <p class="section-subtitle" data-i18n="learn.airdrops.path.subtitle">Master the art of earning free
+                    cryptocurrency through airdrops</p>
+            </div>
+
+            <!-- LEVEL 1: BEGINNER -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.airdrops.levels.1.title">Level 1: Airdrop Basics</h3>
+                        <p data-i18n="learn.airdrops.levels.1.desc">Understand what airdrops are and how to get started
+                        </p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level1-progress-airdrops" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text">0% Complete</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 46 -->
+                    <div class="lesson-card unlocked" data-lesson="46" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.46.title">What are Airdrops?</h4>
+                            <p data-i18n="learn.airdrops.lessons.46.desc">Introduction to cryptocurrency airdrops</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 12 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 50 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 47 -->
+                    <div class="lesson-card locked" data-lesson="47" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.47.title">Wallet Setup</h4>
+                            <p data-i18n="learn.airdrops.lessons.47.desc">Setting up wallets for airdrops</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 48 -->
+                    <div class="lesson-card locked" data-lesson="48" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.48.title">Security Basics</h4>
+                            <p data-i18n="learn.airdrops.lessons.48.desc">Protecting your assets while farming</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 49 -->
+                    <div class="lesson-card locked" data-lesson="49" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.49.title">Finding Airdrops</h4>
+                            <p data-i18n="learn.airdrops.lessons.49.desc">How to discover new opportunities</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 50 -->
+                    <div class="lesson-card locked" data-lesson="50" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.50.title">Testnet Participation</h4>
+                            <p data-i18n="learn.airdrops.lessons.50.desc">Farming airdrops without real money</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 51 -->
+                    <div class="lesson-card locked" data-lesson="51" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.51.title">Social Media Tasks</h4>
+                            <p data-i18n="learn.airdrops.lessons.51.desc">Completing social requirements</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 50 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 52 -->
+                    <div class="lesson-card locked" data-lesson="52" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.52.title">Understanding Snapshots</h4>
+                            <p data-i18n="learn.airdrops.lessons.52.desc">Timing your participation correctly</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 10 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 50 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 53 -->
+                    <div class="lesson-card locked" data-lesson="53" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-gas-pump"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.53.title">Gas Optimization</h4>
+                            <p data-i18n="learn.airdrops.lessons.53.desc">Saving money on transaction fees</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 54 -->
+                    <div class="lesson-card locked" data-lesson="54" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.54.title">Multi-Wallet Management</h4>
+                            <p data-i18n="learn.airdrops.lessons.54.desc">Managing multiple farming accounts</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 55 -->
+                    <div class="lesson-card locked" data-lesson="55" data-level="1" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.55.title">Discord Strategies</h4>
+                            <p data-i18n="learn.airdrops.lessons.55.desc">Navigating crypto communities</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="airdrop-quiz1" data-level="1"
+                        data-category="airdrops">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.quiz1.title">Level 1 Quiz</h4>
+                            <p data-i18n="learn.airdrops.lessons.quiz1.desc">Test your airdrop basics knowledge</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 10 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 200 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 2: INTERMEDIATE -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.airdrops.levels.2.title">Level 2: Active Airdrop Hunting</h3>
+                        <p data-i18n="learn.airdrops.levels.2.desc">Learn to actively participate in airdrop campaigns
+                        </p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level2-progress-airdrops" style="width: 0%"></div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.airdrops.levels.locked_1">Locked - Complete
+                                Level 1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 56 -->
+                    <div class="lesson-card locked" data-lesson="56" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.56.title">Twitter Engagement</h4>
+                            <p data-i18n="learn.airdrops.lessons.56.desc">Building a strong social profile</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 57 -->
+                    <div class="lesson-card locked" data-lesson="57" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.57.title">Documentation & Tracking</h4>
+                            <p data-i18n="learn.airdrops.lessons.57.desc">Keeping track of your farming activities</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 58 -->
+                    <div class="lesson-card locked" data-lesson="58" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.58.title">Detecting Scam Airdrops</h4>
+                            <p data-i18n="learn.airdrops.lessons.58.desc">Avoiding phishing and fake projects</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 59 -->
+                    <div class="lesson-card locked" data-lesson="59" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.59.title">Privacy & Anonymity</h4>
+                            <p data-i18n="learn.airdrops.lessons.59.desc">Protecting your identity on-chain</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 60 -->
+                    <div class="lesson-card locked" data-lesson="60" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.60.title">Airdrop Calendars</h4>
+                            <p data-i18n="learn.airdrops.lessons.60.desc">Staying organized with upcoming events</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 50 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 61 -->
+                    <div class="lesson-card locked" data-lesson="61" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.61.title">Layer 2 Airdrops</h4>
+                            <p data-i18n="learn.airdrops.lessons.61.desc">Farming on Optimism, Arbitrum, etc.</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 62 -->
+                    <div class="lesson-card locked" data-lesson="62" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.62.title">NFT Project Airdrops</h4>
+                            <p data-i18n="learn.airdrops.lessons.62.desc">Airdrops for NFT holders</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 63 -->
+                    <div class="lesson-card locked" data-lesson="63" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.63.title">DeFi Protocol Airdrops</h4>
+                            <p data-i18n="learn.airdrops.lessons.63.desc">Earning tokens by using DeFi apps</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 64 -->
+                    <div class="lesson-card locked" data-lesson="64" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-bridge"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.64.title">Bridge Usage Strategies</h4>
+                            <p data-i18n="learn.airdrops.lessons.64.desc">Using bridges for airdrop eligibility</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 65 -->
+                    <div class="lesson-card locked" data-lesson="65" data-level="2" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.65.title">Staking for Airdrops</h4>
+                            <p data-i18n="learn.airdrops.lessons.65.desc">Staking tokens to qualify for drops</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 15 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="airdrop-quiz2" data-level="2"
+                        data-category="airdrops">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.quiz2.title">Level 2 Quiz</h4>
+                            <p data-i18n="learn.airdrops.lessons.quiz2.desc">Test your airdrop hunting skills</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 15 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 300 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 3: ADVANCED -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.airdrops.levels.3.title">Level 3: Retroactive Airdrop Farming</h3>
+                        <p data-i18n="learn.airdrops.levels.3.desc">Master advanced strategies for maximizing airdrop
+                            rewards</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level3-progress-airdrops" style="width: 0%">
+                                </div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.airdrops.levels.locked_2">Locked - Complete
+                                Level 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <div class="lesson-card locked" data-lesson="airdrop-12" data-level="3" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.retro_explained.title">Retroactive Airdrops Explained
+                            </h4>
+                            <p data-i18n="learn.airdrops.lessons.retro_explained.desc">Understanding retroactive reward
+                                systems</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="airdrop-13" data-level="3" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.l2_farming.title">Layer 2 Airdrop Farming</h4>
+                            <p data-i18n="learn.airdrops.lessons.l2_farming.desc">Arbitrum, Optimism, zkSync strategies
+                            </p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="airdrop-14" data-level="3" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-gas-pump"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.gas_strategies.title">Gas Optimization Strategies</h4>
+                            <p data-i18n="learn.airdrops.lessons.gas_strategies.desc">Minimizing costs while farming
+                                airdrops</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 28 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 140 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="airdrop-15" data-level="3" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.onchain_opt.title">On-Chain Activity Optimization</h4>
+                            <p data-i18n="learn.airdrops.lessons.onchain_opt.desc">Maximizing your airdrop eligibility
+                            </p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 30 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="airdrop-16" data-level="3" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.defi_interaction.title">DeFi Protocol Interaction</h4>
+                            <p data-i18n="learn.airdrops.lessons.defi_interaction.desc">Using protocols for airdrop
+                                eligibility</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 35 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 175 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="airdrop-17" data-level="3" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-bridge"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.bridge_farming.title">Bridge & Cross-Chain Farming
+                            </h4>
+                            <p data-i18n="learn.airdrops.lessons.bridge_farming.desc">Multi-chain airdrop strategies</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 28 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 140 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card locked" data-lesson="airdrop-18" data-level="3" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.snapshot_strategies.title">Snapshot Strategies</h4>
+                            <p data-i18n="learn.airdrops.lessons.snapshot_strategies.desc">Understanding and preparing
+                                for snapshots</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 25 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <div class="lesson-card quiz-card locked" data-lesson="airdrop-quiz3" data-level="3"
+                        data-category="airdrops">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.quiz3.title">Level 3 Quiz</h4>
+                            <p data-i18n="learn.airdrops.lessons.quiz3.desc">Master retroactive farming strategies</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> 20 <span
+                                        data-i18n="learn.common.questions">questions</span></span>
+                                <span><i class="fas fa-star"></i> 400 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL 4: EXPERT -->
+            <div class="learning-level">
+                <div class="level-header">
+                    <div class="level-badge" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div>
+                        <h3 data-i18n="learn.airdrops.levels.4.title">Level 4: Professional Airdrop Farming</h3>
+                        <p data-i18n="learn.airdrops.levels.4.desc">Advanced techniques and professional strategies</p>
+                        <div class="level-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="level4-progress-airdrops" style="width: 0%">
+                                </div>
+                            </div>
+                            <span class="progress-text" data-i18n="learn.airdrops.levels.locked_3">Locked - Complete
+                                Level 3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lessons-grid">
+                    <!-- Lesson 76 -->
+                    <div class="lesson-card locked" data-lesson="76" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-binoculars"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.76.title">Whale Watching</h4>
+                            <p data-i18n="learn.airdrops.lessons.76.desc">Following smart money strategies</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 18 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 77 -->
+                    <div class="lesson-card locked" data-lesson="77" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-hourglass-half"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.77.title">Timing Strategies</h4>
+                            <p data-i18n="learn.airdrops.lessons.77.desc">Optimal timing for participation</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 16 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 78 -->
+                    <div class="lesson-card locked" data-lesson="78" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-door-open"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.78.title">Exit Strategies</h4>
+                            <p data-i18n="learn.airdrops.lessons.78.desc">When and how to sell airdrops</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 125 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 79 -->
+                    <div class="lesson-card locked" data-lesson="79" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.79.title">Reinvestment Strategies</h4>
+                            <p data-i18n="learn.airdrops.lessons.79.desc">Compounding your airdrop profits</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 14 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 80 -->
+                    <div class="lesson-card locked" data-lesson="80" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.80.title">Long-Term Planning</h4>
+                            <p data-i18n="learn.airdrops.lessons.80.desc">Building sustainable income</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 16 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 81 -->
+                    <div class="lesson-card locked" data-lesson="81" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-battery-full"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.81.title">Avoiding Burnout</h4>
+                            <p data-i18n="learn.airdrops.lessons.81.desc">Maintaining mental health</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 12 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 82 -->
+                    <div class="lesson-card locked" data-lesson="82" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.82.title">Staying Updated</h4>
+                            <p data-i18n="learn.airdrops.lessons.82.desc">Keeping up with trends</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 14 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 75 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 83 -->
+                    <div class="lesson-card locked" data-lesson="83" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.83.title">Building Reputation</h4>
+                            <p data-i18n="learn.airdrops.lessons.83.desc">Establishing yourself in crypto</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 16 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 100 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 84 -->
+                    <div class="lesson-card locked" data-lesson="84" data-level="4" data-category="airdrops">
+                        <div class="lesson-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.84.title">Airdrop Farming as Income</h4>
+                            <p data-i18n="learn.airdrops.lessons.84.desc">Professional farming guide</p>
+                            <div class="lesson-meta">
+                                <span><i class="far fa-clock"></i> 20 <span
+                                        data-i18n="learn.common.min">min</span></span>
+                                <span><i class="fas fa-star"></i> 150 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 85 -->
+                    <div class="lesson-card quiz-card locked" data-lesson="airdrop-final-exam" data-level="4"
+                        data-category="airdrops">
+                        <div class="lesson-icon" style="background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="lesson-content">
+                            <h4 data-i18n="learn.airdrops.lessons.final.title">Airdrop Mastery Review</h4>
+                            <p data-i18n="learn.airdrops.lessons.final.desc">Final comprehensive review</p>
+                            <div class="lesson-meta">
+                                <span><i class="fas fa-question-circle"></i> <span
+                                        data-i18n="learn.common.review">Review</span></span>
+                                <span><i class="fas fa-star"></i> 200 <span data-i18n="learn.common.xp">XP</span></span>
+                            </div>
+                        </div>
+                        <div class="lesson-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATE SECTION -->
+    <section class="section" style="background: var(--color-light-bg);">
+        <div class="container">
+            <div class="certificate-section">
+                <h3 data-i18n="learn.airdrops.certificate.title"><i class="fas fa-certificate"></i> Earn Your Airdrop
+                    Hunter Certificate</h3>
+                <p data-i18n="learn.airdrops.certificate.desc">Complete the course and download your official
+                    certificate to showcase your airdrop expertise!</p>
+                <div class="certificate-buttons">
+                    <button class="download-certificate" data-certificate-type="airdrops">
+                        <i class="fas fa-download"></i> <span
+                            data-i18n="learn.airdrops.certificate.btn_airdrop">Download Airdrop Certificate</span>
+                    </button>
+                    <button class="download-certificate" data-certificate-type="overall">
+                        <i class="fas fa-trophy"></i> <span data-i18n="learn.airdrops.certificate.btn_overall">Download
+                            Overall Completion Certificate</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="learn-crypto.html">Learn Crypto</a>
+                <a href="learn-forex.html">Learn Forex</a>
+                <a href="learn-airdrops.html">Learn Airdrops</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- jsPDF Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/certificate-generator.js"></script>
+    <script src="js/lesson-content.js"></script>
+    <script src="js/lesson-modal.js"></script>
+    <script src="js/learning-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>

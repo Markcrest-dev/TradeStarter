@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn forex trading basics - currency pairs, market analysis, chart reading, and beginner strategies.">
+    <title>Learn Forex Trading - TradeStarter</title>
+
+    <!-- CSS -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="hero"
+        style="position: relative; min-height: 65vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(165deg, #1a1a2e 0%, #0f3460 50%, #16213e 100%);">
+        <!-- Decorative Background Elements -->
+        <div
+            style="position: absolute; top: -50px; right: -50px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(0, 173, 181, 0.15) 0%, transparent 70%); border-radius: 50%; filter: blur(40px);">
+        </div>
+        <div
+            style="position: absolute; bottom: -100px; left: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(0, 216, 255, 0.1) 0%, transparent 70%); border-radius: 50%; filter: blur(60px);">
+        </div>
+
+        <!-- Geometric Accent -->
+        <div
+            style="position: absolute; top: 120px; right: 15%; width: 80px; height: 80px; border: 2px solid rgba(0, 173, 181, 0.3); transform: rotate(45deg); animation: float 6s ease-in-out infinite;">
+        </div>
+        <div
+            style="position: absolute; bottom: 100px; left: 10%; width: 60px; height: 60px; border: 2px solid rgba(0, 216, 255, 0.2); border-radius: 50%; animation: float 8s ease-in-out infinite reverse;">
+        </div>
+
+        <div class="hero-content" style="position: relative; z-index: 2; max-width: 900px; text-align: left;">
+            <h1
+                style="font-size: clamp(2.5rem, 5vw, 3.75rem); line-height: 1.2; margin-bottom: 1.5rem; background: linear-gradient(135deg, #fff 0%, #00adb5 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                Master Forex Trading<br>From the Ground Up
+            </h1>
+
+            <p
+                style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.8); max-width: 600px; line-height: 1.7; margin-bottom: 2.5rem;">
+                Dive into the world's largest financial market. Learn currency pairs, technical analysis, and risk
+                management strategies used by professional traders.
+            </p>
+
+            <div style="display: flex; gap: 2.5rem; flex-wrap: wrap; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; background: linear-gradient(135deg, #00adb5 0%, #00d8ff 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0, 173, 181, 0.4);">
+                        <i class="fas fa-chart-line" style="color: white; font-size: 1.25rem;"></i>
+                    </div>
+                    <div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: white;">$6.6T</div>
+                        <div style="font-size: 0.875rem; color: rgba(255, 255, 255, 0.6);">Daily Volume</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div
+                        style="width: 50px; height: 50px; background: linear-gradient(135deg, rgba(0, 173, 181, 0.2) 0%, rgba(0, 216, 255, 0.2) 100%); border: 2px solid rgba(0, 173, 181, 0.5); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-clock" style="color: var(--color-primary); font-size: 1.25rem;"></i>
+                    </div>
+                    <div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: white;">24/5</div>
+                        <div style="font-size: 0.875rem; color: rgba(255, 255, 255, 0.6);">Market Hours</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <style>
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(45deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(45deg);
+            }
+        }
+    </style>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+        <div class="container">
+
+            <!-- What is Forex -->
+            <div class="content-section">
+                <h2>What is Forex Trading?</h2>
+                <p>Forex (Foreign Exchange) is the global marketplace for trading currencies. It's the largest and most
+                    liquid financial market in the world, with over $6 trillion traded daily. When you trade forex,
+                    you're buying one currency while simultaneously selling another.</p>
+
+                <h3>Key Features:</h3>
+                <ul>
+                    <li><strong>24/5 Market:</strong> Open 24 hours a day, 5 days a week</li>
+                    <li><strong>High Liquidity:</strong> Easy to buy and sell at any time</li>
+                    <li><strong>Leverage Available:</strong> Trade with more money than you have</li>
+                    <li><strong>Global Market:</strong> Trade currencies from around the world</li>
+                    <li><strong>Low Barriers:</strong> Start with relatively small amounts</li>
+                </ul>
+
+                <p
+                    style="background: var(--color-light-bg); padding: 1rem; border-radius: var(--radius-md); margin-top: 1rem;">
+                    <strong>💡 Simple Analogy:</strong> Think of forex like exchanging money at an airport, but instead
+                    of just getting the currency you need, you're trying to profit from the changing exchange rates!
+                </p>
+            </div>
+
+            <!-- Currency Pairs -->
+            <div class="content-section">
+                <h2>Understanding Currency Pairs</h2>
+                <p>In forex, currencies are always traded in pairs. The first currency is called the "base currency" and
+                    the second is the "quote currency." The price tells you how much of the quote currency you need to
+                    buy one unit of the base currency.</p>
+
+                <h3>Major Currency Pairs:</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">EUR/USD (Euro/US Dollar)</h4>
+                        <p>The most traded pair in the world. If EUR/USD = 1.10, it means 1 Euro equals 1.10 US Dollars.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">GBP/USD (British Pound/US Dollar)</h4>
+                        <p>Known as "Cable." Popular among traders for its volatility and liquidity.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">USD/JPY (US Dollar/Japanese Yen)</h4>
+                        <p>Second most traded pair. Influenced heavily by Asian market sentiment.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">USD/CHF (US Dollar/Swiss Franc)</h4>
+                        <p>Known as "Swissie." The Swiss Franc is considered a safe-haven currency.</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">How to Read a Pair:</h3>
+                <div
+                    style="background: var(--gradient-primary); color: var(--color-white); padding: var(--spacing-xl); border-radius: var(--radius-lg); text-align: center;">
+                    <h4 style="color: var(--color-white); font-size: 2rem; margin-bottom: 1rem;">EUR/USD = 1.1000</h4>
+                    <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem;">This means: 1 Euro = 1.10 US
+                        Dollars</p>
+                    <p style="color: rgba(255, 255, 255, 0.9); margin-top: 1rem;">If you think the Euro will strengthen
+                        against the Dollar, you BUY. If you think it will weaken, you SELL.</p>
+                </div>
+            </div>
+
+            <!-- Market Movements -->
+            <div class="content-section">
+                <h2>What Influences Market Movements?</h2>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-newspaper"></i></div>
+                        <h4>Economic News</h4>
+                        <p>GDP reports, employment data, inflation rates, and central bank announcements can cause
+                            significant price movements.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-percent"></i></div>
+                        <h4>Interest Rates</h4>
+                        <p>Higher interest rates typically strengthen a currency as they attract foreign investment
+                            seeking better returns.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-globe"></i></div>
+                        <h4>Political Events</h4>
+                        <p>Elections, policy changes, and geopolitical tensions can create uncertainty and affect
+                            currency values.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+                        <h4>Market Sentiment</h4>
+                        <p>Trader psychology and overall market mood can drive prices, sometimes regardless of
+                            fundamentals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chart Reading -->
+            <div class="content-section">
+                <h2>Basics of Chart Reading</h2>
+                <p>Charts are the primary tool for analyzing forex markets. They show price movements over time and help
+                    you identify trends and patterns.</p>
+
+                <h3>Common Chart Types:</h3>
+                <div class="grid grid-3">
+                    <div class="card" style="text-align: center;">
+                        <i class="fas fa-chart-line"
+                            style="font-size: 2rem; color: var(--color-primary); margin-bottom: 0.5rem;"></i>
+                        <h4>Line Chart</h4>
+                        <p>Simplest form. Shows closing prices connected by a line. Good for seeing overall trends.</p>
+                    </div>
+
+                    <div class="card" style="text-align: center;">
+                        <i class="fas fa-chart-bar"
+                            style="font-size: 2rem; color: var(--color-secondary); margin-bottom: 0.5rem;"></i>
+                        <h4>Bar Chart</h4>
+                        <p>Shows open, high, low, and close prices. Provides more detail than line charts.</p>
+                    </div>
+
+                    <div class="card" style="text-align: center;">
+                        <i class="fas fa-chart-candlestick"
+                            style="font-size: 2rem; color: var(--color-primary); margin-bottom: 0.5rem;"></i>
+                        <h4>Candlestick</h4>
+                        <p>Most popular. Easy to read, shows price action clearly. Each "candle" represents a time
+                            period.</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Key Concepts:</h3>
+                <ul>
+                    <li><strong>Support Level:</strong> A price level where buying pressure prevents further decline
+                    </li>
+                    <li><strong>Resistance Level:</strong> A price level where selling pressure prevents further rise
+                    </li>
+                    <li><strong>Trend:</strong> The general direction of price movement (uptrend, downtrend, or
+                        sideways)</li>
+                    <li><strong>Breakout:</strong> When price moves beyond a support or resistance level</li>
+                    <li><strong>Timeframes:</strong> Charts can show different periods (1 minute, 1 hour, 1 day, etc.)
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Understanding Leverage -->
+            <div class="content-section">
+                <h2>Understanding Leverage</h2>
+                <p>Leverage allows you to control a large position with a small amount of capital. It's like borrowing
+                    money from your broker to increase your trading power.</p>
+
+                <div class="grid grid-2">
+                    <div
+                        style="background: #d4edda; border-left: 4px solid #28a745; padding: var(--spacing-lg); border-radius: var(--radius-sm);">
+                        <h4 style="color: #155724;"><i class="fas fa-check-circle"></i> The Good</h4>
+                        <ul style="color: #155724;">
+                            <li>Amplifies potential profits</li>
+                            <li>Allows trading with less capital</li>
+                            <li>Provides more trading opportunities</li>
+                            <li>Standard practice in forex</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        style="background: #f8d7da; border-left: 4px solid #dc3545; padding: var(--spacing-lg); border-radius: var(--radius-sm);">
+                        <h4 style="color: #721c24;"><i class="fas fa-exclamation-triangle"></i> The Bad</h4>
+                        <ul style="color: #721c24;">
+                            <li>Also amplifies potential losses</li>
+                            <li>Can wipe out your account quickly</li>
+                            <li>Requires strict risk management</li>
+                            <li>Not suitable for beginners</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div
+                    style="background: var(--gradient-primary); color: var(--color-white); padding: var(--spacing-lg); border-radius: var(--radius-lg); margin-top: 1rem;">
+                    <h4 style="color: var(--color-white);">Example:</h4>
+                    <p style="color: rgba(255, 255, 255, 0.9);">With 1:100 leverage, you can control $10,000 worth of
+                        currency with just $100. If the market moves 1% in your favor, you make $100 (100% profit). But
+                        if it moves 1% against you, you lose $100 (100% loss).</p>
+                </div>
+
+                <div
+                    style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin-top: 1rem; border-radius: var(--radius-sm);">
+                    <strong>⚠️ Beginner Warning:</strong> Start with low or no leverage until you understand the risks.
+                    Many professional traders recommend using leverage of 1:10 or less when starting out.
+                </div>
+            </div>
+
+            <!-- Common Mistakes -->
+            <div class="content-section">
+                <h2>Common Beginner Mistakes</h2>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: #dc3545;"><i class="fas fa-times-circle"></i> Overtrading</h4>
+                        <p>Taking too many trades or trading too large positions. Quality over quantity is key.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: #dc3545;"><i class="fas fa-times-circle"></i> No Stop Loss</h4>
+                        <p>Trading without stop losses is like driving without brakes. Always protect your capital.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: #dc3545;"><i class="fas fa-times-circle"></i> Emotional Trading</h4>
+                        <p>Making decisions based on fear or greed rather than analysis. Stick to your plan.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: #dc3545;"><i class="fas fa-times-circle"></i> Ignoring Risk Management</h4>
+                        <p>Not calculating risk-reward ratios or risking too much per trade. Never risk more than 1-2%
+                            per trade.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: #dc3545;"><i class="fas fa-times-circle"></i> Chasing Losses</h4>
+                        <p>Trying to recover losses by taking bigger risks. This usually leads to bigger losses.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: #dc3545;"><i class="fas fa-times-circle"></i> No Trading Plan</h4>
+                        <p>Trading randomly without a strategy. A plan keeps you disciplined and consistent.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple Strategies -->
+            <div class="content-section">
+                <h2>Simple Trading Strategies for Beginners</h2>
+
+                <div class="card" style="margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-primary);">1. Trend Following</h3>
+                    <p><strong>Concept:</strong> "The trend is your friend." Trade in the direction of the prevailing
+                        trend.</p>
+                    <p><strong>How:</strong> Identify if the market is going up or down, then buy in uptrends and sell
+                        in downtrends.</p>
+                    <p><strong>Best for:</strong> Beginners who want a simple, straightforward approach.</p>
+                </div>
+
+                <div class="card" style="margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-primary);">2. Support and Resistance Trading</h3>
+                    <p><strong>Concept:</strong> Buy at support levels, sell at resistance levels.</p>
+                    <p><strong>How:</strong> Identify price levels where the market has historically bounced or
+                        reversed.</p>
+                    <p><strong>Best for:</strong> Traders who like clear entry and exit points.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--color-primary);">3. Breakout Trading</h3>
+                    <p><strong>Concept:</strong> Trade when price breaks through important support or resistance levels.
+                    </p>
+                    <p><strong>How:</strong> Wait for price to break a key level with strong momentum, then enter in the
+                        direction of the breakout.</p>
+                    <p><strong>Best for:</strong> Traders who can act quickly and manage risk well.</p>
+                </div>
+            </div>
+
+            <!-- Top Learning Resources -->
+            <div class="content-section">
+                <h2>📚 Top Forex Learning Resources</h2>
+                <p>Learn forex trading from the best educational platforms trusted by traders worldwide.</p>
+
+                <h3 style="margin-top: 2rem;">Beginner-Friendly Courses</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎓 BabyPips</h4>
+                        <p><strong>What it offers:</strong> Free comprehensive forex course "School of Pipsology"
+                            covering everything from basics to advanced strategies.</p>
+                        <p><strong>Best for:</strong> Complete beginners starting from zero</p>
+                        <p><strong>Highlight:</strong> Interactive lessons, quizzes, and friendly community forum</p>
+                        <p><strong>Website:</strong> babypips.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎓 IG Academy</h4>
+                        <p><strong>What it offers:</strong> Free online courses, webinars, and tutorials on forex, CFDs,
+                            and trading strategies.</p>
+                        <p><strong>Best for:</strong> Structured learning with video content</p>
+                        <p><strong>Highlight:</strong> Professional-grade education from a regulated broker</p>
+                        <p><strong>Website:</strong> ig.com/academy</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎓 Investopedia Forex</h4>
+                        <p><strong>What it offers:</strong> Detailed articles, tutorials, definitions, and trading
+                            simulator for practice.</p>
+                        <p><strong>Best for:</strong> Learning terminology and fundamental concepts</p>
+                        <p><strong>Highlight:</strong> Extensive library of forex-related content</p>
+                        <p><strong>Website:</strong> investopedia.com/forex-trading</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎓 Forex.com Education</h4>
+                        <p><strong>What it offers:</strong> Trading guides, video tutorials, webinars, and market
+                            analysis tools.</p>
+                        <p><strong>Best for:</strong> Learning while using a professional platform</p>
+                        <p><strong>Highlight:</strong> Real-time market insights and expert analysis</p>
+                        <p><strong>Website:</strong> forex.com/education</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">News & Market Analysis</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">📰 DailyFX</h4>
+                        <p><strong>What it offers:</strong> Real-time forex news, technical analysis, trading signals,
+                            and economic calendar.</p>
+                        <p><strong>Best for:</strong> Daily market updates and trading ideas</p>
+                        <p><strong>Highlight:</strong> Free webinars and expert market commentary</p>
+                        <p><strong>Website:</strong> dailyfx.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">📰 ForexBrokers.com</h4>
+                        <p><strong>What it offers:</strong> Broker reviews, comparisons, educational guides, and
+                            industry research.</p>
+                        <p><strong>Best for:</strong> Choosing the right forex broker</p>
+                        <p><strong>Highlight:</strong> Unbiased broker testing and rankings</p>
+                        <p><strong>Website:</strong> forexbrokers.com</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">YouTube Channels</h3>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎥 Wysetrade</h4>
+                        <p><strong>Content:</strong> Price action trading, market analysis, and trading psychology.</p>
+                        <p><strong>Style:</strong> Clear explanations with chart examples</p>
+                        <p><strong>Best for:</strong> Visual learners who prefer video content</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎥 The Trading Geek</h4>
+                        <p><strong>Content:</strong> Technical analysis, trading strategies, and market breakdowns.</p>
+                        <p><strong>Style:</strong> Detailed analysis with practical examples</p>
+                        <p><strong>Best for:</strong> Intermediate traders improving their skills</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🎥 Urban Forex</h4>
+                        <p><strong>Content:</strong> Professional trading education, strategy development, and mindset
+                            training.</p>
+                        <p><strong>Style:</strong> In-depth lessons from experienced trader</p>
+                        <p><strong>Best for:</strong> Serious traders seeking professional knowledge</p>
+                    </div>
+                </div>
+
+                <div
+                    style="background: var(--gradient-primary); color: var(--color-white); padding: var(--spacing-lg); border-radius: var(--radius-lg); margin-top: 2rem;">
+                    <h4 style="color: var(--color-white);">🎯 Recommended Learning Path</h4>
+                    <ol style="color: rgba(255, 255, 255, 0.9); padding-left: 1.5rem;">
+                        <li><strong>Start:</strong> Complete BabyPips School of Pipsology (2-4 weeks)</li>
+                        <li><strong>Practice:</strong> Open a demo account and apply what you learned</li>
+                        <li><strong>Stay Updated:</strong> Follow DailyFX for daily market analysis</li>
+                        <li><strong>Deep Dive:</strong> Watch YouTube channels for advanced strategies</li>
+                        <li><strong>Choose Broker:</strong> Use ForexBrokers.com to find the right platform</li>
+                        <li><strong>Keep Learning:</strong> Attend webinars on IG Academy and Forex.com</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Currency Converter -->
+            <div class="converter-box" id="forex-converter">
+                <h3><i class="fas fa-exchange-alt"></i> Currency Converter</h3>
+                <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 1rem;">Convert between major currencies
+                    (approximate rates)</p>
+
+                <div class="converter-input">
+                    <input type="number" id="forex-amount" placeholder="Amount" value="100" min="0" step="0.01">
+                    <select id="forex-from">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value="AUD">AUD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                    </select>
+                    <span style="color: var(--color-white); font-size: 1.5rem;">→</span>
+                    <select id="forex-to">
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value="AUD">AUD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                    </select>
+                </div>
+
+                <div class="converter-result" id="forex-result">
+                    100 USD = 92.00 EUR
+                </div>
+            </div>
+
+            <!-- Getting Started -->
+            <div class="content-section">
+                <h2>How to Get Started</h2>
+
+                <ol style="padding-left: 1.5rem; color: var(--color-gray);">
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Educate Yourself</strong><br>
+                        Learn the basics before risking real money. Read books, watch videos, take courses.
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Open a Demo Account</strong><br>
+                        Practice with virtual money on platforms like MetaTrader 4/5, TradingView, or broker demo
+                        accounts.
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Develop a Trading Plan</strong><br>
+                        Define your strategy, risk management rules, and trading goals.
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Choose a Reputable Broker</strong><br>
+                        Look for regulated brokers with good reviews, low spreads, and reliable platforms.
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Start Small</strong><br>
+                        Begin with a small account and low leverage. Focus on learning, not earning.
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Keep a Trading Journal</strong><br>
+                        Record all your trades, analyze what works and what doesn't.
+                    </li>
+                </ol>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="crypto.html">Learn Crypto</a>
+                <a href="forex.html">Learn Forex</a>
+                <a href="airdrops.html">Airdrop Guide</a>
+                <a href="tools.html">Tools & Resources</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="tools.html">Price Trackers</a>
+                <a href="tools.html">Converters</a>
+                <a href="tools.html">Recommended Wallets</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Disclaimer</a>
+                <p style="margin-top: 1rem; font-size: 0.575rem;">Educational purposes only. Not financial advice.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>

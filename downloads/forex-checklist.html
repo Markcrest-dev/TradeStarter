@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Trading Checklist - TradeStarter</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: var(--color-bg);
+            color: var(--color-text);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        .guide-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .guide-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--color-border);
+            padding-bottom: 2rem;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            background: var(--color-card);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--color-border);
+        }
+
+        .checklist-checkbox {
+            min-width: 24px;
+            height: 24px;
+            border: 2px solid var(--color-secondary);
+            border-radius: 4px;
+            margin-right: 1rem;
+            margin-top: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .checklist-checkbox.checked {
+            background: var(--color-secondary);
+        }
+
+        .checklist-checkbox.checked::after {
+            content: '✓';
+            color: white;
+            font-weight: bold;
+        }
+
+        .print-btn {
+            display: block;
+            margin: 2rem auto;
+        }
+
+        @media print {
+            .print-btn {
+                display: none;
+            }
+
+            body {
+                background: white;
+                color: black;
+            }
+
+            .checklist-item {
+                border: 1px solid #ccc;
+            }
+        }
+    </style>
+    <script>
+        function toggleCheck(element) {
+            element.classList.toggle('checked');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="guide-container">
+        <div class="guide-header">
+            <i class="fas fa-clipboard-check"
+                style="font-size: 4rem; color: var(--color-secondary); margin-bottom: 1rem;"></i>
+            <h1>Forex Trading Checklist</h1>
+            <p>Review this checklist before entering any trade to ensure discipline and consistency.</p>
+            <button onclick="window.print()" class="btn btn-secondary print-btn"><i class="fas fa-print"></i> Print
+                Checklist</button>
+        </div>
+
+        <div class="checklist-item">
+            <div class="checklist-checkbox" onclick="toggleCheck(this)"></div>
+            <div>
+                <h3>1. Market Condition Analysis</h3>
+                <p>Is the market trending or ranging? Have I identified the key support and resistance levels? What is
+                    the dominant trend on the higher timeframe?</p>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <div class="checklist-checkbox" onclick="toggleCheck(this)"></div>
+            <div>
+                <h3>2. Economic Calendar Check</h3>
+                <p>Are there any high-impact news events (Red Folders) scheduled soon? Avoid trading right before major
+                    announcements like NFP or FOMC.</p>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <div class="checklist-checkbox" onclick="toggleCheck(this)"></div>
+            <div>
+                <h3>3. Entry Signal Confirmation</h3>
+                <p>Does the setup meet all the rules of my trading strategy? Am I entering at a logical level (e.g.,
+                    pullback to support)?</p>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <div class="checklist-checkbox" onclick="toggleCheck(this)"></div>
+            <div>
+                <h3>4. Risk Management</h3>
+                <p>Have I calculated my position size correctly? Is my risk per trade within my limit (e.g., 1-2%)? Is
+                    my Stop Loss placed at a technical invalidation point?</p>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <div class="checklist-checkbox" onclick="toggleCheck(this)"></div>
+            <div>
+                <h3>5. Risk-to-Reward Ratio</h3>
+                <p>Is the potential reward at least 1.5x or 2x the risk? Does the target profit level look realistic
+                    based on recent price action?</p>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <div class="checklist-checkbox" onclick="toggleCheck(this)"></div>
+            <div>
+                <h3>6. Mental State</h3>
+                <p>Am I calm and focused? Am I trading out of boredom, revenge, or FOMO? If I'm emotional, I should step
+                    away.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

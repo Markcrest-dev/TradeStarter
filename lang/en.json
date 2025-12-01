@@ -1,0 +1,862 @@
+{
+  "languageChanged": "Language changed successfully!",
+  "nav": {
+    "home": "Home",
+    "learn": "Learn",
+    "learnCrypto": "Learn Crypto",
+    "learnForex": "Learn Forex",
+    "learnAirdrops": "Learn Airdrops",
+    "resources": "Resources",
+    "cryptoGuide": "Crypto Guide",
+    "forexGuide": "Forex Guide",
+    "airdropGuide": "Airdrop Guide",
+    "tools": "Tools",
+    "basicTools": "Basic Tools",
+    "advancedTools": "Advanced Tools",
+    "tradingJournal": "Trading Journal",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Welcome to TradeStarter",
+    "subtitle": "Your Journey to Trading Mastery Starts Here",
+    "description": "Learn cryptocurrency, forex, and airdrop strategies with our comprehensive, beginner-friendly platform.",
+    "getStarted": "Get Started",
+    "exploreCourses": "Explore Courses"
+  },
+  "home": {
+    "features": {
+      "title": "Why Choose TradeStarter?",
+      "subtitle": "We've stripped away the noise to focus on what actually matters for your trading journey.",
+      "structured": {
+        "title": "Structured Learning",
+        "desc": "No more random YouTube videos. Follow our step-by-step curriculum designed to take you from zero to hero."
+      },
+      "tools": {
+        "title": "Practical Tools",
+        "desc": "Access our suite of calculators, checklists, and trackers to help you make informed decisions."
+      },
+      "community": {
+        "title": "Community First",
+        "desc": "Join a growing community of learners who are all on the same journey to financial independence."
+      }
+    },
+    "paths": {
+      "title": "Choose Your Path",
+      "subtitle": "Select a track to start mastering the markets today.",
+      "crypto": {
+        "title": "Crypto Trading",
+        "desc": "Understand blockchain, master technical analysis, and learn how to trade cryptocurrencies safely and effectively."
+      },
+      "forex": {
+        "title": "Forex Mastery",
+        "desc": "Dive into the world's largest financial market. Learn currency pairs, leverage, and risk management strategies."
+      },
+      "airdrops": {
+        "title": "Airdrop Hunting",
+        "desc": "Learn the art of finding and qualifying for crypto airdrops. Turn your time into potential rewards."
+      },
+      "startCourse": "Start Course"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "subtitle": "Don't just take our word for it. Here's what our community has to say.",
+      "1": {
+        "text": "\"TradeStarter made crypto so easy to understand! I went from complete beginner to confidently making my first trade in just two weeks.\"",
+        "author": "Sarah M.",
+        "role": "Crypto Enthusiast"
+      },
+      "2": {
+        "text": "\"The forex guides are incredibly clear and practical. I finally understand how currency pairs work and how to read charts properly.\"",
+        "author": "James K.",
+        "role": "Forex Trader"
+      },
+      "3": {
+        "text": "\"I've earned over $500 in free crypto from airdrops using the strategies taught here. The checklist feature is a game-changer!\"",
+        "author": "Maria L.",
+        "role": "Airdrop Hunter"
+      },
+      "4": {
+        "text": "\"I was always intimidated by technical analysis, but the step-by-step lessons here broke it down perfectly. Now I can read charts with confidence!\"",
+        "author": "David R.",
+        "role": "Day Trader"
+      },
+      "5": {
+        "text": "\"The community support is unmatched. Whenever I have a question about a specific airdrop or trade setup, someone is always there to help.\"",
+        "author": "Elena P.",
+        "role": "Community Member"
+      },
+      "6": {
+        "text": "\"Best free resource I've found. The tools and calculators save me so much time when planning my risk management for the week.\"",
+        "author": "Michael J.",
+        "role": "Forex Analyst"
+      }
+    }
+  },
+  "learn": {
+    "common": {
+      "min": "min",
+      "xp": "XP",
+      "questions": "questions",
+      "review": "Review"
+    },
+    "crypto": {
+      "hero": {
+        "title": "Master Cryptocurrency Trading",
+        "subtitle": "From blockchain basics to advanced trading strategies. Your complete guide to the crypto markets."
+      },
+      "stats": {
+        "level": "Your Level",
+        "xp": "Experience",
+        "completed": "Completed"
+      },
+      "path": {
+        "title": "Your Crypto Learning Path",
+        "subtitle": "Master the world of digital assets step by step"
+      },
+      "levels": {
+        "1": {
+          "title": "Level 1: Crypto Foundations",
+          "desc": "Understand the basics of blockchain and cryptocurrency"
+        },
+        "2": {
+          "title": "Level 2: Trading Fundamentals",
+          "desc": "Learn how to read charts and execute trades",
+          "locked_1": "Locked - Complete Level 1"
+        },
+        "3": {
+          "title": "Level 3: Advanced Strategies",
+          "desc": "Master technical analysis and market psychology",
+          "locked_2": "Locked - Complete Level 2"
+        },
+        "4": {
+          "title": "Level 4: Professional Trading",
+          "desc": "Risk management and portfolio construction",
+          "locked_3": "Locked - Complete Level 3"
+        }
+      },
+      "lessons": {
+        "1": {
+          "title": "What is Cryptocurrency?",
+          "desc": "Introduction to digital assets and blockchain"
+        },
+        "2": {
+          "title": "How Blockchain Works",
+          "desc": "Understanding the technology behind crypto"
+        },
+        "3": {
+          "title": "Bitcoin vs Altcoins",
+          "desc": "Differences between major cryptocurrencies"
+        },
+        "4": {
+          "title": "Wallets & Security",
+          "desc": "How to store your crypto safely"
+        },
+        "5": {
+          "title": "Exchanges & Buying",
+          "desc": "How to buy your first cryptocurrency"
+        },
+        "quiz1": {
+          "title": "Level 1 Quiz",
+          "desc": "Test your crypto basics knowledge"
+        },
+        "6": {
+          "title": "Reading Candlestick Charts",
+          "desc": "Understanding price action and patterns"
+        },
+        "7": {
+          "title": "Support & Resistance",
+          "desc": "Identifying key market levels"
+        },
+        "8": {
+          "title": "Trend Lines & Channels",
+          "desc": "Drawing and trading with trends"
+        },
+        "9": {
+          "title": "Volume Analysis",
+          "desc": "Confirming trends with volume"
+        },
+        "10": {
+          "title": "Moving Averages",
+          "desc": "Using indicators to find trends"
+        },
+        "quiz2": {
+          "title": "Level 2 Quiz",
+          "desc": "Test your trading fundamentals"
+        },
+        "11": {
+          "title": "RSI & MACD",
+          "desc": "Mastering momentum indicators"
+        },
+        "12": {
+          "title": "Chart Patterns",
+          "desc": "Head & Shoulders, Flags, and more"
+        },
+        "13": {
+          "title": "Fibonacci Retracements",
+          "desc": "Predicting price targets"
+        },
+        "14": {
+          "title": "Market Psychology",
+          "desc": "Understanding fear and greed"
+        },
+        "15": {
+          "title": "Trading Psychology",
+          "desc": "Mastering your own emotions"
+        },
+        "quiz3": {
+          "title": "Level 3 Quiz",
+          "desc": "Test your advanced knowledge"
+        },
+        "16": {
+          "title": "Risk Management Basics",
+          "desc": "Protecting your capital"
+        },
+        "17": {
+          "title": "Position Sizing",
+          "desc": "Calculating the right trade size"
+        },
+        "18": {
+          "title": "Portfolio Diversification",
+          "desc": "Building a balanced portfolio"
+        },
+        "19": {
+          "title": "Tax & Regulation",
+          "desc": "Managing crypto taxes and regulations"
+        },
+        "20": {
+          "title": "Building Your Career in Crypto",
+          "desc": "Professional opportunities in blockchain"
+        },
+        "final": {
+          "title": "Final Certification Exam",
+          "desc": "Earn your Crypto Expert Certificate"
+        }
+      },
+      "certificate": {
+        "title": "Earn Your Crypto Mastery Certificate",
+        "desc": "Complete the course and download your official certificate to showcase your achievement!",
+        "btn_crypto": "Download Crypto Certificate",
+        "btn_overall": "Download Overall Completion Certificate"
+      }
+    },
+    "forex": {
+      "hero": {
+        "title": "Trade Forex Like a Professional",
+        "subtitle": "Master currency pairs, technical analysis, and risk management through 45 progressive lessons."
+      },
+      "stats": {
+        "level": "Your Level",
+        "xp": "Total XP",
+        "completed": "Completed"
+      },
+      "path": {
+        "title": "Your Forex Learning Path",
+        "subtitle": "Master currency trading from basics to advanced strategies"
+      },
+      "levels": {
+        "1": {
+          "title": "Level 1: Forex Foundations",
+          "desc": "Understand the basics of currency trading and forex markets"
+        },
+        "2": {
+          "title": "Level 2: Technical Analysis",
+          "desc": "Learn to read charts and identify trading opportunities",
+          "locked_1": "Locked - Complete Level 1"
+        },
+        "3": {
+          "title": "Level 3: Risk Management & Strategy",
+          "desc": "Master professional trading strategies and risk control",
+          "locked_2": "Locked - Complete Level 2"
+        },
+        "4": {
+          "title": "Level 4: Professional Trading",
+          "desc": "Advanced strategies and professional techniques",
+          "locked_3": "Locked - Complete Level 3"
+        }
+      },
+      "lessons": {
+        "21": {
+          "title": "What is Forex Trading?",
+          "desc": "Introduction to the foreign exchange market"
+        },
+        "22": {
+          "title": "Currency Pairs Explained",
+          "desc": "Major, minor, and exotic currency pairs"
+        },
+        "23": {
+          "title": "Market Sessions & Hours",
+          "desc": "Understanding global forex trading sessions"
+        },
+        "24": {
+          "title": "Pips, Lots & Leverage",
+          "desc": "Understanding forex terminology and calculations"
+        },
+        "25": {
+          "title": "Choosing a Forex Broker",
+          "desc": "What to look for in a reliable broker"
+        },
+        "26": {
+          "title": "Trading Platforms Basics",
+          "desc": "MetaTrader 4/5 and other platforms"
+        },
+        "quiz1": {
+          "title": "Level 1 Quiz",
+          "desc": "Test your forex fundamentals knowledge"
+        },
+        "27": {
+          "title": "Candlestick Patterns",
+          "desc": "Reading price action in forex"
+        },
+        "28": {
+          "title": "Support & Resistance Zones",
+          "desc": "Identifying key price levels"
+        },
+        "29": {
+          "title": "Trend Identification",
+          "desc": "Trading with the market flow"
+        },
+        "30": {
+          "title": "Chart Patterns",
+          "desc": "Reversal and continuation patterns"
+        },
+        "31": {
+          "title": "Moving Averages",
+          "desc": "Using dynamic support and resistance"
+        },
+        "32": {
+          "title": "Oscillators (RSI, Stochastic)",
+          "desc": "Identifying overbought/oversold conditions"
+        },
+        "quiz2": {
+          "title": "Level 2 Quiz",
+          "desc": "Test your technical analysis skills"
+        },
+        "33": {
+          "title": "Risk-to-Reward Ratio",
+          "desc": "Calculating trade potential"
+        },
+        "34": {
+          "title": "Position Sizing",
+          "desc": "Managing trade volume"
+        },
+        "35": {
+          "title": "Stop Loss Strategies",
+          "desc": "Protecting your capital"
+        },
+        "36": {
+          "title": "Trading Psychology",
+          "desc": "Mastering emotions in trading"
+        },
+        "37": {
+          "title": "Developing a Trading Plan",
+          "desc": "Creating your rules for success"
+        },
+        "38": {
+          "title": "Backtesting Strategies",
+          "desc": "Verifying strategy performance"
+        },
+        "quiz3": {
+          "title": "Level 3 Quiz",
+          "desc": "Test your risk management skills"
+        },
+        "39": {
+          "title": "Fundamental Analysis",
+          "desc": "Trading economic news"
+        },
+        "40": {
+          "title": "Correlation Trading",
+          "desc": "Understanding currency relationships"
+        },
+        "41": {
+          "title": "Carry Trade Strategy",
+          "desc": "Profiting from interest rates"
+        },
+        "42": {
+          "title": "Scalping Techniques",
+          "desc": "Short-term trading strategies"
+        },
+        "43": {
+          "title": "Swing Trading",
+          "desc": "Medium-term trading strategies"
+        },
+        "44": {
+          "title": "Algorithmic Trading Basics",
+          "desc": "Introduction to automated trading"
+        },
+        "45": {
+          "title": "Professional Routine",
+          "desc": "Daily habits of successful traders"
+        },
+        "final": {
+          "title": "Final Certification Exam",
+          "desc": "Earn your Forex Expert Certificate"
+        }
+      },
+      "certificate": {
+        "title": "Earn Your Forex Mastery Certificate",
+        "desc": "Complete the course and download your official certificate to showcase your achievement!",
+        "btn_forex": "Download Forex Certificate",
+        "btn_overall": "Download Overall Completion Certificate"
+      }
+    },
+    "airdrops": {
+      "hero": {
+        "title": "Become an Airdrop Master",
+        "subtitle": "Learn proven strategies to discover, qualify for, and maximize cryptocurrency airdrops. From testnet farming to retroactive rewards."
+      },
+      "stats": {
+        "level": "Your Level",
+        "xp": "Experience",
+        "completed": "Completed"
+      },
+      "path": {
+        "title": "Your Airdrop Learning Path",
+        "subtitle": "Master the art of earning free cryptocurrency through airdrops"
+      },
+      "levels": {
+        "1": {
+          "title": "Level 1: Airdrop Basics",
+          "desc": "Understand what airdrops are and how to get started"
+        },
+        "2": {
+          "title": "Level 2: Active Airdrop Hunting",
+          "desc": "Learn to actively participate in airdrop campaigns",
+          "locked_1": "Locked - Complete Level 1"
+        },
+        "3": {
+          "title": "Level 3: Retroactive Airdrop Farming",
+          "desc": "Master advanced strategies for maximizing airdrop rewards",
+          "locked_2": "Locked - Complete Level 2"
+        },
+        "4": {
+          "title": "Level 4: Professional Airdrop Farming",
+          "desc": "Advanced techniques and professional strategies",
+          "locked_3": "Locked - Complete Level 3"
+        }
+      },
+      "lessons": {
+        "46": {
+          "title": "What are Airdrops?",
+          "desc": "Introduction to cryptocurrency airdrops"
+        },
+        "47": {
+          "title": "Wallet Setup",
+          "desc": "Setting up wallets for airdrops"
+        },
+        "48": {
+          "title": "Security Basics",
+          "desc": "Protecting your assets while farming"
+        },
+        "49": {
+          "title": "Finding Airdrops",
+          "desc": "How to discover new opportunities"
+        },
+        "50": {
+          "title": "Testnet Participation",
+          "desc": "Farming airdrops without real money"
+        },
+        "51": {
+          "title": "Social Media Tasks",
+          "desc": "Completing social requirements"
+        },
+        "52": {
+          "title": "Understanding Snapshots",
+          "desc": "Timing your participation correctly"
+        },
+        "53": {
+          "title": "Gas Optimization",
+          "desc": "Saving money on transaction fees"
+        },
+        "54": {
+          "title": "Multi-Wallet Management",
+          "desc": "Managing multiple farming accounts"
+        },
+        "55": {
+          "title": "Discord Strategies",
+          "desc": "Navigating crypto communities"
+        },
+        "quiz1": {
+          "title": "Level 1 Quiz",
+          "desc": "Test your airdrop basics knowledge"
+        },
+        "56": {
+          "title": "Twitter Engagement",
+          "desc": "Building a strong social profile"
+        },
+        "57": {
+          "title": "Documentation & Tracking",
+          "desc": "Keeping track of your farming activities"
+        },
+        "58": {
+          "title": "Detecting Scam Airdrops",
+          "desc": "Avoiding phishing and fake projects"
+        },
+        "59": {
+          "title": "Privacy & Anonymity",
+          "desc": "Protecting your identity on-chain"
+        },
+        "60": {
+          "title": "Airdrop Calendars",
+          "desc": "Staying organized with upcoming events"
+        },
+        "61": {
+          "title": "Layer 2 Airdrops",
+          "desc": "Farming on Optimism, Arbitrum, etc."
+        },
+        "62": {
+          "title": "NFT Project Airdrops",
+          "desc": "Airdrops for NFT holders"
+        },
+        "63": {
+          "title": "DeFi Protocol Airdrops",
+          "desc": "Earning tokens by using DeFi apps"
+        },
+        "64": {
+          "title": "Bridge Usage Strategies",
+          "desc": "Using bridges for airdrop eligibility"
+        },
+        "65": {
+          "title": "Staking for Airdrops",
+          "desc": "Staking tokens to qualify for drops"
+        },
+        "quiz2": {
+          "title": "Level 2 Quiz",
+          "desc": "Test your airdrop hunting skills"
+        },
+        "retro_explained": {
+          "title": "Retroactive Airdrops Explained",
+          "desc": "Understanding retroactive reward systems"
+        },
+        "l2_farming": {
+          "title": "Layer 2 Airdrop Farming",
+          "desc": "Arbitrum, Optimism, zkSync strategies"
+        },
+        "gas_strategies": {
+          "title": "Gas Optimization Strategies",
+          "desc": "Minimizing costs while farming airdrops"
+        },
+        "onchain_opt": {
+          "title": "On-Chain Activity Optimization",
+          "desc": "Maximizing your airdrop eligibility"
+        },
+        "defi_interaction": {
+          "title": "DeFi Protocol Interaction",
+          "desc": "Using protocols for airdrop eligibility"
+        },
+        "bridge_farming": {
+          "title": "Bridge & Cross-Chain Farming",
+          "desc": "Multi-chain airdrop strategies"
+        },
+        "snapshot_strategies": {
+          "title": "Snapshot Strategies",
+          "desc": "Understanding and preparing for snapshots"
+        },
+        "quiz3": {
+          "title": "Level 3 Quiz",
+          "desc": "Master retroactive farming strategies"
+        },
+        "76": {
+          "title": "Whale Watching",
+          "desc": "Following smart money strategies"
+        },
+        "77": {
+          "title": "Timing Strategies",
+          "desc": "Optimal timing for participation"
+        },
+        "78": {
+          "title": "Exit Strategies",
+          "desc": "When and how to sell airdrops"
+        },
+        "79": {
+          "title": "Reinvestment Strategies",
+          "desc": "Compounding your airdrop profits"
+        },
+        "80": {
+          "title": "Long-Term Planning",
+          "desc": "Building sustainable income"
+        },
+        "81": {
+          "title": "Avoiding Burnout",
+          "desc": "Maintaining mental health"
+        },
+        "82": {
+          "title": "Staying Updated",
+          "desc": "Keeping up with trends"
+        },
+        "83": {
+          "title": "Building Reputation",
+          "desc": "Establishing yourself in crypto"
+        },
+        "84": {
+          "title": "Airdrop Farming as Income",
+          "desc": "Professional farming guide"
+        },
+        "final": {
+          "title": "Airdrop Mastery Review",
+          "desc": "Final comprehensive review"
+        }
+      },
+      "certificate": {
+        "title": "Earn Your Airdrop Hunter Certificate",
+        "desc": "Complete the course and download your official certificate to showcase your airdrop expertise!",
+        "btn_airdrop": "Download Airdrop Certificate",
+        "btn_overall": "Download Overall Completion Certificate"
+      }
+    }
+  },
+  "stats": {
+    "level": "Level",
+    "xp": "XP",
+    "lessons": "Lessons",
+    "progress": "Progress",
+    "currentLevel": "Current Level",
+    "experience": "Experience",
+    "completed": "Completed"
+  },
+  "learning": {
+    "startLearning": "Start Learning",
+    "continueLearning": "Continue Learning",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "completeLesson": "Complete Lesson",
+    "takeQuiz": "Take Quiz",
+    "watchVideo": "Watch Video",
+    "earnXP": "Earn XP",
+    "levelUp": "Level Up!",
+    "achievementUnlocked": "Achievement Unlocked!",
+    "lessonCompleted": "Lesson Completed!",
+    "quizPassed": "Quiz Passed!",
+    "videoWatched": "Video Watched!"
+  },
+  "certificates": {
+    "title": "Earn Your Certificate",
+    "description": "Complete the course and download your official certificate!",
+    "downloadCrypto": "Download Crypto Certificate",
+    "downloadForex": "Download Forex Certificate",
+    "downloadAirdrops": "Download Airdrop Certificate",
+    "downloadOverall": "Download Overall Certificate",
+    "certificateDownloaded": "Certificate downloaded successfully!"
+  },
+  "journal": {
+    "title": "Trading Journal",
+    "addTrade": "Add New Trade",
+    "exportCSV": "Export to CSV",
+    "totalTrades": "Total Trades",
+    "totalPL": "Total P/L",
+    "winRate": "Win Rate",
+    "bestTrade": "Best Trade",
+    "worstTrade": "Worst Trade",
+    "avgTrade": "Average Trade",
+    "filterByAsset": "Filter by Asset",
+    "filterByOutcome": "Filter by Outcome",
+    "profit": "Profit",
+    "loss": "Loss",
+    "breakeven": "Breakeven",
+    "all": "All"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "download": "Download",
+    "upload": "Upload",
+    "submit": "Submit",
+    "reset": "Reset",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "continue": "Continue",
+    "learnMore": "Learn More",
+    "readMore": "Read More"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "disclaimer": "Disclaimer"
+  },
+  "forum": {
+    "title": "Community Forum",
+    "subtitle": "Connect with fellow traders, share insights, ask questions, and grow together in our supportive community.",
+    "stats": {
+      "posts": "Posts",
+      "members": "Members",
+      "activeToday": "Active Today"
+    },
+    "newDiscussion": "New Discussion",
+    "categories": {
+      "all": "All Discussions",
+      "crypto": "Crypto",
+      "forex": "Forex",
+      "airdrops": "Airdrops",
+      "general": "General"
+    },
+    "empty": {
+      "title": "No discussions yet",
+      "message": "Be the first to start a discussion in the community!",
+      "button": "Start a Discussion"
+    },
+    "modal": {
+      "createTitle": "Create New Discussion",
+      "replyTitle": "Reply to",
+      "titleLabel": "Title",
+      "titlePlaceholder": "What do you want to discuss?",
+      "categoryLabel": "Category",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Share your thoughts, questions, or insights...",
+      "replyLabel": "Your Reply",
+      "replyPlaceholder": "Share your thoughts...",
+      "cancel": "Cancel",
+      "post": "Post Discussion",
+      "reply": "Post Reply"
+    },
+    "post": {
+      "like": "Like",
+      "likes": "Likes",
+      "reply": "Reply",
+      "replies": "Replies",
+      "share": "Share",
+      "shareSuccess": "Link copied to clipboard!",
+      "postedSuccess": "Discussion posted successfully!",
+      "replySuccess": "Reply posted successfully!"
+    },
+    "time": {
+      "justNow": "Just now",
+      "ago": "ago",
+      "m": "m",
+      "h": "h",
+      "d": "d"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "We'd Love to Hear From You",
+      "subtitle": "Have questions, feedback, or just want to say hi? Drop us a message and we'll get back to you as soon as possible!",
+      "response": "24h Response"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "email": "Your Email",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Subject",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us what's on your mind...",
+      "submit": "Send Message",
+      "subjects": {
+        "general": "General Inquiry",
+        "crypto": "Crypto Question",
+        "forex": "Forex Question",
+        "airdrop": "Airdrop Question",
+        "technical": "Technical Support",
+        "partnership": "Partnership Opportunity",
+        "feedback": "Feedback"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "telegram": "Telegram",
+      "discord": "Discord",
+      "twitter": "Twitter / X",
+      "communityTitle": "Join Our Community",
+      "communityDesc": "Connect with us on social media for daily tips, updates, and exclusive content!",
+      "hours": {
+        "title": "Support Hours",
+        "weekdays": "Monday - Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "closed": "Closed",
+        "note": "We typically respond within 24 hours during business days."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "q": "Is TradeStarter free to use?",
+        "a": "Yes! All our educational content, tools, and resources are completely free. We believe in making crypto and forex education accessible to everyone."
+      },
+      "q2": {
+        "q": "Do you provide financial advice?",
+        "a": "No, we provide educational content only. All information on TradeStarter is for educational purposes and should not be considered financial advice. Always do your own research."
+      },
+      "q3": {
+        "q": "How do I get started with crypto?",
+        "a": "Start with our Crypto Basics page to learn the fundamentals. Then set up a wallet and start with small amounts to practice."
+      },
+      "q4": {
+        "q": "Are the airdrop opportunities legitimate?",
+        "a": "We list popular airdrop opportunities, but always encourage you to do your own research. Never share private keys or send crypto to participate in airdrops."
+      },
+      "q5": {
+        "q": "Can I suggest new content or features?",
+        "a": "Absolutely! We love hearing from our community. Use the contact form above or reach out on social media with your suggestions."
+      },
+      "q6": {
+        "q": "Do you offer one-on-one coaching?",
+        "a": "Currently, we focus on providing free educational content. For personalized guidance, we recommend joining our community where experienced members share insights."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Democratizing Financial Education For Everyone",
+      "subtitle": "We believe that understanding the financial markets shouldn't require a finance degree. TradeStarter is built to make learning crypto, forex, and airdrops simple, free, and accessible.",
+      "free": "100% Free",
+      "community": "Community-Driven",
+      "beginner": "Beginner-Friendly"
+    },
+    "steps": {
+      "title": "How It Works",
+      "subtitle": "Your journey to financial literacy in four simple steps.",
+      "1": {
+        "title": "Choose a Path",
+        "desc": "Select from Crypto, Forex, or Airdrops based on your interests and goals."
+      },
+      "2": {
+        "title": "Learn Basics",
+        "desc": "Read through our structured, beginner-friendly guides and lessons."
+      },
+      "3": {
+        "title": "Use Tools",
+        "desc": "Apply what you've learned using our calculators, trackers, and checklists."
+      },
+      "4": {
+        "title": "Start Trading",
+        "desc": "Confidently make your first moves in the market with a solid foundation."
+      }
+    },
+    "mission": {
+      "title": "Why We Built TradeStarter",
+      "p1": "The world of finance is changing rapidly. Cryptocurrencies and decentralized finance (DeFi) are reshaping how we think about money. However, the barrier to entry remains high for many due to complex jargon and gatekeeping.",
+      "p2": "TradeStarter was created to bridge this gap. We strip away the noise and focus on the essentials. Whether you want to understand Bitcoin, trade currency pairs, or hunt for the next big airdrop, we provide the roadmap.",
+      "list1": "100% Free Education",
+      "list2": "No Financial Advice, Just Education",
+      "list3": "Built for Absolute Beginners",
+      "card1": {
+        "title": "100+ Lessons",
+        "subtitle": "Curated Content"
+      },
+      "card2": {
+        "title": "Community",
+        "subtitle": "Growing Fast"
+      }
+    }
+  }
+}

@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn cryptocurrency basics - blockchain, wallets, trading strategies, and safety tips for beginners.">
+    <title>Learn Crypto Basics - TradeStarter</title>
+
+    <!-- CSS -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png"
+                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <div class="nav-actions">
+                <select id="language-selector" class="language-selector" aria-label="Select Language">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="hero"
+        style="position: relative; min-height: 65vh; margin-top: 0; padding-top: 100px; overflow: hidden; background: linear-gradient(165deg, #1e3a8a 0%, #6366f1 50%, #4f46e5 100%);">
+        <!-- Hexagon Pattern Overlay -->
+        <div
+            style="position: absolute; inset: 0; opacity: 0.06; background-image: repeating-linear-gradient(30deg, transparent, transparent 40px, rgba(255, 255, 255, 0.1) 40px, rgba(255, 255, 255, 0.1) 80px);">
+        </div>
+
+        <!-- Animated Circuit Lines -->
+        <div
+            style="position: absolute; top: 20%; left: 10%; width: 200px; height: 2px; background: linear-gradient(90deg, transparent, #fbbf24, transparent); animation: circuit 3s ease-in-out infinite;">
+        </div>
+        <div
+            style="position: absolute; bottom: 30%; right: 15%; width: 150px; height: 2px; background: linear-gradient(90deg, transparent, #60a5fa, transparent); animation: circuit 4s ease-in-out infinite 1s;">
+        </div>
+
+        <!-- Floating Blockchain Blocks -->
+        <div
+            style="position: absolute; top: 15%; right: 10%; width: 60px; height: 60px; border: 2px solid rgba(251, 191, 36, 0.3); transform: rotate(45deg); animation: float 8s ease-in-out infinite;">
+            <div
+                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 1.5rem; color: rgba(251, 191, 36, 0.5);">
+                ₿</div>
+        </div>
+        <div
+            style="position: absolute; bottom: 25%; left: 12%; width: 50px; height: 50px; border: 2px solid rgba(96, 165, 250, 0.3); transform: rotate(45deg); animation: float 10s ease-in-out infinite 2s;">
+            <div
+                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 1.25rem; color: rgba(96, 165, 250, 0.5);">
+                Ξ</div>
+        </div>
+
+        <div class="hero-content" style="position: relative; z-index: 2; max-width: 950px;">
+
+
+            <h1
+                style="font-size: clamp(2.5rem, 5.5vw, 4rem); line-height: 1.15; margin-bottom: 1.25rem; font-weight: 800;">
+                <span style="color: white;">Unlock the Power of</span><br>
+                <span
+                    style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #fb923c 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block; position: relative;">
+                    Cryptocurrency
+                    <div
+                        style="position: absolute; bottom: -5px; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #fbbf24, transparent); box-shadow: 0 0 10px rgba(251, 191, 36, 0.5);">
+                    </div>
+                </span>
+            </h1>
+
+            <p
+                style="font-size: 1.25rem; color: rgba(255, 255, 255, 0.85); max-width: 650px; line-height: 1.8; margin-bottom: 2.5rem;">
+                Dive deep into blockchain fundamentals, discover how cryptocurrencies work, and learn to navigate the
+                digital asset ecosystem with confidence.
+            </p>
+
+            <!-- Feature Pills -->
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <div
+                    style="display: flex; align-items: center; gap: 0.625rem; padding: 0.75rem 1.25rem; background: rgba(255, 255, 255, 0.1); border-radius: 50px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                    <div
+                        style="width: 32px; height: 32px; background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-wallet" style="color: white; font-size: 0.875rem;"></i>
+                    </div>
+                    <span style="color: white; font-weight: 600; font-size: 0.9375rem;">Wallets & Security</span>
+                </div>
+
+                <div
+                    style="display: flex; align-items: center; gap: 0.625rem; padding: 0.75rem 1.25rem; background: rgba(255, 255, 255, 0.1); border-radius: 50px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                    <div
+                        style="width: 32px; height: 32px; background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-exchange-alt" style="color: white; font-size: 0.875rem;"></i>
+                    </div>
+                    <span style="color: white; font-weight: 600; font-size: 0.9375rem;">Trading Basics</span>
+                </div>
+
+                <div
+                    style="display: flex; align-items: center; gap: 0.625rem; padding: 0.75rem 1.25rem; background: rgba(255, 255, 255, 0.1); border-radius: 50px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2);">
+                    <div
+                        style="width: 32px; height: 32px; background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-shield-alt" style="color: white; font-size: 0.875rem;"></i>
+                    </div>
+                    <span style="color: white; font-weight: 600; font-size: 0.9375rem;">Safety Tips</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wavy Pattern -->
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <style>
+        @keyframes circuit {
+
+            0%,
+            100% {
+                opacity: 0.3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+        <div class="container">
+
+            <!-- What is Cryptocurrency -->
+            <div class="content-section">
+                <h2>What is Cryptocurrency?</h2>
+                <p>Cryptocurrency is a digital or virtual form of money that uses cryptography for security. Unlike
+                    traditional currencies issued by governments (like dollars or euros), cryptocurrencies operate on
+                    decentralized networks based on blockchain technology.</p>
+
+                <h3>Key Characteristics:</h3>
+                <ul>
+                    <li><strong>Decentralized:</strong> No single authority controls the currency</li>
+                    <li><strong>Digital:</strong> Exists only in electronic form</li>
+                    <li><strong>Secure:</strong> Uses advanced cryptography to prevent fraud</li>
+                    <li><strong>Transparent:</strong> All transactions are recorded on a public ledger</li>
+                    <li><strong>Borderless:</strong> Can be sent anywhere in the world instantly</li>
+                </ul>
+            </div>
+
+            <!-- How Blockchain Works -->
+            <div class="content-section">
+                <h2>How Does Blockchain Work?</h2>
+                <p>Blockchain is the technology that powers most cryptocurrencies. Think of it as a digital ledger that
+                    records all transactions across a network of computers.</p>
+
+                <h3>Simple Explanation:</h3>
+                <ul>
+                    <li><strong>Blocks:</strong> Groups of transactions bundled together</li>
+                    <li><strong>Chain:</strong> Blocks linked together in chronological order</li>
+                    <li><strong>Distributed:</strong> Copies exist on thousands of computers worldwide</li>
+                    <li><strong>Immutable:</strong> Once recorded, transactions cannot be altered</li>
+                    <li><strong>Verified:</strong> Network participants validate each transaction</li>
+                </ul>
+
+                <p
+                    style="background: var(--color-light-bg); padding: 1rem; border-radius: var(--radius-md); margin-top: 1rem;">
+                    <strong>💡 Simple Analogy:</strong> Imagine a notebook that everyone in a classroom shares. When
+                    someone writes in it, everyone sees the entry, and no one can erase or change what's written. That's
+                    essentially how blockchain works!
+                </p>
+            </div>
+
+            <!-- Coins vs Tokens -->
+            <div class="content-section">
+                <h2>Coins vs Tokens: What's the Difference?</h2>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3 style="color: var(--color-primary);">Coins</h3>
+                        <p>Native to their own blockchain</p>
+                        <ul>
+                            <li>Bitcoin (BTC) - Bitcoin blockchain</li>
+                            <li>Ethereum (ETH) - Ethereum blockchain</li>
+                            <li>Cardano (ADA) - Cardano blockchain</li>
+                            <li>Used primarily as digital money</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--color-secondary);">Tokens</h3>
+                        <p>Built on existing blockchains</p>
+                        <ul>
+                            <li>USDT (Tether) - on Ethereum</li>
+                            <li>LINK (Chainlink) - on Ethereum</li>
+                            <li>UNI (Uniswap) - on Ethereum</li>
+                            <li>Represent assets, utilities, or rights</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Crypto Wallets -->
+            <div class="content-section">
+                <h2>Understanding Crypto Wallets</h2>
+                <p>A crypto wallet is a digital tool that allows you to store, send, and receive cryptocurrency. It
+                    doesn't actually store the coins themselves, but rather the keys to access them on the blockchain.
+                </p>
+
+                <h3>Types of Wallets:</h3>
+
+                <div class="grid grid-2" style="margin-top: 1rem;">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h4>Hot Wallets (Online)</h4>
+                        <p><strong>Examples:</strong> Trust Wallet, MetaMask, Coinbase Wallet</p>
+                        <p><strong>Pros:</strong> Easy to use, convenient for trading</p>
+                        <p><strong>Cons:</strong> More vulnerable to hacks</p>
+                        <p><strong>Best for:</strong> Daily transactions and small amounts</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-lock"></i></div>
+                        <h4>Cold Wallets (Offline)</h4>
+                        <p><strong>Examples:</strong> Ledger, Trezor, Paper Wallets</p>
+                        <p><strong>Pros:</strong> Maximum security, offline storage</p>
+                        <p><strong>Cons:</strong> Less convenient, costs money</p>
+                        <p><strong>Best for:</strong> Long-term storage and large amounts</p>
+                    </div>
+                </div>
+
+                <div
+                    style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin-top: 1rem; border-radius: var(--radius-sm);">
+                    <strong>⚠️ Critical Security Tip:</strong> Never share your private keys or seed phrase with anyone!
+                    Write them down and store them in a safe place. If someone gets your private keys, they can steal
+                    all your crypto.
+                </div>
+            </div>
+
+            <!-- Safety Tips -->
+            <div class="content-section">
+                <h2>Safety Tips to Avoid Scams</h2>
+
+                <div class="grid grid-2">
+                    <div>
+                        <h3 style="color: #28a745;"><i class="fas fa-check-circle"></i> DO:</h3>
+                        <ul>
+                            <li>Research projects thoroughly before investing</li>
+                            <li>Use hardware wallets for large amounts</li>
+                            <li>Enable two-factor authentication (2FA)</li>
+                            <li>Double-check wallet addresses before sending</li>
+                            <li>Keep your software updated</li>
+                            <li>Start with small amounts to learn</li>
+                            <li>Use reputable exchanges</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 style="color: #dc3545;"><i class="fas fa-times-circle"></i> DON'T:</h3>
+                        <ul>
+                            <li>Share your private keys or seed phrase</li>
+                            <li>Fall for "guaranteed returns" promises</li>
+                            <li>Click on suspicious links or emails</li>
+                            <li>Invest more than you can afford to lose</li>
+                            <li>Trust random DMs offering investment advice</li>
+                            <li>Use public WiFi for crypto transactions</li>
+                            <li>Keep all your crypto on exchanges</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trading Strategies -->
+            <div class="content-section">
+                <h2>Long-Term vs Short-Term Trading</h2>
+
+                <div class="grid grid-2">
+                    <div class="card" style="background: var(--gradient-primary); color: white;">
+                        <h3 style="color: white;">HODLing (Long-Term)</h3>
+                        <p style="color: rgba(255, 255, 255, 0.9);">Buy and hold for months or years</p>
+                        <ul style="color: rgba(255, 255, 255, 0.9);">
+                            <li>Less stressful</li>
+                            <li>Lower transaction fees</li>
+                            <li>Potential for significant gains</li>
+                            <li>Requires patience</li>
+                            <li>Good for beginners</li>
+                        </ul>
+                    </div>
+
+                    <div class="card" style="background: var(--color-dark); color: white;">
+                        <h3 style="color: var(--color-secondary);">Day Trading (Short-Term)</h3>
+                        <p style="color: rgba(255, 255, 255, 0.9);">Buy and sell within hours or days</p>
+                        <ul style="color: rgba(255, 255, 255, 0.9);">
+                            <li>Requires constant monitoring</li>
+                            <li>Higher transaction fees</li>
+                            <li>More risky</li>
+                            <li>Needs technical analysis skills</li>
+                            <li>Not recommended for beginners</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- How to Buy Crypto -->
+            <div class="content-section">
+                <h2>How to Buy Cryptocurrency Safely</h2>
+
+                <h3>Step-by-Step Guide:</h3>
+                <ol style="padding-left: 1.5rem; color: var(--color-gray);">
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Choose a Reputable Exchange</strong><br>
+                        Popular options: Coinbase, Binance, Kraken, Gemini
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Create and Verify Your Account</strong><br>
+                        Provide ID and complete KYC (Know Your Customer) verification
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Add a Payment Method</strong><br>
+                        Link your bank account, debit card, or credit card
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Place Your Order</strong><br>
+                        Choose the cryptocurrency and amount you want to buy
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <strong style="color: var(--color-dark);">Transfer to Your Wallet</strong><br>
+                        Move your crypto from the exchange to your personal wallet for security
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Interactive Converter -->
+            <div class="converter-box" id="crypto-converter">
+                <h3><i class="fas fa-exchange-alt"></i> Crypto Converter</h3>
+                <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 1rem;">Convert between USD, BTC, and ETH
+                    (approximate rates)</p>
+
+                <div class="converter-input">
+                    <input type="number" id="crypto-amount" placeholder="Amount" value="100" min="0" step="0.01">
+                    <select id="crypto-from">
+                        <option value="USD">USD</option>
+                        <option value="BTC">BTC</option>
+                        <option value="ETH">ETH</option>
+                    </select>
+                    <span style="color: var(--color-white); font-size: 1.5rem;">→</span>
+                    <select id="crypto-to">
+                        <option value="BTC">BTC</option>
+                        <option value="USD">USD</option>
+                        <option value="ETH">ETH</option>
+                    </select>
+                </div>
+
+                <div class="converter-result" id="crypto-result">
+                    100 USD = 0.00230000 BTC
+                </div>
+            </div>
+
+            <!-- Top Learning Resources -->
+            <div class="content-section">
+                <h2>📚 Top Learning Resources</h2>
+                <p>Master cryptocurrency with these trusted educational platforms and resources used by millions
+                    worldwide.</p>
+
+                <h3 style="margin-top: 2rem;">News & Market Analysis</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🔷 CoinDesk</h4>
+                        <p><strong>What it offers:</strong> Breaking news, market analysis, price data, and in-depth
+                            articles on blockchain technology and cryptocurrency trends.</p>
+                        <p><strong>Best for:</strong> Staying updated with daily crypto news and market movements</p>
+                        <p><strong>Website:</strong> coindesk.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🔷 Decrypt</h4>
+                        <p><strong>What it offers:</strong> Easy-to-understand news, guides, and features about crypto,
+                            NFTs, DeFi, and Web3.</p>
+                        <p><strong>Best for:</strong> Beginners who want digestible crypto content</p>
+                        <p><strong>Website:</strong> decrypt.co</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🔷 Coin Bureau</h4>
+                        <p><strong>What it offers:</strong> Comprehensive crypto reviews, tutorials, market analysis,
+                            and educational videos on YouTube.</p>
+                        <p><strong>Best for:</strong> In-depth project analysis and unbiased reviews</p>
+                        <p><strong>Website:</strong> coinbureau.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">🔷 Intelligent Cryptocurrency</h4>
+                        <p><strong>What it offers:</strong> Educational content, trading strategies, and market insights
+                            for serious crypto investors.</p>
+                        <p><strong>Best for:</strong> Advanced traders and investors</p>
+                        <p><strong>Website:</strong> Various platforms and communities</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Price Tracking & Data</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">📊 CoinGecko</h4>
+                        <p><strong>What it offers:</strong> Real-time price tracking, market cap rankings, historical
+                            data, portfolio tracking, and comprehensive crypto information.</p>
+                        <p><strong>Best for:</strong> Tracking prices and researching new projects</p>
+                        <p><strong>Website:</strong> coingecko.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-secondary);">📊 CoinMarketCap</h4>
+                        <p><strong>What it offers:</strong> Price charts, market data, exchange rankings, educational
+                            articles, and airdrop listings.</p>
+                        <p><strong>Best for:</strong> Quick price checks and market overview</p>
+                        <p><strong>Website:</strong> coinmarketcap.com</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Educational Platforms</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">📖 Investopedia Crypto</h4>
+                        <p><strong>What it offers:</strong> Detailed guides, definitions, tutorials, and courses on
+                            cryptocurrency and blockchain fundamentals.</p>
+                        <p><strong>Best for:</strong> Learning crypto basics and terminology</p>
+                        <p><strong>Website:</strong> investopedia.com/cryptocurrency</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">📖 Crypto Exchange Academies</h4>
+                        <p><strong>What it offers:</strong> Free courses, tutorials, and earn-while-you-learn programs
+                            (Coinbase Earn, Binance Academy, Kraken Learn).</p>
+                        <p><strong>Best for:</strong> Structured learning with rewards</p>
+                        <p><strong>Platforms:</strong> Binance Academy, Coinbase Learn, Kraken Learn</p>
+                    </div>
+                </div>
+
+                <div
+                    style="background: var(--gradient-primary); color: var(--color-white); padding: var(--spacing-lg); border-radius: var(--radius-lg); margin-top: 2rem;">
+                    <h4 style="color: var(--color-white);">💡 Pro Tip</h4>
+                    <p style="color: rgba(255, 255, 255, 0.9);">Combine multiple resources for the best learning
+                        experience. Start with Investopedia for basics, use CoinGecko/CoinMarketCap for tracking, follow
+                        CoinDesk and Decrypt for news, and watch Coin Bureau videos for deep dives into specific
+                        projects!</p>
+                </div>
+            </div>
+
+            <!-- Key Terms Hover Cards -->
+            <div class="content-section">
+                <h2>Essential Crypto Terms</h2>
+
+                <div class="grid grid-3">
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">Blockchain</h4>
+                        <p>A distributed digital ledger that records all cryptocurrency transactions across a network of
+                            computers. It's transparent, secure, and cannot be altered once data is recorded.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">Gas Fees</h4>
+                        <p>Transaction fees paid to process and validate transactions on a blockchain network. Think of
+                            it as paying for the computational energy needed to process your transaction.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">Private Keys</h4>
+                        <p>A secret code that gives you access to your cryptocurrency. Like a password to your bank
+                            account, but if you lose it, there's no "forgot password" option. Keep it safe!</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">Seed Phrase</h4>
+                        <p>A series of 12-24 words that can restore your entire wallet. It's like a master key to all
+                            your crypto. Write it down and store it securely offline.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">DeFi</h4>
+                        <p>Decentralized Finance - financial services built on blockchain without traditional
+                            intermediaries like banks. Includes lending, borrowing, and trading platforms.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4 style="color: var(--color-primary);">Smart Contract</h4>
+                        <p>Self-executing contracts with terms written directly into code. They automatically execute
+                            when conditions are met, without needing a middleman.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="crypto.html">Learn Crypto</a>
+                <a href="forex.html">Learn Forex</a>
+                <a href="airdrops.html">Airdrop Guide</a>
+                <a href="tools.html">Tools & Resources</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="tools.html">Price Trackers</a>
+                <a href="tools.html">Converters</a>
+                <a href="tools.html">Recommended Wallets</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Disclaimer</a>
+                <p style="margin-top: 1rem; font-size: 0.575rem;">Educational purposes only. Not financial advice.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/achievements-system.js"></script>
+    <script src="js/video-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+</body>
+
+</html>
