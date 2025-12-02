@@ -26,29 +26,30 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // ========================================
-// HEADER SCROLL EFFECT - COMPRESS ON SCROLL
+// HEADER SCROLL EFFECT - DISABLED (STATIC NAVBAR)
 // ========================================
-let lastScroll = 0;
-let ticking = false;
+// Navbar scroll animation removed - navbar is now static
+// let lastScroll = 0;
+// let ticking = false;
 
-window.addEventListener('scroll', function () {
-    lastScroll = window.scrollY;
+// window.addEventListener('scroll', function () {
+//     lastScroll = window.scrollY;
 
-    if (!ticking) {
-        window.requestAnimationFrame(function () {
-            const header = document.querySelector('.header');
-            if (header) {
-                if (lastScroll > 100) {
-                    header.classList.add('scrolled');
-                } else {
-                    header.classList.remove('scrolled');
-                }
-            }
-            ticking = false;
-        });
-        ticking = true;
-    }
-});
+//     if (!ticking) {
+//         window.requestAnimationFrame(function () {
+//             const header = document.querySelector('.header');
+//             if (header) {
+//                 if (lastScroll > 100) {
+//                     header.classList.add('scrolled');
+//                 } else {
+//                     header.classList.remove('scrolled');
+//                 }
+//             }
+//             ticking = false;
+//         });
+//         ticking = true;
+//     }
+// });
 
 // ========================================
 // SMOOTH SCROLL FOR ANCHOR LINKS
