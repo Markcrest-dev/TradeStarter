@@ -15,10 +15,22 @@ document.addEventListener('DOMContentLoaded', function () {
             navMenu.classList.toggle('active');
         });
 
-        // Close menu when clicking on a link
+        // Close menu when clicking on a link (except dropdown toggles)
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
-            link.addEventListener('click', function () {
+            link.addEventListener('click', function (e) {
+                // Check if this is a dropdown toggle
+                const parent = this.parentElement;
+                if (parent.classList.contains('nav-dropdown') && window.innerWidth <= 768) {
+                    e.preventDefault();
+                    // Close other dropdowns
+                    document.querySelectorAll('.nav-dropdown').forEach(d => {
+                        if (d !== parent) d.classList.remove('active');
+                    });
+                    parent.classList.toggle('active');
+                    return;
+                }
+
                 navMenu.classList.remove('active');
             });
         });
