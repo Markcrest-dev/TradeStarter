@@ -15,7 +15,8 @@
     "advancedTools": "Advanced Tools",
     "tradingJournal": "Trading Journal",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "settings": "Settings"
   },
   "hero": {
     "welcome": "Welcome to TradeStarter",
@@ -855,8 +856,58 @@
       },
       "card2": {
         "title": "Community",
-        "subtitle": "Growing Fast"
+        \"subtitle\": \"Growing Fast\"
       }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your TradeStarter experience",
+    "theme": {
+      "title": "Theme Preferences",
+      "label": "Color Theme",
+      "description": "Choose between light and dark mode",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": {
+      "title": "Language",
+      "label": "Select Language",
+      "description": "Choose your preferred language"
+    },
+    "display": {
+      "title": "Display Options",
+      "animations": "Reduce Animations",
+      "animationsDesc": "Minimize motion for accessibility",
+      "compact": "Compact Mode",
+      "compactDesc": "Reduce spacing for a denser layout"
+    },
+    "learning": {
+      "title": "Learning Preferences",
+      "hints": "Show Hints",
+      "hintsDesc": "Display helpful tips during lessons",
+      "autoNext": "Auto-advance Lessons",
+      "autoNextDesc": "Automatically move to next lesson after completion"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "achievements": "Achievement Notifications",
+      "achievementsDesc": "Get notified when you unlock achievements",
+      "sounds": "Sound Effects",
+      "soundsDesc": "Play sounds for interactions and achievements"
+    },
+    "data": {
+      "title": "Data & Privacy",
+      "progressLabel": "Learning Progress",
+      "progressDesc": "Manage your learning data",
+      "export": "Export Data",
+      "resetLabel": "Reset Progress",
+      "resetDesc": "Clear all learning progress and start fresh",
+      "reset": "Reset All"
+    },
+    "footer": {
+      "info": "Settings are automatically saved to your browser's local storage",
+      "version": "Version 1.0.0"
     }
   }
 }

@@ -81,10 +81,39 @@ class I18nSystem {
 
     setupLanguageSelector() {
         const selector = document.getElementById('language-selector');
+        const mobileSelector = document.getElementById('language-selector-mobile');
+        const settingsSelector = document.getElementById('language-select');
+
+        // Set initial values
         if (selector) {
             selector.value = this.currentLang;
             selector.addEventListener('change', (e) => {
                 this.setLanguage(e.target.value);
+                // Sync other selectors
+                if (mobileSelector) mobileSelector.value = e.target.value;
+                if (settingsSelector) settingsSelector.value = e.target.value;
+            });
+        }
+
+        // Setup mobile selector
+        if (mobileSelector) {
+            mobileSelector.value = this.currentLang;
+            mobileSelector.addEventListener('change', (e) => {
+                this.setLanguage(e.target.value);
+                // Sync other selectors
+                if (selector) selector.value = e.target.value;
+                if (settingsSelector) settingsSelector.value = e.target.value;
+            });
+        }
+
+        // Setup settings page selector
+        if (settingsSelector) {
+            settingsSelector.value = this.currentLang;
+            settingsSelector.addEventListener('change', (e) => {
+                this.setLanguage(e.target.value);
+                // Sync other selectors
+                if (selector) selector.value = e.target.value;
+                if (mobileSelector) mobileSelector.value = e.target.value;
             });
         }
     }

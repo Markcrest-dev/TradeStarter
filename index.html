@@ -21,8 +21,7 @@
     <!-- HEADER & NAVIGATION -->
     <header class="header">
         <nav class="nav-container">
-            <a href="index.html" class="logo"><img src="images/logo-light.png"
-                    alt="TradeStarter Logo"><span>TradeStarter</span></a>
+            <a href="index.html" class="logo"><img src="images/logo-light.png" alt="TradeStarter Logo"></a>
 
             <ul class="nav-menu">
                 <!-- Learn Dropdown -->
@@ -137,19 +136,51 @@
                                 <span>Get in touch</span>
                             </div>
                         </a>
+                        <a href="settings.html" class="dropdown-item">
+                            <i class="fas fa-cog"></i>
+                            <div>
+                                <strong data-i18n="nav.settings">Settings</strong>
+                                <span>Customize your experience</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Mobile-only Settings Section -->
+                <li class="mobile-settings">
+                    <div class="mobile-settings-header">Settings</div>
+
+                    <!-- Language Selector (Mobile) -->
+                    <div class="mobile-setting-item">
+                        <label for="language-selector-mobile"><i class="fas fa-language"></i> Language</label>
+                        <select id="language-selector-mobile" class="language-selector-mobile"
+                            aria-label="Select Language">
+                            <option value="en">🇺🇸 English</option>
+                            <option value="es">🇪🇸 Español</option>
+                            <option value="fr">🇫🇷 Français</option>
+                            <option value="de">🇩🇪 Deutsch</option>
+                            <option value="zh">🇨🇳 中文</option>
+                        </select>
+                    </div>
+
+                    <!-- Theme Toggle (Mobile) -->
+                    <div class="mobile-setting-item">
+                        <label><i class="fas fa-palette"></i> Theme</label>
+                        <button class="theme-toggle-mobile" id="theme-toggle-mobile" aria-label="Toggle theme">
+                            <span class="theme-icon theme-icon-light">
+                                <i class="fas fa-sun"></i> Light
+                            </span>
+                            <span class="theme-icon theme-icon-dark">
+                                <i class="fas fa-moon"></i> Dark
+                            </span>
+                        </button>
                     </div>
                 </li>
             </ul>
 
-            <!-- Nav Actions (Theme Toggle, Language, etc.) -->
+            <!-- Nav Actions (Desktop only - removed language selector and theme toggle) -->
             <div class="nav-actions">
-                <select id="language-selector" class="language-selector" aria-label="Select Language">
-                    <option value="en">🇺🇸 English</option>
-                    <option value="es">🇪🇸 Español</option>
-                    <option value="fr">🇫🇷 Français</option>
-                    <option value="de">🇩🇪 Deutsch</option>
-                    <option value="zh">🇨🇳 中文</option>
-                </select>
+                <!-- Language selector and theme toggle moved to settings page -->
             </div>
 
             <div class="menu-toggle">

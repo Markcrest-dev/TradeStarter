@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TradeStarter Settings - Customize your learning experience with theme preferences, language options, and personalization settings.">
+    <title>Settings - TradeStarter</title>
+
+    <!-- CSS -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo-light.png" alt="TradeStarter Logo"></a>
+
+            <ul class="nav-menu">
+                <!-- Learn Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.learn">Learn</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="learn-crypto.html" class="dropdown-item">
+                            <i class="fab fa-bitcoin"></i>
+                            <div>
+                                <strong data-i18n="nav.learnCrypto">Learn Crypto</strong>
+                                <span>Progressive cryptocurrency course</span>
+                            </div>
+                        </a>
+                        <a href="learn-forex.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.learnForex">Learn Forex</strong>
+                                <span>Master currency trading</span>
+                            </div>
+                        </a>
+                        <a href="learn-airdrops.html" class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong data-i18n="nav.learnAirdrops">Learn Airdrops</strong>
+                                <span>Airdrop farming strategies</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.resources">Resources</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="crypto.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.cryptoGuide">Crypto Guide</strong>
+                                <span>Comprehensive crypto resources</span>
+                            </div>
+                        </a>
+                        <a href="forex.html" class="dropdown-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <strong data-i18n="nav.forexGuide">Forex Guide</strong>
+                                <span>Forex trading resources</span>
+                            </div>
+                        </a>
+                        <a href="airdrops.html" class="dropdown-item">
+                            <i class="fas fa-parachute-box"></i>
+                            <div>
+                                <strong data-i18n="nav.airdropGuide">Airdrop Guide</strong>
+                                <span>Active airdrop opportunities</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Tools Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link"><span data-i18n="nav.tools">Tools</span> <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="tools.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <strong data-i18n="nav.basicTools">Basic Tools</strong>
+                                <span>Converters & Trackers</span>
+                            </div>
+                        </a>
+                        <a href="advanced-tools.html" class="dropdown-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong data-i18n="nav.advancedTools">Advanced Tools</strong>
+                                <span>Pro Calculators & Data</span>
+                            </div>
+                        </a>
+                        <a href="journal.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong data-i18n="nav.tradingJournal">Trading Journal</strong>
+                                <span>Track your trades</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Community <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="forum.html" class="dropdown-item">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <strong>Forum</strong>
+                                <span>Join the discussion</span>
+                            </div>
+                        </a>
+                        <a href="about.html" class="dropdown-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong data-i18n="nav.about">About Us</strong>
+                                <span>Our mission & story</span>
+                            </div>
+                        </a>
+                        <a href="contact.html" class="dropdown-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong data-i18n="nav.contact">Contact</strong>
+                                <span>Get in touch</span>
+                            </div>
+                        </a>
+                        <a href="settings.html" class="dropdown-item">
+                            <i class="fas fa-cog"></i>
+                            <div>
+                                <strong data-i18n="nav.settings">Settings</strong>
+                                <span>Customize your experience</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Mobile-only Settings Section -->
+                <li class="mobile-settings">
+                    <div class="mobile-settings-header">Settings</div>
+
+                    <!-- Language Selector (Mobile) -->
+                    <div class="mobile-setting-item">
+                        <label for="language-selector-mobile"><i class="fas fa-language"></i> Language</label>
+                        <select id="language-selector-mobile" class="language-selector-mobile"
+                            aria-label="Select Language">
+                            <option value="en">🇺🇸 English</option>
+                            <option value="es">🇪🇸 Español</option>
+                            <option value="fr">🇫🇷 Français</option>
+                            <option value="de">🇩🇪 Deutsch</option>
+                            <option value="zh">🇨🇳 中文</option>
+                        </select>
+                    </div>
+
+                    <!-- Theme Toggle (Mobile) -->
+                    <div class="mobile-setting-item">
+                        <label><i class="fas fa-palette"></i> Theme</label>
+                        <button class="theme-toggle-mobile" id="theme-toggle-mobile" aria-label="Toggle theme">
+                            <span class="theme-icon theme-icon-light">
+                                <i class="fas fa-sun"></i> Light
+                            </span>
+                            <span class="theme-icon theme-icon-dark">
+                                <i class="fas fa-moon"></i> Dark
+                            </span>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SETTINGS PAGE -->
+    <section class="settings-page">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="settings-header">
+                <h1 data-i18n="settings.title">Settings</h1>
+                <p data-i18n="settings.subtitle">Customize your TradeStarter experience</p>
+            </div>
+
+            <!-- Settings Grid -->
+            <div class="settings-grid">
+
+                <!-- Theme Settings -->
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <i class="fas fa-palette"></i>
+                        <h3 data-i18n="settings.theme.title">Theme Preferences</h3>
+                    </div>
+                    <div class="settings-card-body">
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="theme-select" data-i18n="settings.theme.label">Color Theme</label>
+                                <p data-i18n="settings.theme.description">Choose between light and dark mode</p>
+                            </div>
+                            <div class="theme-options">
+                                <button class="theme-option" data-theme="light" id="theme-light">
+                                    <i class="fas fa-sun"></i>
+                                    <span data-i18n="settings.theme.light">Light</span>
+                                </button>
+                                <button class="theme-option" data-theme="dark" id="theme-dark">
+                                    <i class="fas fa-moon"></i>
+                                    <span data-i18n="settings.theme.dark">Dark</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Language Settings -->
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <i class="fas fa-language"></i>
+                        <h3 data-i18n="settings.language.title">Language</h3>
+                    </div>
+                    <div class="settings-card-body">
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="language-select" data-i18n="settings.language.label">Select Language</label>
+                                <p data-i18n="settings.language.description">Choose your preferred language</p>
+                            </div>
+                            <select id="language-select" class="settings-select">
+                                <option value="en">🇺🇸 English</option>
+                                <option value="es">🇪🇸 Español</option>
+                                <option value="fr">🇫🇷 Français</option>
+                                <option value="de">🇩🇪 Deutsch</option>
+                                <option value="zh">🇨🇳 中文</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Display Settings -->
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <i class="fas fa-desktop"></i>
+                        <h3 data-i18n="settings.display.title">Display Options</h3>
+                    </div>
+                    <div class="settings-card-body">
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="reduce-animations" data-i18n="settings.display.animations">Reduce
+                                    Animations</label>
+                                <p data-i18n="settings.display.animationsDesc">Minimize motion for accessibility</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="reduce-animations">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="compact-mode" data-i18n="settings.display.compact">Compact Mode</label>
+                                <p data-i18n="settings.display.compactDesc">Reduce spacing for a denser layout</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="compact-mode">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Preferences -->
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3 data-i18n="settings.learning.title">Learning Preferences</h3>
+                    </div>
+                    <div class="settings-card-body">
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="show-hints" data-i18n="settings.learning.hints">Show Hints</label>
+                                <p data-i18n="settings.learning.hintsDesc">Display helpful tips during lessons</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="show-hints" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="auto-next" data-i18n="settings.learning.autoNext">Auto-advance
+                                    Lessons</label>
+                                <p data-i18n="settings.learning.autoNextDesc">Automatically move to next lesson after
+                                    completion</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="auto-next">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notification Settings -->
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <i class="fas fa-bell"></i>
+                        <h3 data-i18n="settings.notifications.title">Notifications</h3>
+                    </div>
+                    <div class="settings-card-body">
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="achievement-notifications"
+                                    data-i18n="settings.notifications.achievements">Achievement Notifications</label>
+                                <p data-i18n="settings.notifications.achievementsDesc">Get notified when you unlock
+                                    achievements</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="achievement-notifications" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label for="sound-effects" data-i18n="settings.notifications.sounds">Sound
+                                    Effects</label>
+                                <p data-i18n="settings.notifications.soundsDesc">Play sounds for interactions and
+                                    achievements</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="sound-effects" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data & Privacy -->
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3 data-i18n="settings.data.title">Data & Privacy</h3>
+                    </div>
+                    <div class="settings-card-body">
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label data-i18n="settings.data.progressLabel">Learning Progress</label>
+                                <p data-i18n="settings.data.progressDesc">Manage your learning data</p>
+                            </div>
+                            <button class="btn btn-outline btn-sm" id="export-progress">
+                                <i class="fas fa-download"></i> <span data-i18n="settings.data.export">Export
+                                    Data</span>
+                            </button>
+                        </div>
+                        <div class="settings-option">
+                            <div class="option-info">
+                                <label data-i18n="settings.data.resetLabel">Reset Progress</label>
+                                <p data-i18n="settings.data.resetDesc">Clear all learning progress and start fresh</p>
+                            </div>
+                            <button class="btn btn-outline btn-sm btn-danger" id="reset-progress">
+                                <i class="fas fa-trash-alt"></i> <span data-i18n="settings.data.reset">Reset All</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Settings Footer Info -->
+            <div class="settings-footer">
+                <p data-i18n="settings.footer.info">Settings are automatically saved to your browser's local storage</p>
+                <p data-i18n="settings.footer.version">Version 1.0.0</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- About Section -->
+            <div class="footer-section">
+                <h4>TradeStarter</h4>
+                <p>Your trusted educational platform for learning crypto, forex, and airdrops. We make complex trading
+                    concepts simple and accessible for everyone.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+                <a href="crypto.html" data-i18n="nav.learnCrypto">Learn Crypto</a>
+                <a href="forex.html" data-i18n="nav.learnForex">Learn Forex</a>
+                <a href="airdrops.html" data-i18n="nav.airdropGuide">Airdrop Guide</a>
+                <a href="tools.html" data-i18n="nav.tools">Tools & Resources</a>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-section">
+                <h4 data-i18n="nav.resources">Resources</h4>
+                <a href="tools.html" data-i18n="nav.basicTools">Price Trackers</a>
+                <a href="tools.html" data-i18n="nav.basicTools">Converters</a>
+                <a href="tools.html" data-i18n="nav.advancedTools">Recommended Wallets</a>
+                <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+            </div>
+
+            <!-- Legal -->
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="privacy-policy.html" data-i18n="footer.privacyPolicy">Privacy Policy</a>
+                <a href="terms-of-service.html" data-i18n="footer.termsOfService">Terms of Service</a>
+                <a href="disclaimer.html" data-i18n="footer.disclaimer">Disclaimer</a>
+                <p style="margin-top: 1rem; font-size: 0.575rem;" data-i18n="footer.allRightsReserved">Educational
+                    purposes only. Not financial advice.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/theme-system.js"></script>
+    <script src="js/i18n-system.js"></script>
+    <script src="js/settings-system.js"></script>
+</body>
+
+</html>

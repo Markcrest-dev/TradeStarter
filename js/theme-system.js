@@ -81,28 +81,21 @@ class ThemeSystem {
         }
     }
 
-    // Create theme toggle button in navbar
+    // Create theme toggle button in navbar (disabled - moved to settings page)
     createThemeToggle() {
-        const navActions = document.querySelector('.nav-actions');
-
-        if (!navActions) return;
-
-        const themeToggle = document.createElement('button');
-        themeToggle.className = 'theme-toggle';
-        themeToggle.setAttribute('aria-label', 'Toggle theme');
-        themeToggle.innerHTML = `
-            <span class="theme-icon theme-icon-light">
-                <i class="fas fa-sun"></i>
-            </span>
-            <span class="theme-icon theme-icon-dark">
-                <i class="fas fa-moon"></i>
-            </span>
-        `;
-
-        themeToggle.addEventListener('click', () => this.toggleTheme());
-
-        navActions.insertBefore(themeToggle, navActions.firstChild);
+        // Desktop theme toggle removed - now in settings page
+        // Only setup mobile theme toggle
+        this.setupMobileThemeToggle();
         this.updateToggleIcon();
+    }
+
+    // Setup mobile theme toggle
+    setupMobileThemeToggle() {
+        const mobileToggle = document.getElementById('theme-toggle-mobile');
+
+        if (mobileToggle) {
+            mobileToggle.addEventListener('click', () => this.toggleTheme());
+        }
     }
 
     // Update toggle icon based on current theme
