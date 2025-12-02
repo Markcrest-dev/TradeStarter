@@ -357,11 +357,6 @@ body,
   border-color: var(--color-border);
 }
 
-/* Level headers */
-[data-theme="dark"] .level-header {
-  background: var(--color-light-bg);
-}
-
 /* Level badges */
 [data-theme="dark"] .level-badge {
   background: var(--color-surface);

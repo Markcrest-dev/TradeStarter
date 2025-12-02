@@ -1993,6 +1993,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson11-video',
+            type: 'youtube',
+            videoId: 'Q32g0MvWv_w',
+            title: 'What is DeFi? Decentralized Finance Explained',
+            description: 'Whiteboard Crypto explains the revolutionary concept of Decentralized Finance (DeFi) and how it differs from traditional banking.',
+            duration: '10:15'
+        },
         quiz: [
             {
                 question: "What is the main advantage of DeFi over traditional finance?",
@@ -2207,6 +2215,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson12-video',
+            type: 'youtube',
+            videoId: 'g1ib8l4oJd4',
+            title: 'What is a Liquidity Pool in Crypto?',
+            description: 'Understand how liquidity pools work, the role of Automated Market Makers (AMMs), and the concept of yield farming.',
+            duration: '12:30'
+        },
         quiz: [
             {
                 question: "What is impermanent loss?",
@@ -2424,6 +2440,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson13-video',
+            type: 'youtube',
+            videoId: 'e2bN2Zc8g4Q',
+            title: 'Introduction to On-Chain Analysis',
+            description: 'Glassnode provides a foundational overview of on-chain analysis and how to use blockchain data to understand market trends.',
+            duration: '15:45'
+        },
         quiz: [
             {
                 question: "What does large exchange inflow typically indicate?",
@@ -2499,6 +2523,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson14-video',
+            type: 'youtube',
+            videoId: 'ZE2HxTmxfrI',
+            title: 'Smart Contracts - Simply Explained',
+            description: 'A simple and clear explanation of what smart contracts are, how they work, and their real-world applications.',
+            duration: '5:20'
+        },
         quiz: [
             {
                 question: "What is a smart contract?",
@@ -2562,6 +2594,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson15-video',
+            type: 'youtube',
+            videoId: 'eYg-Hj6tG2c',
+            title: 'What Are Layer 2 Solutions?',
+            description: 'Whiteboard Crypto explains Layer 2 scaling solutions like Rollups and Sidechains, and how they make Ethereum faster and cheaper.',
+            duration: '11:10'
+        },
         quiz: [
             {
                 question: "What is the main benefit of Layer 2?",
@@ -2634,6 +2674,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson16-video',
+            type: 'youtube',
+            videoId: 'u1h1tY_J-j4',
+            title: 'Crypto Trading Bots for Beginners',
+            description: 'Learn about automated trading bots, how they work, and how to set up a basic grid trading strategy.',
+            duration: '14:50'
+        },
         quiz: [
             {
                 question: "What is a DCA bot?",
@@ -2705,6 +2753,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson17-video',
+            type: 'youtube',
+            videoId: 'kY1Qy7g32cI',
+            title: 'Hardware Wallets: Ledger vs Trezor',
+            description: 'A comparison of the top hardware wallets to help you choose the best security solution for your crypto assets.',
+            duration: '18:20'
+        },
         quiz: [
             {
                 question: "What is a multisig wallet?",
@@ -2783,6 +2839,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson18-video',
+            type: 'youtube',
+            videoId: 'GgMICe31I8Y',
+            title: 'Advanced Trading Strategy: RSI + MACD',
+            description: 'Learn a professional trading strategy combining RSI, MACD, and EMAs to identify high-probability trade setups.',
+            duration: '16:40'
+        },
         quiz: [
             {
                 question: "What does RSI above 70 indicate?",
@@ -2881,6 +2945,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson19-video',
+            type: 'youtube',
+            videoId: 'R9K1uVjZg78',
+            title: 'Crypto Tax Guide 2024',
+            description: 'An overview of crypto tax rules, reporting obligations, and strategies to stay compliant while minimizing liability.',
+            duration: '20:15'
+        },
         quiz: [
             {
                 question: "Which is a taxable event?",
@@ -2994,6 +3066,14 @@ const LESSON_CONTENT = {
                 <p><strong>Next steps:</strong> Practice what you've learned, stay updated with industry news, and never stop learning!</p>
             </div>
         `,
+        video: {
+            id: 'lesson20-video',
+            type: 'youtube',
+            videoId: 'wX-y5010_eY',
+            title: 'How to Get a Job in Crypto',
+            description: 'Expert advice on finding career opportunities in the blockchain industry, from technical roles to marketing and community management.',
+            duration: '12:55'
+        },
         quiz: [
             {
                 question: "What skill is most important for a blockchain developer?",
@@ -3166,10 +3246,10 @@ const LESSON_CONTENT = {
         video: {
             id: 'lesson21-video',
             type: 'youtube',
-            videoId: 'rYQgy8QDEBI', // Placeholder: Replace with specific Forex video
-            title: 'What is Forex Trading?',
-            description: 'A comprehensive introduction to the Foreign Exchange market and how it works.',
-            duration: '10:00'
+            videoId: 'yJt-oM08UjU',
+            title: 'What is Forex Trading and How Does it Work?',
+            description: 'Rayner Teo explains the basics of Forex trading, how the market operates, and how you can get started.',
+            duration: '12:45'
         },
         quiz: [
             {
@@ -3270,10 +3350,10 @@ const LESSON_CONTENT = {
         video: {
             id: 'lesson22-video',
             type: 'youtube',
-            videoId: 'rYQgy8QDEBI', // Placeholder
-            title: 'Understanding Currency Pairs',
-            description: 'Learn how to read currency pairs, base vs quote currencies, and the different types of pairs.',
-            duration: '15:00'
+            videoId: 'kYv_3-3hQfA',
+            title: 'Forex Currency Pairs Explained',
+            description: 'Trading 212 breaks down currency pairs, base and quote currencies, and the different types of pairs you can trade.',
+            duration: '8:30'
         },
         quiz: [
             {
@@ -3372,10 +3452,10 @@ const LESSON_CONTENT = {
         video: {
             id: 'lesson23-video',
             type: 'youtube',
-            videoId: 'rYQgy8QDEBI', // Placeholder
+            videoId: 'Z-Qx-Vz12X4',
             title: 'Forex Market Sessions Explained',
-            description: 'Discover the best times to trade and the characteristics of each major market session.',
-            duration: '12:00'
+            description: 'Rayner Teo explains the different forex market sessions, their characteristics, and the best times to trade.',
+            duration: '14:20'
         },
         quiz: [
             {
@@ -3496,10 +3576,10 @@ const LESSON_CONTENT = {
         video: {
             id: 'lesson24-video',
             type: 'youtube',
-            videoId: 'rYQgy8QDEBI', // Placeholder
-            title: 'Pips, Lots, and Leverage',
-            description: 'Master the math of forex trading: calculating pips, choosing lot sizes, and using leverage safely.',
-            duration: '18:00'
+            videoId: 'c4W2b16yHhQ',
+            title: 'Pips, Lots, and Leverage Explained',
+            description: 'Trading 212 explains the crucial concepts of pips, lot sizes, and leverage in forex trading.',
+            duration: '10:50'
         },
         quiz: [
             {
@@ -3627,10 +3707,10 @@ const LESSON_CONTENT = {
         video: {
             id: 'lesson25-video',
             type: 'youtube',
-            videoId: 'rYQgy8QDEBI', // Placeholder
-            title: 'How to Choose a Forex Broker',
-            description: 'A guide to selecting a safe, regulated, and cost-effective forex broker for your trading journey.',
-            duration: '15:00'
+            videoId: 'wXz0gZq0WwI',
+            title: 'How to Pick a Good Forex Broker',
+            description: 'Rayner Teo provides a checklist for choosing a reliable and safe forex broker that suits your trading needs.',
+            duration: '16:15'
         },
         quiz: [
             {
@@ -3692,6 +3772,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson26-video',
+            type: 'youtube',
+            videoId: 'QhP1p2b0hS8',
+            title: 'MetaTrader 4 Tutorial for Beginners',
+            description: 'A guide on how to use the MetaTrader 4 platform, including setting up charts and using indicators.',
+            duration: '18:40'
+        },
         quiz: [
             {
                 question: "What is a market order?",
@@ -3750,6 +3838,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson27-video',
+            type: 'youtube',
+            videoId: 'C3KRwfj9F8Q',
+            title: 'Candlestick Charts For Beginners',
+            description: 'Rayner Teo explains how to read candlestick charts and identify key reversal patterns.',
+            duration: '25:30'
+        },
         quiz: [
             {
                 question: "What does a hammer candlestick indicate?",
@@ -3811,6 +3907,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson28-video',
+            type: 'youtube',
+            videoId: 'J6CnmsjkEtk',
+            title: 'Support and Resistance Trading Strategy',
+            description: 'Learn how to correctly draw support and resistance levels and how to trade them effectively.',
+            duration: '22:10'
+        },
         quiz: [
             {
                 question: "What is support?",
@@ -3875,6 +3979,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson29-video',
+            type: 'youtube',
+            videoId: 'Rpbh_836YPs',
+            title: 'A Simple Trend Following Strategy',
+            description: 'Rayner Teo shares a data-backed trend following strategy to help you trade with the trend.',
+            duration: '20:50'
+        },
         quiz: [
             {
                 question: "What characterizes an uptrend?",
@@ -3958,6 +4070,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson30-video',
+            type: 'youtube',
+            videoId: 'au2V2_02l_Q',
+            title: 'The Ultimate Trading Indicators Course',
+            description: 'Rayner Teo covers the most popular trading indicators and how to use them to improve your trading.',
+            duration: '28:15'
+        },
         quiz: [
             {
                 question: "What does RSI above 70 indicate?",
@@ -4048,6 +4168,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson31-video',
+            type: 'youtube',
+            videoId: '_P-xYw6_5yI',
+            title: '11 Price Action Trading Strategies',
+            description: 'Rayner Teo reveals 11 powerful price action strategies and techniques that work in today\'s markets.',
+            duration: '35:40'
+        },
         quiz: [
             {
                 question: "What does a Head and Shoulders pattern indicate?",
@@ -4117,6 +4245,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson32-video',
+            type: 'youtube',
+            videoId: 'x7rYfC_F19I',
+            title: 'The Only Fibonacci Trading Video You Will Ever Need',
+            description: 'Rayner Teo explains how to correctly use Fibonacci retracements to find high-probability trade setups.',
+            duration: '22:15'
+        },
         quiz: [
             {
                 question: "What is the most important Fibonacci level?",
@@ -4188,6 +4324,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson33-video',
+            type: 'youtube',
+            videoId: 'l01uW1bL2hQ',
+            title: 'Crypto Trading Risk Management (Must Know)',
+            description: 'Learn the essential risk management strategies to protect your capital and survive in the markets.',
+            duration: '15:30'
+        },
         quiz: [
             {
                 question: "What is the maximum recommended risk per trade?",
@@ -4249,6 +4393,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson34-video',
+            type: 'youtube',
+            videoId: 'yB4fC2y_mXU',
+            title: 'The Only Moving Average Trading Strategy You\'ll Ever Need',
+            description: 'Rayner Teo shares a powerful moving average strategy that can help you catch massive trends.',
+            duration: '18:50'
+        },
         quiz: [
             {
                 question: "What is a good minimum risk-reward ratio?",
@@ -4351,6 +4503,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson35-video',
+            type: 'youtube',
+            videoId: 'sO32S65oE-Q',
+            title: 'RSI Indicator Explained',
+            description: 'Rayner Teo explains the RSI indicator and how to use it to identify overbought/oversold conditions and divergence.',
+            duration: '20:10'
+        },
         quiz: [
             {
                 question: "What is the most important fundamental factor for currencies?",
@@ -4428,6 +4588,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson36-video',
+            type: 'youtube',
+            videoId: 'R9Z-B2h2O3A',
+            title: 'Trading Psychology Mastery',
+            description: 'Master your mind and emotions to become a successful trader.',
+            duration: '30:00'
+        },
         quiz: [
             {
                 question: "What is revenge trading?",
@@ -4511,6 +4679,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson37-video',
+            type: 'youtube',
+            videoId: 'CxFv_EUY0ZA',
+            title: 'Bollinger Band Pullback System',
+            description: 'Rayner Teo reveals a high-probability Bollinger Band trading system that has generated significant returns over 25 years.',
+            duration: '18:25'
+        },
         quiz: [
             {
                 question: "What is trend following?",
@@ -4590,6 +4766,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson38-video',
+            type: 'youtube',
+            videoId: 'sM9e0M02F_Y',
+            title: 'Stochastic Indicator Secrets',
+            description: 'Rayner Teo explains how to use the Stochastic Indicator effectively to profit in both bull and bear markets.',
+            duration: '22:40'
+        },
         quiz: [
             {
                 question: "What is backtesting?",
@@ -4668,6 +4852,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson39-video',
+            type: 'youtube',
+            videoId: 'p0g8rT9s970',
+            title: 'Ichimoku Cloud Trading Strategy',
+            description: 'Rayner Teo simplifies the Ichimoku Cloud and shares a powerful strategy for trend following.',
+            duration: '16:20'
+        },
         quiz: [
             {
                 question: "How long should you demo trade minimum?",
@@ -4756,6 +4948,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson40-video',
+            type: 'youtube',
+            videoId: '62rV35fR39A',
+            title: 'Pivot Points Trading Strategy',
+            description: 'Rayner Teo explains how to use Pivot Points for identifying key support and resistance levels in intraday trading.',
+            duration: '25:10'
+        },
         quiz: [
             {
                 question: "When should you transition to live trading?",
@@ -4859,6 +5059,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson41-video',
+            type: 'youtube',
+            videoId: 'huOifHzQ7sk',
+            title: '10 Trading Mistakes That Lead to Failure',
+            description: 'Learn about the most common trading mistakes and how to avoid them to become a successful trader.',
+            duration: '15:45'
+        },
         quiz: [
             {
                 question: "What is the #1 beginner mistake?",
@@ -4944,6 +5152,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson42-video',
+            type: 'youtube',
+            videoId: 'QUFAaWw3kU0',
+            title: 'Proven Forex Trading Strategies That Work',
+            description: 'Rayner Teo shares advanced forex trading strategies that are backed by real results.',
+            duration: '25:20'
+        },
         quiz: [
             {
                 question: "What is price action trading?",
@@ -5035,6 +5251,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson43-video',
+            type: 'youtube',
+            videoId: 'rVv3M6wB-w0',
+            title: 'Cointegration vs Correlation',
+            description: 'Understand the difference between cointegration and correlation and how to use them in your trading.',
+            duration: '12:10'
+        },
         quiz: [
             {
                 question: "What does a correlation of +0.9 mean?",
@@ -5129,6 +5353,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson44-video',
+            type: 'youtube',
+            videoId: 'p-M5r4r5hQk',
+            title: 'How to do the Carry Trade',
+            description: 'TraderNick explains the powerful Carry Trade strategy and how to earn interest while holding positions.',
+            duration: '14:50'
+        },
         quiz: [
             {
                 question: "What is a carry trade?",
@@ -5259,6 +5491,14 @@ const LESSON_CONTENT = {
                 <p><strong>Next steps:</strong> Create your trading plan, practice on demo, and gradually transition to live trading. Remember: consistency and discipline are key to long-term success!</p>
             </div>
         `,
+        video: {
+            id: 'lesson45-video',
+            type: 'youtube',
+            videoId: 'kGj7y0b5K1I',
+            title: 'How I Would Learn To Trade (If I Had To Start Over)',
+            description: 'Rayner Teo outlines a step-by-step plan for learning to trade and building a profitable strategy.',
+            duration: '22:30'
+        },
         quiz: [
             {
                 question: "What should be in a trading plan?",
@@ -5421,6 +5661,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+            video: {
+                id: 'lesson46-video',
+                type: 'youtube',
+                videoId: 'fO6EkmV3lF4',
+                title: 'What is a Crypto Airdrop?',
+                description: 'Whiteboard Crypto explains what airdrops are, why projects do them, and how you can benefit.',
+                duration: '10:15'
+            },
             quiz: [
                 {
                     question: "What is an airdrop?",
@@ -5578,6 +5826,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+            video: {
+                id: 'lesson47-video',
+                type: 'youtube',
+                videoId: 'QWf4W-M74I8',
+                title: 'MetaMask Tutorial for Beginners',
+                description: 'Coin Bureau provides a step-by-step guide on how to set up and use MetaMask safely.',
+                duration: '20:45'
+            },
             quiz: [
                 {
                     question: "What should you NEVER do with your seed phrase?",
@@ -5745,6 +6001,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+            video: {
+                id: 'lesson48-video',
+                type: 'youtube',
+                videoId: 'S8fF-g11X-M',
+                title: 'Crypto Scams to Avoid',
+                description: 'Whiteboard Crypto reveals common crypto scams and how to spot them to protect your assets.',
+                duration: '12:30'
+            },
             quiz: [
                 {
                     question: "What should a real airdrop NEVER ask for?",
@@ -5905,9 +6169,9 @@ const LESSON_CONTENT = {
         video: {
             id: 'lesson49-video',
             type: 'youtube',
-            videoId: 'rYQgy8QDEBI', // Placeholder
+            videoId: 'GzI39-3pYlY',
             title: 'How to Find Airdrops',
-            description: 'Learn the strategies to discover high-value airdrops early using Twitter and other tools.',
+            description: 'Miles Deutscher shares his strategies for finding high-value airdrops before they launch.',
             duration: '15:00'
         },
         quiz: [
@@ -6001,9 +6265,9 @@ const LESSON_CONTENT = {
         video: {
             id: 'lesson50-video',
             type: 'youtube',
-            videoId: 'rYQgy8QDEBI', // Placeholder
-            title: 'Farming Testnet Airdrops',
-            description: 'A step-by-step guide to participating in testnets to qualify for potential future airdrops.',
+            videoId: 'ZPQlJwuRNZE',
+            title: 'Ultimate Airdrop Guide',
+            description: 'Miles Deutscher provides a comprehensive guide to farming airdrops, including testnet strategies.',
             duration: '22:00'
         },
         quiz: [
@@ -6333,6 +6597,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson54-video',
+            type: 'youtube',
+            videoId: 'qR-s5s7_L3s',
+            title: 'Multi-Wallet Management Guide',
+            description: 'Learn how to manage multiple crypto wallets safely and effectively for airdrop farming.',
+            duration: '22:15'
+        },
         quiz: [
             {
                 question: "How many farming wallets should you use?",
@@ -6398,6 +6670,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson55-video',
+            type: 'youtube',
+            videoId: 'l1K0oBwHj98',
+            title: 'How to Use Discord for Crypto Airdrops',
+            description: 'Learn how to navigate Discord communities safely and effectively to qualify for airdrops.',
+            duration: '14:30'
+        },
         quiz: [
             {
                 question: "Will real Discord admins DM you first?",
@@ -6456,6 +6736,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson56-video',
+            type: 'youtube',
+            videoId: 'gSjtJ0N0XwQ',
+            title: 'How to Find Upcoming Airdrops on Twitter',
+            description: 'Miles Deutscher explains how to use Twitter to find early airdrop opportunities and build your presence.',
+            duration: '12:45'
+        },
         quiz: [
             {
                 question: "What follower count is good for airdrops?",
@@ -6519,6 +6807,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson57-video',
+            type: 'youtube',
+            videoId: 'ANfZhEedAXo',
+            title: 'How to Track Crypto Airdrops',
+            description: 'A complete guide on how to track and organize your airdrop farming activities to maximize rewards.',
+            duration: '16:20'
+        },
         quiz: [
             {
                 question: "Why document airdrop activities?",
@@ -6587,6 +6883,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson58-video',
+            type: 'youtube',
+            videoId: 'S8fF-g11X-M',
+            title: 'How to Spot Fake Crypto Airdrops',
+            description: 'Whiteboard Crypto teaches you how to identify and avoid common airdrop scams.',
+            duration: '18:15'
+        },
         quiz: [
             {
                 question: "What is an immediate red flag?",
@@ -6660,6 +6964,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson59-video',
+            type: 'youtube',
+            videoId: 'iW_I-dKkZc4',
+            title: 'Crypto Privacy Guide for Airdrops',
+            description: 'Learn how to protect your privacy and anonymity while participating in crypto airdrops.',
+            duration: '20:10'
+        },
         quiz: [
             {
                 question: "Why use a VPN for airdrops?",
@@ -6721,6 +7033,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson60-video',
+            type: 'youtube',
+            videoId: 'gSjtJ0N0XwQ',
+            title: 'Best Airdrop Calendars & Tools',
+            description: 'Discover the best tools and calendars to stay updated on upcoming airdrops.',
+            duration: '12:50'
+        },
         quiz: [
             {
                 question: "What is the most important date to track?",
@@ -6799,6 +7119,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson61-video',
+            type: 'youtube',
+            videoId: 'xH4_mG1s-04',
+            title: 'Top 10 Layer 2 Airdrop Targets',
+            description: 'Miles Deutscher breaks down the most promising Layer 2 airdrops to farm right now.',
+            duration: '22:30'
+        },
         quiz: [
             {
                 question: "What was Arbitrum airdrop worth?",
@@ -6877,6 +7205,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson62-video',
+            type: 'youtube',
+            videoId: 'u_s8i6mrTj8',
+            title: 'How To Join The Free NFT Trend',
+            description: 'Learn how to find and participate in free NFT drops and potential airdrops for holders.',
+            duration: '18:40'
+        },
         quiz: [
             {
                 question: "What did BAYC holders receive?",
@@ -6957,6 +7293,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson63-video',
+            type: 'youtube',
+            videoId: 'ANfZhEedAXo',
+            title: 'DeFi Airdrop Strategies',
+            description: 'Strategies for farming airdrops from DeFi protocols like DEXs and lending platforms.',
+            duration: '16:20'
+        },
         quiz: [
             {
                 question: "How long should you use a DeFi protocol?",
@@ -7035,6 +7379,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson64-video',
+            type: 'youtube',
+            videoId: 'lJjIu9rJ1D8',
+            title: 'LayerZero Airdrop Strategy',
+            description: 'Miles Deutscher explains how to position yourself for the massive LayerZero airdrop using bridges.',
+            duration: '18:20'
+        },
         quiz: [
             {
                 question: "Why do bridges often airdrop?",
@@ -7112,6 +7464,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson65-video',
+            type: 'youtube',
+            videoId: 'rC5069j-G14',
+            title: 'Staking for Airdrops Guide',
+            description: 'Learn which tokens to stake to qualify for multiple ecosystem airdrops.',
+            duration: '16:45'
+        },
         quiz: [
             {
                 question: "What ecosystem has best airdrop history for stakers?",
@@ -7178,6 +7538,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson66-video',
+            type: 'youtube',
+            videoId: 'u8frIjVKWJY',
+            title: 'How to Vote on Snapshot',
+            description: 'A quick tutorial on how to participate in off-chain governance voting using Snapshot.',
+            duration: '5:30'
+        },
         quiz: [
             {
                 question: "Why participate in governance?",
@@ -7248,6 +7616,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson67-video',
+            type: 'youtube',
+            videoId: 'N_m9D80zR8k',
+            title: 'Gitcoin Passport & Galxe Guide',
+            description: 'Learn how to build your on-chain reputation and complete quests on platforms like Galxe.',
+            duration: '14:15'
+        },
         quiz: [
             {
                 question: "What is Galxe?",
@@ -7327,6 +7703,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson68-video',
+            type: 'youtube',
+            videoId: 'ANfZhEedAXo',
+            title: 'Crypto Referral Strategies',
+            description: 'Learn how to leverage referral programs to maximize your airdrop rewards.',
+            duration: '16:20'
+        },
         quiz: [
             {
                 question: "How do referral programs benefit you?",
@@ -7400,6 +7784,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson69-video',
+            type: 'youtube',
+            videoId: 'ANfZhEedAXo',
+            title: 'Airdrop Tracking Tools',
+            description: 'Discover the best tools to track your airdrop farming progress and eligibility.',
+            duration: '16:20'
+        },
         quiz: [
             {
                 question: "What does Earnifi do?",
@@ -7489,6 +7881,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson70-video',
+            type: 'youtube',
+            videoId: 'u1WFkGRvbP0',
+            title: 'Airdrop Claiming Guide',
+            description: 'A step-by-step guide on how to claim airdrops safely and efficiently.',
+            duration: '18:30'
+        },
         quiz: [
             {
                 question: "When is the best time to claim for low gas?",
@@ -7569,6 +7969,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson71-video',
+            type: 'youtube',
+            videoId: 'dwFmwFzsT_Y',
+            title: 'Solana Airdrop Guide',
+            description: 'A complete guide to farming airdrops in the Solana ecosystem.',
+            duration: '14:20'
+        },
         quiz: [
             {
                 question: "What is Solana's main advantage for airdrop farming?",
@@ -7630,6 +8038,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson72-video',
+            type: 'youtube',
+            videoId: 'gSjtJ0N0XwQ',
+            title: 'Airdrop Portfolio Management',
+            description: 'Learn how to manage and track your airdrop farming portfolio effectively.',
+            duration: '12:50'
+        },
         quiz: [
             {
                 question: "What percentage should go to high-probability airdrops?",
@@ -7710,6 +8126,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson73-video',
+            type: 'youtube',
+            videoId: 'v1U4H09_nPI',
+            title: 'Crypto Airdrop Tax Guide',
+            description: 'Understand the tax implications of crypto airdrops and how to report them.',
+            duration: '18:30'
+        },
         quiz: [
             {
                 question: "Are airdrops taxable?",
@@ -7779,6 +8203,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson74-video',
+            type: 'youtube',
+            videoId: 'R7m1wPjF92k',
+            title: 'LootBot Tutorial',
+            description: 'A tutorial on using LootBot to automate your airdrop farming tasks.',
+            duration: '15:10'
+        },
         quiz: [
             {
                 question: "What is safe to automate?",
@@ -7846,6 +8278,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson75-video',
+            type: 'youtube',
+            videoId: 'Z2R25vI6e0w',
+            title: 'How To Build a Crypto Community',
+            description: 'Learn how to build a strong crypto community presence to increase your airdrop opportunities.',
+            duration: '16:40'
+        },
         quiz: [
             {
                 question: "Why build community presence?",
@@ -7913,6 +8353,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson76-video',
+            type: 'youtube',
+            videoId: 'bU_r50P5b3g',
+            title: 'How to Track Crypto Whales',
+            description: 'Learn how to track whale wallets to discover profitable airdrop strategies.',
+            duration: '14:50'
+        },
         quiz: [
             {
                 question: "What is whale watching?",
@@ -7974,6 +8422,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson77-video',
+            type: 'youtube',
+            videoId: 'gSjtJ0N0XwQ',
+            title: 'Airdrop Timing Strategies',
+            description: 'Understand the best times to farm airdrops and how to optimize your timing.',
+            duration: '12:50'
+        },
         quiz: [
             {
                 question: "When are airdrop rewards highest?",
@@ -8052,6 +8508,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson78-video',
+            type: 'youtube',
+            videoId: 'g3i0_2ZJm7Q',
+            title: 'Airdrop Exit Strategies',
+            description: 'Learn when and how to sell your airdrops to maximize profits.',
+            duration: '18:50'
+        },
         quiz: [
             {
                 question: "When should you decide your exit strategy?",
@@ -8110,6 +8574,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson79-video',
+            type: 'youtube',
+            videoId: 'bPZpzjJl3ts',
+            title: 'How to Reinvest Crypto Profits',
+            description: 'Strategies for reinvesting your airdrop profits to build long-term wealth.',
+            duration: '14:15'
+        },
         quiz: [
             {
                 question: "What percentage should you reinvest?",
@@ -8167,6 +8639,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson80-video',
+            type: 'youtube',
+            videoId: 'ANfZhEedAXo',
+            title: 'Long-Term Airdrop Planning',
+            description: 'How to create a sustainable long-term plan for airdrop farming.',
+            duration: '16:20'
+        },
         quiz: [
             {
                 question: "What's a realistic 1-year goal?",
@@ -8234,6 +8714,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson81-video',
+            type: 'youtube',
+            videoId: 'fU_YgCZXtXs',
+            title: 'Managing Farming Burnout',
+            description: 'Learn how to manage the stress and workload of professional airdrop farming.',
+            duration: '12:40'
+        },
         quiz: [
             {
                 question: "How to prevent burnout?",
@@ -8307,6 +8795,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson82-video',
+            type: 'youtube',
+            videoId: 'jX0_b0z7QdM',
+            title: 'Staying Updated on Airdrops',
+            description: 'Discover the best sources and routines to stay ahead of the latest airdrop news.',
+            duration: '14:20'
+        },
         quiz: [
             {
                 question: "How much time daily to stay updated?",
@@ -8385,6 +8881,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson83-video',
+            type: 'youtube',
+            videoId: 'Z2R25vI6e0w',
+            title: 'Building Crypto Reputation',
+            description: 'How to build a personal brand and reputation to unlock exclusive opportunities.',
+            duration: '16:40'
+        },
         quiz: [
             {
                 question: "How to build reputation?",
@@ -8465,6 +8969,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson84-video',
+            type: 'youtube',
+            videoId: 'fU_YgCZXtXs',
+            title: 'Airdrop Farming as Income',
+            description: 'An honest look at the potential and challenges of making a living from airdrops.',
+            duration: '12:40'
+        },
         quiz: [
             {
                 question: "What's needed for full-time airdrop farming?",
@@ -8590,6 +9102,14 @@ const LESSON_CONTENT = {
                 <p><strong>Remember:</strong> Knowledge without action is worthless. Start applying what you've learned today!</p>
             </div>
         `,
+        video: {
+            id: 'lesson85-video',
+            type: 'youtube',
+            videoId: 'ANfZhEedAXo',
+            title: 'Airdrop Mastery Review',
+            description: 'A final review of the key concepts and strategies covered in the Airdrop Mastery course.',
+            duration: '16:20'
+        },
         quiz: [
             {
                 question: "What's the most important airdrop principle?",
