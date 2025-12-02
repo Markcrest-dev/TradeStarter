@@ -527,6 +527,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson4-video',
+            type: 'youtube',
+            videoId: '7M7FqZ8-8_w',
+            title: 'Private Keys Made Easy For Crypto Beginners',
+            description: 'Learn what private keys are, why they are important, and how to keep them safe with this easy-to-understand guide from Exodus.',
+            duration: '4:15'
+        },
         quiz: [
             {
                 question: "What is the safest way to store your seed phrase?",
@@ -815,6 +823,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson5-video',
+            type: 'youtube',
+            videoId: 'kS1C7XG0L98',
+            title: 'Crypto Guide For Beginners 2024',
+            description: 'A complete guide to buying cryptocurrency, setting up wallets, and staying safe. Perfect for your first purchase.',
+            duration: '22:15'
+        },
         quiz: [
             {
                 question: "Which payment method typically has the lowest fees?",
@@ -977,6 +993,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson6-video',
+            type: 'youtube',
+            videoId: 'kYJjZ8E2-2M',
+            title: 'Crypto Chart Analysis for Beginners',
+            description: 'Learn how to read crypto charts, understand candlesticks, and identify trends with this easy-to-follow guide.',
+            duration: '14:30'
+        },
         quiz: [
             {
                 question: "What does a green/white candlestick indicate?",
@@ -1167,6 +1191,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson7-video',
+            type: 'youtube',
+            videoId: 'Bmf2IILzEug',
+            title: 'Tokenomics Explained: How to Find 100x Cryptos',
+            description: 'Coin Bureau explains the importance of tokenomics and how to analyze market cap, supply, and distribution to find high-potential projects.',
+            duration: '20:45'
+        },
         quiz: [
             {
                 question: "How is market cap calculated?",
@@ -1334,6 +1366,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson8-video',
+            type: 'youtube',
+            videoId: 'l01uW1bL2hQ',
+            title: 'Crypto Trading Risk Management (Must Know)',
+            description: 'Mind Math Money breaks down the essential risk management strategies every crypto trader needs to know to protect their capital.',
+            duration: '12:30'
+        },
         quiz: [
             {
                 question: "What is the recommended maximum risk per trade?",
@@ -1509,6 +1549,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson9-video',
+            type: 'youtube',
+            videoId: 'r9_D1-D0iG4',
+            title: 'Crypto Portfolio Strategy: Ultimate Guide',
+            description: 'Coin Bureau shares expert advice on building a balanced and diversified crypto portfolio to maximize gains and minimize risk.',
+            duration: '22:10'
+        },
         quiz: [
             {
                 question: "What is the main benefit of diversification?",
@@ -1690,6 +1738,14 @@ const LESSON_CONTENT = {
                 </ul>
             </div>
         `,
+        video: {
+            id: 'lesson10-video',
+            type: 'youtube',
+            videoId: 'k_5V-4S8_eQ',
+            title: 'How To Manage Crypto Trading Emotions',
+            description: 'CoinMarketCap provides 5 essential tips to master your emotions and avoid common psychological pitfalls in trading.',
+            duration: '5:45'
+        },
         quiz: [
             {
                 question: "What is FOMO in trading?",

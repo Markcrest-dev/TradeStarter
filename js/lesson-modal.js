@@ -292,13 +292,28 @@ class LessonModal {
                 '<p class="quiz-message">Review the lesson content and try again to improve your score.</p>'
             }
                 <div class="quiz-actions">
-                    <button class="btn-secondary" onclick="lessonModal.showQuiz()">${passed ? 'Retake Quiz' : 'Retry Quiz'}</button>
-                    <button class="btn-primary" onclick="lessonModal.completeLesson()">
+                    <button class="btn-secondary" id="quiz-retry-btn">${passed ? 'Retake Quiz' : 'Retry Quiz'}</button>
+                    <button class="btn-primary" id="quiz-action-btn">
                         ${passed ? 'Complete Lesson' : 'Review Content'}
                     </button>
                 </div>
             </div>
         `;
+
+        // Add event listeners
+        const retryBtn = document.getElementById('quiz-retry-btn');
+        if (retryBtn) {
+            retryBtn.addEventListener('click', () => this.showQuiz());
+        }
+
+        const actionBtn = document.getElementById('quiz-action-btn');
+        if (actionBtn) {
+            if (passed) {
+                actionBtn.addEventListener('click', () => this.completeLesson());
+            } else {
+                actionBtn.addEventListener('click', () => this.close());
+            }
+        }
 
         this.updateNavigation(true);
     }
@@ -306,8 +321,12 @@ class LessonModal {
     completeLesson() {
         // Trigger completion in learning system
         if (window.learningSystem) {
-            const lessonData = this.getLessonData();
-            window.learningSystem.completeLessonFromModal(this.currentLesson, lessonData);
+            try {
+                const lessonData = this.getLessonData();
+                window.learningSystem.completeLessonFromModal(this.currentLesson, lessonData);
+            } catch (error) {
+                console.error('Error completing lesson:', error);
+            }
         }
         this.close();
     }
@@ -826,4 +845,5 @@ class LessonModal {
 let lessonModal;
 document.addEventListener('DOMContentLoaded', () => {
     lessonModal = new LessonModal();
+    window.lessonModal = lessonModal; // Make globally accessible
 });

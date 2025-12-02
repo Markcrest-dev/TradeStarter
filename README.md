@@ -6,6 +6,32 @@
 
 ---
 
+## 📋 Project Status & Roadmap
+
+### ✅ Implemented & Completed
+*   **Multi-Language Support (i18n)**: Full translation support for English, Spanish, French, German, and Chinese using JSON files and a dynamic locale system.
+*   **Settings Hub**: Centralized settings page (`settings.html`) for theme preferences, language selection, and data management (reset progress).
+*   **Community Forum**: Functional frontend for a community forum with topics, posts, and categories (`forum.html`).
+*   **Trading Journal**: Dedicated trading journal to log and analyze trades (`journal.html`).
+*   **Premium UI/UX Redesign**: Glassmorphism aesthetics, animated hero sections, and responsive layouts across all pages.
+*   **Consolidated Tools**: Merged Tools and Advanced Tools into a comprehensive resource hub (`tools.html`).
+*   **Mobile Experience**: Optimized navbar, touch-friendly dropdowns, and responsive design for Android/iOS.
+*   **PDF Resources**: Downloadable guides for Crypto, Forex, and Risk Management.
+*   **Gamification System**: XP, levels, achievements, and certificates.
+
+### 🚧 Pending / In Progress
+*   **Real-time Data Integration**: Currently using simulated data for prices; need to connect to live APIs (CoinGecko/Binance).
+*   **Backend Integration**: Forum and Journal currently use LocalStorage; require a database backend for multi-user persistence.
+*   **Video Content Integration**: Video system structure is implemented (`video-system.js`), but video content needs to be embedded into lessons.
+
+### 🚀 What's Next (Roadmap)
+*   **PWA Implementation**: Convert the site into a Progressive Web App for installability and offline capabilities.
+*   **User Authentication**: Implement login/signup for cloud sync of progress and journal entries.
+*   **Social Features**: Enable real user interactions in the forum and profile sharing.
+*   **Advanced Analytics**: Visual charts for learning progress and trading journal performance.
+
+---
+
 ## 🎯 Project Overview
 
 TradeStarter is an all-in-one educational hub that provides:
@@ -13,6 +39,7 @@ TradeStarter is an all-in-one educational hub that provides:
 - **Trading Tools**: Real-time price trackers, calculators, and converters
 - **Educational Resources**: Curated guides, tutorials, and external resources
 - **Gamified Learning**: XP system, achievements, quizzes, and progress tracking
+- **Community & Tools**: Forum for discussion and Journal for tracking performance
 
 ---
 
@@ -31,7 +58,7 @@ TradeStarter is an all-in-one educational hub that provides:
 Each page features a **unique, custom-designed hero section**:
 - **Forex Page**: Asymmetric layout with floating geometric shapes, wave separator, dark gradient
 - **Airdrops Page**: Particle effects, curved SVG waves, glassmorphism stat cards
-- **Advanced Tools Page**: Tech grid background, glowing orbs, code brackets, angular edges
+- **Tools Page**: Tech grid background, glowing orbs, code brackets, angular edges
 - **Crypto Page**: Blockchain-inspired hexagon patterns, circuit animations, Bitcoin/Ethereum symbols
 - **Learn Pages**: Gamification elements integrated into hero design
 
@@ -71,14 +98,17 @@ Each page features a **unique, custom-designed hero section**:
 - **Learn Airdrops** (`learn-airdrops.html`): 40 lessons on airdrop farming
 
 #### Resource Pages:
-- **Tools & Resources** (`tools.html`): Recommended wallets, price trackers, learning resources
-- **Advanced Tools** (`advanced-tools.html`): Professional calculators and live data feeds
+- **Tools & Resources** (`tools.html`): Comprehensive tools, calculators, and resources
+- **Forum** (`forum.html`): Community discussion board
+- **Journal** (`journal.html`): Personal trading journal
+- **Settings** (`settings.html`): User preferences and data management
 
 ### 5. **Modern Navigation**
 - **Animated Navbar**: Compresses into pill shape on scroll
 - **Smart Dropdowns**: Organized Learn, Resources, and Tools menus
 - **Mobile-Responsive**: Hamburger menu for smaller screens
 - **Active Page Highlighting**: Visual feedback for current location
+- **Internationalization**: Language selector for multi-language support
 
 ### 6. **Download Resources**
 Four comprehensive PDF guides:
@@ -96,6 +126,7 @@ Trademaster/
 ├── index.html                    # Landing page
 ├── about.html                     # About page
 ├── contact.html                   # Contact form
+├── settings.html                  # User settings
 │
 ├── crypto.html                    # Crypto basics guide
 ├── forex.html                     # Forex basics guide
@@ -105,22 +136,37 @@ Trademaster/
 ├── learn-forex.html               # 45-lesson forex course
 ├── learn-airdrops.html            # 40-lesson airdrop course
 │
-├── tools.html                     # Basic tools & resources
-├── advanced-tools.html            # Advanced trading tools
+├── tools.html                     # Combined tools & resources
+├── forum.html                     # Community forum
+├── journal.html                   # Trading journal
 │
 ├── privacy-policy.html            # Privacy policy
 ├── terms-of-service.html          # Terms of service
 ├── disclaimer.html                # Legal disclaimer
 │
 ├── css/
-│   └── style.css                  # Main stylesheet (~2500 lines)
+│   └── style.css                  # Main stylesheet
 │
 ├── js/
-│   ├── main.js                    # Core functionality, navbar, converters
-│   ├── learning-system.js         # Learning path logic, progress tracking
-│   ├── lesson-content.js          # All 135 lesson contents and quizzes
+│   ├── main.js                    # Core functionality
+│   ├── learning-system.js         # Learning path logic
+│   ├── lesson-content.js          # Lesson contents and quizzes
 │   ├── lesson-modal.js            # Lesson modal UI
-│   └── calculators.js             # Advanced calculator logic
+│   ├── calculators.js             # Calculator logic
+│   ├── i18n-system.js             # Internationalization system
+│   ├── forum-system.js            # Forum logic
+│   ├── journal-system.js          # Journal logic
+│   ├── settings-system.js         # Settings logic
+│   ├── video-system.js            # Video player logic
+│   ├── achievements-system.js     # Achievements logic
+│   └── certificate-generator.js   # Certificate generation
+│
+├── lang/                          # Translation files
+│   ├── en.json
+│   ├── es.json
+│   ├── de.json
+│   ├── fr.json
+│   └── zh.json
 │
 ├── images/
 │   ├── logo.png                   # Site logo
@@ -141,9 +187,7 @@ Trademaster/
 - **Primary**: `#00ADB5` (Teal) - CTA buttons, highlights
 - **Secondary**: `#F39C12` (Orange) - Accents, warnings
 - **Dark**: `#222831` - Backgrounds, text
-- **Light**: `#EEEEE
-
-E` - Light backgrounds
+- **Light**: `#EEEEEE` - Light backgrounds
 - **Gradients**: 
   - Primary: `linear-gradient(135deg, #00ADB5, #00D8FF)`
   - Gold: `linear-gradient(135deg, #fbbf24, #fb923c)`
@@ -183,20 +227,20 @@ class LearningSystem {
 }
 ```
 
-#### 2. Lesson Content (`lesson-content.js`)
+#### 2. Internationalization (`i18n-system.js`)
+- Dynamic loading of JSON translation files
+- Language persistence in LocalStorage
+- Real-time DOM updates
+
+#### 3. Forum & Journal (`forum-system.js`, `journal-system.js`)
+- LocalStorage-based persistence for posts and journal entries
+- Dynamic rendering of user content
+- Interactive UI elements
+
+#### 4. Lesson Content (`lesson-content.js`)
 - 135 lessons with full content
 - 12 quizzes with multiple choice questions
 - Rich markdown-style formatting
-
-#### 3. Live Price Feed (`main.js`)
-- Fetches cryptocurrency prices (simulated or API)
-- Updates market hours dynamically
-- Refresh every 60 seconds
-
-#### 4. Converters
-- Real-time crypto/forex conversion
-- Input validation
-- Formatted output with precision
 
 ### Browser Support:
 - Modern browsers (Chrome, Firefox, Safari, Edge)
@@ -232,11 +276,14 @@ class LearningSystem {
    - Complete lessons to earn XP and unlock new content
 
 2. **Use Tools**:
-   - Navigate to "Tools" for converters and basic calculators
-   - Check "Advanced Tools" for professional trading calculators
+   - Navigate to "Tools" for converters and calculators
    - Track live crypto prices and forex market hours
 
-3. **Read Guides**:
+3. **Join the Community**:
+   - Visit the Forum to discuss strategies
+   - Use the Journal to track your trades
+
+4. **Read Guides**:
    - Visit Resources → Crypto/Forex/Airdrop Guide
    - Download PDF resources for offline learning
 
@@ -246,32 +293,9 @@ class LearningSystem {
 
 ### Crypto Course (50 Lessons):
 **Level 1: Foundations** (5 lessons + quiz)
-- What is Cryptocurrency?
-- Understanding Blockchain
-- Crypto Wallets 101
-- Private Keys & Security
-- How to Buy Crypto
-
 **Level 2: Trading Fundamentals** (5 lessons + quiz)
-- Reading Crypto Charts
-- Market Cap & Tokenomics
-- Risk Management Basics
-- Portfolio Diversification
-- Trading Psychology
-
 **Level 3: DeFi & Advanced** (5 lessons + quiz)
-- Introduction to DeFi
-- Liquidity Pools & Yield Farming
-- On-Chain Analysis
-- Smart Contract Basics
-- Layer 2 Solutions
-
 **Level 4: Expert Strategies** (5 lessons + final exam)
-- Trading Bots & Automation
-- Advanced Security
-- Advanced Technical Analysis
-- Tax & Legal Compliance
-- Building Your Career in Crypto
 
 ### Forex Course (45 Lessons):
 **Level 1: Foundations** (6 lessons + quiz)
@@ -315,6 +339,7 @@ class LearningSystem {
 1. **Lessons**: Edit `js/lesson-content.js`
 2. **Quizzes**: Modify quiz objects in `lesson-content.js`
 3. **Resources**: Update guide pages (crypto.html, forex.html, etc.)
+4. **Translations**: Update JSON files in `lang/`
 
 ### Styling:
 1. **Colors**: Modify CSS variables in `css/style.css`
@@ -356,8 +381,8 @@ class LearningSystem {
 ### Bundle Size:
 - **HTML**: ~1.5MB total (all pages)
 - **CSS**: ~180KB (unminified)
-- **JavaScript**: ~340KB (all scripts)
-- Total: < 2MB (excluding images)
+- **JavaScript**: ~400KB (all scripts)
+- Total: < 2.5MB (excluding images)
 
 ---
 
@@ -374,14 +399,14 @@ class LearningSystem {
 ## 📝 Future Enhancements
 
 ### Planned Features:
-- [ ] Video tutorials embedded in lessons
-- [ ] Community forum integration
+- [x] Multi-language support
+- [x] Dark/light theme toggle
+- [x] Community forum integration (Frontend)
+- [x] Trading journal/diary feature
+- [ ] Video tutorials embedded in lessons (Content pending)
 - [ ] Real API integration for live prices
-- [ ] Trading journal/diary feature
-- [ ] Achievement badges system
-- [ ] Dark/light theme toggle
-- [ ] Multi-language support
-- [ ] Export progress as PDF certificate
+- [ ] Achievement badges system (Enhanced)
+- [ ] Export progress as PDF certificate (Enhanced)
 
 ### Technical Improvements:
 - [ ] Service Worker for offline access
@@ -459,7 +484,7 @@ For questions or issues:
 3. **Progressive**: Learn at your own pace with unlocking system
 4. **Comprehensive**: 135 lessons covering three major topics
 5. **Practical**: Real tools and calculators, not just theory
-6. **Modern**: Premium design that doesn't look AI-generated]
+6. **Modern**: Premium design that doesn't look AI-generated
 7. **Self-Contained**: Works offline once loaded, no dependencies
 
 ---
@@ -469,4 +494,4 @@ For questions or issues:
 ---
 
 *Last Updated: December 2025*
-*Version: 2.0.0*
+*Version: 2.1.0*

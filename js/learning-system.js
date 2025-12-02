@@ -121,10 +121,11 @@ class LearningSystem {
         // Check if lesson content exists
         if (typeof LESSON_CONTENT !== 'undefined' && LESSON_CONTENT[lessonId]) {
             // Open lesson modal with content
-            if (typeof lessonModal !== 'undefined') {
-                lessonModal.open(lessonId, LESSON_CONTENT[lessonId]);
+            const modal = window.lessonModal || (typeof lessonModal !== 'undefined' ? lessonModal : null);
+            if (modal) {
+                modal.open(lessonId, LESSON_CONTENT[lessonId]);
                 // Store card element for later completion
-                lessonModal.currentCard = cardElement;
+                modal.currentCard = cardElement;
             } else {
                 console.error('Lesson modal not initialized');
             }
@@ -139,18 +140,38 @@ class LearningSystem {
 
     // Complete lesson from modal (called by lesson modal)
     completeLessonFromModal(lessonId, lessonData) {
-        const cardElement = lessonModal.currentCard;
+        // Try to get card from window.lessonModal if local variable fails, or vice versa
+        const modal = window.lessonModal || lessonModal;
+        const cardElement = modal ? modal.currentCard : null;
+
         if (cardElement) {
             this.completeLesson(lessonId, cardElement);
+        } else {
+            // Fallback: try to find card by data attribute
+            const card = document.querySelector(`.lesson-card[data-lesson="${lessonId}"]`);
+            if (card) {
+                this.completeLesson(lessonId, card);
+            }
         }
     }
 
     // Mark lesson as complete
     completeLesson(lessonId, cardElement) {
         if (!this.userData.completedLessons.includes(lessonId)) {
-            // Get XP value from card
-            const xpText = cardElement.querySelector('.lesson-meta span:last-child').textContent;
-            const xp = parseInt(xpText.match(/\d+/)[0]);
+
+            // Get XP value from card with robust parsing
+            let xp = 50; // Default fallback
+            try {
+                const xpText = cardElement.querySelector('.lesson-meta span:last-child').textContent;
+                const match = xpText.match(/\d+/);
+                if (match) {
+                    xp = parseInt(match[0]);
+                } else {
+                    console.warn('Could not parse XP from card, using default');
+                }
+            } catch (e) {
+                console.error('Error parsing XP:', e);
+            }
 
             // Update user data
             this.userData.completedLessons.push(lessonId);
