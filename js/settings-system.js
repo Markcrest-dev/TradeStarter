@@ -296,6 +296,8 @@ class SettingsSystem {
             '• All lesson completions\n' +
             '• Quiz results\n' +
             '• Achievements\n' +
+            '• Video progress\n' +
+            '• Airdrop checklist\n' +
             '• Learning statistics\n\n' +
             'Your theme and language preferences will be preserved.'
         );
@@ -308,11 +310,21 @@ class SettingsSystem {
         for (let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i);
             if (
+                // Lesson and quiz data (old format)
                 key.startsWith('lesson-') ||
                 key.startsWith('quiz-') ||
                 key.startsWith('level-') ||
+                // Achievements
                 key === 'achievements' ||
-                key === 'stats'
+                key === 'trademaster-achievements' ||
+                // Stats
+                key === 'stats' ||
+                // Main learning progress (new format)
+                key === 'trademaster_progress' ||
+                // Video progress
+                key === 'trademaster-video-progress' ||
+                // Airdrop checklist
+                key.startsWith('airdrop-')
             ) {
                 keysToRemove.push(key);
             }
